@@ -53,7 +53,9 @@ python npz_to_json.py
 
 ## Result
 
-1. See the result JSON files and the model in `SVDD/log/`.
+1. Check out the result JSON files and the model in `SVDD/log/`.
 
-2. run `json_distribution.ipynb`
+2. If you wish to visualize the distribution, please execute the `json_distribution.ipynb` notebook.
+
+3. The SVDD distribution results obtained using 11790 clean audio MOS scores as the training set, and [1310 clean audio MOS scores, 1310 SNR_25 audio MOS scores, 1310 SNR_20 audio MOS scores, and 1310 SNR_15 audio MOS scores] as the respective test sets, are displayed in the following figures, with different x-axis ranges.
    ![svdd_distribution.png](./svdd_distribution.png)
