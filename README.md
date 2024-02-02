@@ -8,29 +8,41 @@ Note that the system is optimized for GPU acceleration, ensuring faster performa
 
 ## Setting up the Environment
 
-1. 其實沒有跑在 GPU 也行
+1. Create a conda environment:
 
-2. Since this training system requires data in the `.npz` format, we first convert the desired training/testing CSV files (from the MOS system) into `.npz` format. (Change the target files `file_paths` in `csv_to_npz.py`.)
+```
+conda create -n svdd python=3.10
+```
+
+2. Activate the conda environment:
+
+```
+conda activate svdd
+```
+
+3. Install required packages:
+
+4. Since this training system requires data in the `.npz` format, we first convert the desired training/testing CSV files (from the MOS system) into `.npz` format. (Change the target files `file_paths` in `csv_to_npz.py`.)
 
 ```
 python SVDD/csv_to_npz.py
 ```
 
-3. Make the required directory.
+5. Make the required directory.
 
 ```
 mkdir SVDD/log
 ```
 
-4. Sign up for an account at https://wandb.ai/site.
+6. Sign up for an account at https://wandb.ai/site.
 
 ## Executing Training
 
-1. Change the Training CSV file at `SVDD/src/datasets/lang_emb.py`, `class LangEmbDataset` `train_set`.
+1. Change the clean and fixed training set at `SVDD/src/datasets/lang_emb.py`, `class LangEmbDataset` `train_set`.
 
-2. Change the Testing & Inference CSV file at `SVDD/src/datasets/lang_emb.py`, `class LangEmbDataset` `test_set`.
+2. Update the testing & inference set at `SVDD/src/datasets/lang_emb.py`, `class LangEmbDataset` `test_set`.
 
-3. Change the Testing & Inference result JSON file at `SVDD/src/npz_to_json.py`, line 201.
+3. Update the testing & inference result file at `SVDD/src/npz_to_json.py`, line 201.
 
 4. Start training (need to log in wandb in the first time).
 
