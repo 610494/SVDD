@@ -12,13 +12,13 @@ This SVDD (Support Vector Data Description) system is forked from Deep-SVDD-PyTo
 python csv_to_npz.py
 ```
 
-3. make required directory
+3. Make the required directory.
 
 ```
 mkdir SVDD/log
 ```
 
-4. Sign up for an account at https://wandb.ai/site
+4. Sign up for an account at https://wandb.ai/site.
 
 ## Executing Training
 
