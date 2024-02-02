@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-file_paths = ["/home/alexis/_svdd/df_train_clean.csv", "/home/alexis/_svdd/df_test_clean.csv", "/home/alexis/_svdd/df_test_snr15.csv", "/home/alexis/_svdd/df_test_snr20.csv", "/home/alexis/_svdd/df_test_snr25.csv"]
+file_paths = ["df_test_clean.csv", "df_test_clean.csv", "df_test_snr15.csv", "df_test_snr20.csv", "df_test_snr25.csv"]
 
 for file_path in file_paths:
     df = pd.read_csv(file_path)
