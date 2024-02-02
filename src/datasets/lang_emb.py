@@ -10,18 +10,18 @@ import pandas as pd
 class LangEmbDataset(TorchvisionDataset):
     def __init__(self, root: str, normal_class: str):  # Original: __init__(self, normal_class: str)
         super().__init__(root)
-        print(f"************\n[datasets/lang_emb.py] root:{self.root}\n************") # root: None
-        print(f"************\n[datasets/lang_emb.py] normal_classes:{self.normal_classes}\n************") # None
+        # print(f"************\n[datasets/lang_emb.py] root:{self.root}\n************") # root: None
+        # print(f"************\n[datasets/lang_emb.py] normal_classes:{self.normal_classes}\n************") # None
 
         self.n_classes = 2  # 0: normal, 1: outlier
         self.normal_classes = tuple([normal_class])
 
         train_set = MyLangEmb(npz_file_path=os.path.join( # to change for train!
-            '/home/alexis/_SVDD/df_test_clean.npz'), normal_class=normal_class)
+            '/Users/ca/Desktop/SVDD/df_test_clean.npz'), normal_class=normal_class)
         self.train_set = train_set
 
         test_set = MyLangEmb(npz_file_path=os.path.join( # to change for test and inference!
-            '/home/alexis/_SVDD/df_test_snr15.npz'), normal_class=normal_class)
+            '/Users/ca/Desktop/SVDD/df_test_snr25.npz'), normal_class=normal_class)
         self.test_set = test_set
 
 

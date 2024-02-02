@@ -37,6 +37,6 @@ python npz_to_json.py
 
 ## Result
 
-1. See the result json files and the model in /SVDD/log/
+1. See the result json files and the model in SVDD/log/
 
 2. run json_distribution.ipynb

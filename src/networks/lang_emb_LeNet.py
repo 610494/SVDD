@@ -37,7 +37,7 @@ class LangEmbLeNet(BaseNet):
         x = self.pool(F.elu(self.bn3(x)))
         x = x.view(x.size(0), -1)
         x = self.fc1(x)
-        print(f"************\n[networks/lang_emb_LeNet.py] LangEmbLeNet.forward \n************")
+        # print(f"************\n[networks/lang_emb_LeNet.py] LangEmbLeNet.forward \n************")
         return x
 
 class LangEmbLeNetAutoencoder(BaseNet):
@@ -90,6 +90,6 @@ class LangEmbLeNetAutoencoder(BaseNet):
         x = self.deconv4(x)
         x = self.fc2(x)
         x = torch.sigmoid(x)
-        print(f"************\n[networks/lang_emb_LeNet.py] LangEmbLeNetAutoencoder.forward \n************")
+        # print(f"************\n[networks/lang_emb_LeNet.py] LangEmbLeNetAutoencoder.forward \n************")
 
         return x

@@ -56,9 +56,9 @@ class AETrainer(BaseTrainer):
                 optimizer.zero_grad()
 
                 # Update network parameters via backpropagation: forward + backward + optimize
-                print(f"************\n[optim/ae_trainer.py] Input size before forward pass: {inputs.size()}\n************") # Input size before forward pass: torch.Size([128, 1, 20])
+                # print(f"************\n[optim/ae_trainer.py] Input size before forward pass: {inputs.size()}\n************") # Input size before forward pass: torch.Size([128, 1, 20])
                 outputs = ae_net(inputs)
-                print(f"************\n[optim/ae_trainer.py] Output size after forward pass: {outputs.size()}\n************") # Output size after forward pass: torch.Size([128, 1, 10])
+                # print(f"************\n[optim/ae_trainer.py] Output size after forward pass: {outputs.size()}\n************") # Output size after forward pass: torch.Size([128, 1, 10])
                 scores = torch.sum((outputs - inputs) ** 2, dim=tuple(range(1, outputs.dim())))
                 loss = torch.mean(scores)
                 loss.backward()
