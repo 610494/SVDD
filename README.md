@@ -2,14 +2,18 @@
 
 This SVDD (Support Vector Data Description) system is forked from Deep-SVDD-PyTorch (https://github.com/lukasruff/Deep-SVDD-PyTorch).
 
+When provided with a clean 20-dimensional (20 scores per audio file) npz file as training data and a 20-dimensional npz file for inference as testing data, the system will generate a non-negative value for each audio file requiring inference. The closer this value is to 0, the cleaner the audio; the further it is from 0, the noisier the audio.
+
+Note that the system is optimized for GPU acceleration, ensuring faster performance.
+
 ## Setting up the Environment
 
-1. 環境待更新 // 其實沒有 GPU 也可以
+1. 其實沒有跑在 GPU 也行
 
-2. Since this training system requires data in the `.npz` format, we first convert the desired training CSV files (from the MOS system) into `.npz` format. (Change the target files `file_paths` in `csv_to_npz.py`.)
+2. Since this training system requires data in the `.npz` format, we first convert the desired training/testing CSV files (from the MOS system) into `.npz` format. (Change the target files `file_paths` in `csv_to_npz.py`.)
 
 ```
-python csv_to_npz.py
+python SVDD/csv_to_npz.py
 ```
 
 3. Make the required directory.
@@ -22,11 +26,11 @@ mkdir SVDD/log
 
 ## Executing Training
 
-1. Change the Train CSV file at `SVDD/src/datasets/lang_emb.py`, `class LangEmbDataset` `train_set`.
+1. Change the Training CSV file at `SVDD/src/datasets/lang_emb.py`, `class LangEmbDataset` `train_set`.
 
-2. Change the Test & Inference CSV file at `SVDD/src/datasets/lang_emb.py`, `class LangEmbDataset` `test_set`.
+2. Change the Testing & Inference CSV file at `SVDD/src/datasets/lang_emb.py`, `class LangEmbDataset` `test_set`.
 
-3. Change the Test & Inference result JSON file at `SVDD/src/npz_to_json.py`, line 201.
+3. Change the Testing & Inference result JSON file at `SVDD/src/npz_to_json.py`, line 201.
 
 4. Start training (need to log in wandb in the first time).
 
