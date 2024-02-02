@@ -12,26 +12,26 @@ This SVDD (Support Vector Data Description) system is forked from Deep-SVDD-PyTo
 python csv_to_npz.py
 ```
 
-3. make required dir
+3. make required directory
 
 ```
-mkdir log
+mkdir SVDD/log
 ```
 
 4. Sign up for an account at https://wandb.ai/site
 
 ## Executing Training
 
-1. Change the Train .csv file at SVDD/src/datasets/lang_emb.py class LangEmbDataset "train_set"
+1. Change the Train .csv file at SVDD/src/datasets/lang_emb.py, class LangEmbDataset "train_set".
 
-2. Change the Test & Inference .csv file at SVDD/src/datasets/lang_emb.py class LangEmbDataset "test_set"
+2. Change the Test & Inference .csv file at SVDD/src/datasets/lang_emb.py, class LangEmbDataset "test_set".
 
-3. Change the Test & Inference result .json file at SVDD/src/npz_to_json.py
+3. Change the Test & Inference result .json file at SVDD/src/npz_to_json.py, line 201.
 
-4. go to src to start training (need to log in wandb in the first time)
+4. Start training (need to log in wandb in the first time)
 
 ```
-cd src
+cd SVDD/src
 python npz_to_json.py
 ```
 
