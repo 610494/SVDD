@@ -28,7 +28,7 @@ conda activate svdd
 python SVDD/csv_to_npz.py
 ```
 
-5. Make the required directory.
+5. Make the required directory:
 
 ```
 mkdir SVDD/log
@@ -44,7 +44,7 @@ mkdir SVDD/log
 
 3. Update the testing & inference result file at `SVDD/src/npz_to_json.py`, line 201.
 
-4. Start training (need to log in wandb in the first time).
+4. Start training (need to log in wandb in the first time):
 
 ```
 cd SVDD/src
