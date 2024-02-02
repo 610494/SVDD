@@ -1,0 +1,24 @@
+# pytorch
+# pytorch::pytorch-cuda
+# pytorch::torchvision
+requests
+numpy
+scipy
+scikit-learn
+certifi
+chardet
+Click
+cloudpickle
+cycler
+idna
+kiwisolver
+matplotlib
+pandas
+Pillow
+pyparsing
+python-dateutil
+pytz
+six
+tqdm
+ujson
+urllib3
