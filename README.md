@@ -37,4 +37,28 @@ mkdir scores
 
 ## Executing Training
 
+1. $$$
+
+```
+pip
+```
+
+2. $$$
+
+```
+pip
+```
+
+3. $$$
+
+```
+cd src
+```
+
+4. $$$
+
+```
+python npz_to_json.py
+```
+
 ## Result
