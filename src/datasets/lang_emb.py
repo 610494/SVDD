@@ -17,11 +17,11 @@ class LangEmbDataset(TorchvisionDataset):
         self.normal_classes = tuple([normal_class])
 
         train_set = MyLangEmb(npz_file_path=os.path.join( # to change for train!
-            'df_train_clean.npz'), normal_class=normal_class)
+            '../df_train_clean.npz'), normal_class=normal_class)
         self.train_set = train_set
 
         test_set = MyLangEmb(npz_file_path=os.path.join( # to change for test and inference!
-            'df_test_snr15.npz'), normal_class=normal_class)
+            '../df_test_snr15.npz'), normal_class=normal_class)
         self.test_set = test_set
 
 
