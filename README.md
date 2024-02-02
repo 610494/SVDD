@@ -28,7 +28,7 @@ pip
 python csv_to_npz.py
 ```
 
-5. @@@
+5. make required dir
 
 ```
 mkdir log
@@ -43,19 +43,19 @@ mkdir scores
 pip
 ```
 
-2. $$$
+2. change target test file
 
 ```
-pip
+src/datasets/lang_emb.py
 ```
 
-3. $$$
+3. go to src
 
 ```
 cd src
 ```
 
-4. $$$
+4. start training
 
 ```
 python npz_to_json.py
