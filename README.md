@@ -40,4 +40,4 @@ python npz_to_json.py
 1. See the result JSON files and the model in `SVDD/log/`.
 
 2. run `json_distribution.ipynb`
-   ![svdd_distribution_histplot.png](./svdd_distribution.png)
+   ![svdd_distribution.png](./svdd_distribution.png)
