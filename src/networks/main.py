@@ -46,5 +46,4 @@ def build_autoencoder(net_name):
 
     if net_name == 'lang_emb_LeNet':
         ae_net = LangEmbLeNetAutoencoder()
-
     return ae_net

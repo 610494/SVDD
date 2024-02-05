@@ -126,7 +126,7 @@ def main(dataset_name, net_name, xp_path, data_path, load_config, load_model, ob
     # If specified, load Deep SVDD model (radius R, center c, network weights, and possibly autoencoder weights)
     if load_model:
         print("============================== load_config ==================================")
-        deep_SVDD.load_model(model_path=load_model, load_ae=True)
+        deep_SVDD.load_model(model_path=load_model, load_ae=False) ### load_ae=True ###
         logger.info('Loading model from %s.' % load_model)
 
     logger.info('Pretraining: %s' % pretrain)
@@ -198,7 +198,7 @@ def main(dataset_name, net_name, xp_path, data_path, load_config, load_model, ob
 
     # Save results, model, and configuration
     print("====================================", xp_path, "======================================")
-    deep_SVDD.save_results(export_json=xp_path + '/results_snr15_loadmodel.json')
+    deep_SVDD.save_results(export_json=xp_path + '/results_clean_loadmodel.json')
     deep_SVDD.save_model(export_model=xp_path + '/model.tar')
     cfg.save_config(export_json=xp_path + '/config.json')
 

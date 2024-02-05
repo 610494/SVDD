@@ -143,7 +143,7 @@ class DeepSVDD(object):
         if load_ae:
             if self.ae_net is None:
                 self.ae_net = build_autoencoder(self.net_name)
-            self.ae_net.load_state_dict(model_dict['ae_net_dict'])
+            self.ae_net.load_state_dict(model_dict['ae_net_dict']) ### 'ae_net_dict': None ###
 
     def save_results(self, export_json):
         """Save results dict to a JSON-file."""

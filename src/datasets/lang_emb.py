@@ -21,7 +21,7 @@ class LangEmbDataset(TorchvisionDataset):
         self.train_set = train_set
 
         test_set = MyLangEmb(npz_file_path=os.path.join( # to change for test and inference!
-            '../df_test_snr15.npz'), normal_class=normal_class)
+            '../df_test_clean.npz'), normal_class=normal_class)
         self.test_set = test_set
 
 
