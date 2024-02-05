@@ -38,11 +38,11 @@ mkdir SVDD/log
 
 ## Executing Training
 
-1. Change the clean and fixed training set at `SVDD/src/datasets/lang_emb.py`, `class LangEmbDataset` `train_set`.
+1. Change the "clean" training set at `SVDD/src/datasets/lang_emb.py`, `class LangEmbDataset` `train_set`.
 
-2. Update the testing & inference set at `SVDD/src/datasets/lang_emb.py`, `class LangEmbDataset` `test_set`.
+2. Update the testing set at `SVDD/src/datasets/lang_emb.py`, `class LangEmbDataset` `test_set`.
 
-3. Update the testing & inference result file at `SVDD/src/npz_to_json.py`, line 201.
+3. Update the testing result file at `SVDD/src/npz_to_json.py`, line 201.
 
 4. Start training (need to log in wandb in the first time):
 
@@ -51,9 +51,23 @@ cd SVDD/src
 python npz_to_json.py
 ```
 
+5. Check out the model in `SVDD/log/`.
+
+## Executing Inference
+
+1. Update the inferential set at `SVDD/src/datasets/lang_emb.py`, `class LangEmbDataset` `test_set`.
+
+2. Update the inferential result file at `SVDD/src/npz_to_json.py`, line 201.
+
+3. Start inference (need to log in wandb in the first time):
+
+```
+python npz_to_json.py --load_model ../log/model.tar --n_epochs 0 --pretrain false
+```
+
 ## Result
 
-1. Check out the result JSON files and the model in `SVDD/log/`.
+1. Check out the result JSON files in `SVDD/log/`.
 
 2. If you wish to visualize the distribution, please execute the `json_distribution.ipynb` notebook.
 
