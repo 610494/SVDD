@@ -59,7 +59,7 @@ python npz_to_json.py
 
 2. Update the inferential result file at `SVDD/src/npz_to_json.py`, line 201.
 
-3. Start inference (need to log in wandb in the first time):
+3. Start inference:
 
 ```
 python npz_to_json.py --load_model ../log/model.tar --n_epochs 0 --pretrain false
