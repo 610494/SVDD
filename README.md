@@ -68,6 +68,15 @@ python npz_to_json.py
 ```
 python npz_to_json.py --load_model ../log/model.tar --n_epochs 0 --pretrain false
 ```
+### Len_free Executing Inference
+
+1. Update the inferential set at `SVDD/src/datasets/lang_emb_len_free.py`, `class LangEmbDataset` `test_set`.
+2. Start inference:
+```
+python npz_to_json.py --xp_path ../log_LJ_len_free --dataset_name lang_emb_len_free --net_name lang_emb_LeNet_len_free --n_epochs 0 --pretrain false
+```
+3. Check out the result JSON files in `SVDD/log_LJ_len_free/`.
+   
 
 ## Result
 
