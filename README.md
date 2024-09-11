@@ -59,11 +59,11 @@ python npz_to_json.py
 
 ## Executing Inference
 
-1. Update the inferential set at `SVDD/src/datasets/lang_emb.py`, `class LangEmbDataset` `test_set`.
-
-2. Update the inferential result file at `SVDD/src/npz_to_json.py`, line 201.
-
-3. Start inference:
+1. download model from https://drive.google.com/drive/folders/1-1qKuhiKJZNRaiDRlxudx7fezFqADOeX?usp=sharing
+2. unzip log_LJ_len_free.zip to the root of this repo.
+3. Update the inferential set at `SVDD/src/datasets/lang_emb.py`, `class LangEmbDataset` `test_set`.
+4. Update the inferential result file at `SVDD/src/npz_to_json.py`, line 201.
+5. Start inference:
 
 ```
 python npz_to_json.py --load_model ../log/model.tar --n_epochs 0 --pretrain false
