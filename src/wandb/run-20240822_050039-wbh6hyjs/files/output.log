@@ -1,0 +1,22 @@
+
+============================== load_config ==================================
+INFO:root:Loading model from ../log_LJ_dns_ssl/model.tar.
+INFO:root:Pretraining: False
+INFO:root:Training optimizer: adam
+INFO:root:Training learning rate: 0.001
+INFO:root:Training epochs: 0
+INFO:root:Training learning rate scheduler milestones: (0,)
+INFO:root:Training batch size: 128
+INFO:root:Training weight decay: 1e-06
+/mnt/md1/user_wago/miniconda3/envs/svdd/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+INFO:root:Starting training...
+0it [00:00, ?it/s]
+INFO:root:Training time: 0.002
+INFO:root:Finished training.
+INFO:root:Starting testing...
+ 94%|█████████████████████████████████████████▍  | 585/622 [00:01<00:00, 473.99it/s]
+100%|████████████████████████████████████████████| 622/622 [00:01<00:00, 400.49it/s]
+INFO:root:Testing time: 1.562
+INFO:root:Test set AUC: 0.00%
+INFO:root:Finished testing.

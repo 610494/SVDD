@@ -1,0 +1,26 @@
+INFO:root:Pretraining: True
+INFO:root:Pretraining optimizer: adam
+INFO:root:Pretraining learning rate: 0.001
+INFO:root:Pretraining epochs: 100
+INFO:root:Pretraining learning rate scheduler milestones: (0,)
+INFO:root:Pretraining batch size: 128
+INFO:root:Pretraining weight decay: 1e-06
+Traceback (most recent call last):
+  File "/mnt/md1/user_wago/SVDD/src/npz_to_json.py", line 208, in <module>
+    main()
+  File "/mnt/md1/user_wago/miniconda3/envs/svdd/lib/python3.10/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/mnt/md1/user_wago/miniconda3/envs/svdd/lib/python3.10/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/mnt/md1/user_wago/miniconda3/envs/svdd/lib/python3.10/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/mnt/md1/user_wago/miniconda3/envs/svdd/lib/python3.10/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/mnt/md1/user_wago/SVDD/src/npz_to_json.py", line 149, in main
+    deep_SVDD.pretrain(dataset,
+  File "/mnt/md1/user_wago/SVDD/src/deepSVDD.py", line 102, in pretrain
+    self.ae_net = build_autoencoder(self.net_name)
+  File "/mnt/md1/user_wago/SVDD/src/networks/main.py", line 57, in build_autoencoder
+    assert net_name in implemented_networks
+AssertionError
+============================== pretrain ==================================

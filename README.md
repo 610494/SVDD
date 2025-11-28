@@ -53,6 +53,7 @@ mkdir SVDD/log
 ```
 cd SVDD/src
 python npz_to_json.py
+ 
 ```
 
 5. Check out the model in `SVDD/log/`.
@@ -63,10 +64,14 @@ python npz_to_json.py
 
 2. Update the inferential result file at `SVDD/src/npz_to_json.py`, line 201.
 
-3. Start inference:
+3. check --dataset_name, --net_name, --xp_path is right at `SVDD/src/npz_to_json.py`, line 22~24.
+
+4. Start inference:
 
 ```
 python npz_to_json.py --load_model ../log/model.tar --n_epochs 0 --pretrain false
+
+python npz_to_json.py --load_model ../log_LJ/model.tar --n_epochs 0 --pretrain false  --xp_path ../log_LJ 
 ```
 
 ## Result

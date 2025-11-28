@@ -1,0 +1,1090 @@
+2024-02-02 23:42:25,907 - root - INFO - Log file is ../log/log.txt.
+2024-02-02 23:42:25,907 - root - INFO - Data path is None.
+2024-02-02 23:42:25,907 - root - INFO - Export path is ../log.
+2024-02-02 23:42:25,907 - root - INFO - Dataset: lang_emb
+2024-02-02 23:42:25,907 - root - INFO - Normal class: 
+2024-02-02 23:42:25,907 - root - INFO - Network: lang_emb_LeNet
+2024-02-02 23:42:25,907 - root - INFO - Deep SVDD objective: one-class
+2024-02-02 23:42:25,907 - root - INFO - Nu-paramerter: 0.10
+2024-02-02 23:45:55,782 - root - INFO - Computation device: cuda
+2024-02-02 23:45:55,894 - root - INFO - Number of dataloader workers: 0
+2024-02-02 23:57:32,509 - root - INFO - Log file is ../log/log.txt.
+2024-02-02 23:57:32,509 - root - INFO - Data path is None.
+2024-02-02 23:57:32,509 - root - INFO - Export path is ../log.
+2024-02-02 23:57:32,509 - root - INFO - Dataset: lang_emb
+2024-02-02 23:57:32,509 - root - INFO - Normal class: 
+2024-02-02 23:57:32,509 - root - INFO - Network: lang_emb_LeNet
+2024-02-02 23:57:32,509 - root - INFO - Deep SVDD objective: one-class
+2024-02-02 23:57:32,509 - root - INFO - Nu-paramerter: 0.10
+2024-02-02 23:57:33,381 - root - INFO - Computation device: cuda
+2024-02-02 23:57:33,381 - root - INFO - Number of dataloader workers: 0
+2024-02-02 23:57:55,886 - root - INFO - Pretraining: True
+2024-02-02 23:57:55,886 - root - INFO - Pretraining optimizer: adam
+2024-02-02 23:57:55,887 - root - INFO - Pretraining learning rate: 0.001
+2024-02-02 23:57:55,887 - root - INFO - Pretraining epochs: 100
+2024-02-02 23:57:55,887 - root - INFO - Pretraining learning rate scheduler milestones: (0,)
+2024-02-02 23:57:55,887 - root - INFO - Pretraining batch size: 128
+2024-02-02 23:57:55,887 - root - INFO - Pretraining weight decay: 1e-06
+2024-02-02 23:57:58,833 - root - INFO - Starting pretraining...
+2024-02-02 23:59:39,985 - root - INFO -   Epoch 1/100	 Time: 101.152	 Loss: 1.56147792
+2024-02-02 23:59:40,709 - root - INFO -   Epoch 2/100	 Time: 0.669	 Loss: 1.54013807
+2024-02-02 23:59:41,370 - root - INFO -   Epoch 3/100	 Time: 0.661	 Loss: 1.54043571
+2024-02-02 23:59:42,038 - root - INFO -   Epoch 4/100	 Time: 0.667	 Loss: 1.53928537
+2024-02-02 23:59:42,718 - root - INFO -   Epoch 5/100	 Time: 0.680	 Loss: 1.54028356
+2024-02-02 23:59:43,412 - root - INFO -   Epoch 6/100	 Time: 0.693	 Loss: 1.53955497
+2024-02-02 23:59:44,103 - root - INFO -   Epoch 7/100	 Time: 0.690	 Loss: 1.53885264
+2024-02-02 23:59:44,797 - root - INFO -   Epoch 8/100	 Time: 0.694	 Loss: 1.53983081
+2024-02-02 23:59:45,515 - root - INFO -   Epoch 9/100	 Time: 0.718	 Loss: 1.53934141
+2024-02-02 23:59:46,227 - root - INFO -   Epoch 10/100	 Time: 0.711	 Loss: 1.53973030
+2024-02-02 23:59:46,952 - root - INFO -   Epoch 11/100	 Time: 0.725	 Loss: 1.53993887
+2024-02-02 23:59:47,696 - root - INFO -   Epoch 12/100	 Time: 0.743	 Loss: 1.54015007
+2024-02-02 23:59:48,437 - root - INFO -   Epoch 13/100	 Time: 0.740	 Loss: 1.53945667
+2024-02-02 23:59:49,176 - root - INFO -   Epoch 14/100	 Time: 0.739	 Loss: 1.53915197
+2024-02-02 23:59:49,906 - root - INFO -   Epoch 15/100	 Time: 0.729	 Loss: 1.53897235
+2024-02-02 23:59:50,633 - root - INFO -   Epoch 16/100	 Time: 0.726	 Loss: 1.53976529
+2024-02-02 23:59:51,372 - root - INFO -   Epoch 17/100	 Time: 0.738	 Loss: 1.54025551
+2024-02-02 23:59:52,105 - root - INFO -   Epoch 18/100	 Time: 0.732	 Loss: 1.53979669
+2024-02-02 23:59:52,863 - root - INFO -   Epoch 19/100	 Time: 0.758	 Loss: 1.53902004
+2024-02-02 23:59:53,638 - root - INFO -   Epoch 20/100	 Time: 0.775	 Loss: 1.53957357
+2024-02-02 23:59:54,386 - root - INFO -   Epoch 21/100	 Time: 0.748	 Loss: 1.54058616
+2024-02-02 23:59:55,120 - root - INFO -   Epoch 22/100	 Time: 0.733	 Loss: 1.53938733
+2024-02-02 23:59:55,879 - root - INFO -   Epoch 23/100	 Time: 0.758	 Loss: 1.54001645
+2024-02-02 23:59:56,682 - root - INFO -   Epoch 24/100	 Time: 0.803	 Loss: 1.53936222
+2024-02-02 23:59:57,470 - root - INFO -   Epoch 25/100	 Time: 0.787	 Loss: 1.53903440
+2024-02-02 23:59:58,245 - root - INFO -   Epoch 26/100	 Time: 0.774	 Loss: 1.53911109
+2024-02-02 23:59:58,995 - root - INFO -   Epoch 27/100	 Time: 0.749	 Loss: 1.53994528
+2024-02-02 23:59:59,743 - root - INFO -   Epoch 28/100	 Time: 0.748	 Loss: 1.53984516
+2024-02-03 00:00:00,529 - root - INFO -   Epoch 29/100	 Time: 0.785	 Loss: 1.53999305
+2024-02-03 00:00:01,283 - root - INFO -   Epoch 30/100	 Time: 0.753	 Loss: 1.53965714
+2024-02-03 00:00:02,041 - root - INFO -   Epoch 31/100	 Time: 0.758	 Loss: 1.53995783
+2024-02-03 00:00:02,787 - root - INFO -   Epoch 32/100	 Time: 0.745	 Loss: 1.53952316
+2024-02-03 00:00:03,550 - root - INFO -   Epoch 33/100	 Time: 0.762	 Loss: 1.53945258
+2024-02-03 00:00:04,362 - root - INFO -   Epoch 34/100	 Time: 0.812	 Loss: 1.53943619
+2024-02-03 00:00:05,071 - root - INFO -   Epoch 35/100	 Time: 0.708	 Loss: 1.53944849
+2024-02-03 00:00:05,788 - root - INFO -   Epoch 36/100	 Time: 0.716	 Loss: 1.53982101
+2024-02-03 00:00:06,532 - root - INFO -   Epoch 37/100	 Time: 0.743	 Loss: 1.54037504
+2024-02-03 00:00:07,301 - root - INFO -   Epoch 38/100	 Time: 0.768	 Loss: 1.53977582
+2024-02-03 00:00:08,050 - root - INFO -   Epoch 39/100	 Time: 0.749	 Loss: 1.53932141
+2024-02-03 00:00:08,803 - root - INFO -   Epoch 40/100	 Time: 0.752	 Loss: 1.53944903
+2024-02-03 00:00:09,602 - root - INFO -   Epoch 41/100	 Time: 0.799	 Loss: 1.53959746
+2024-02-03 00:00:10,385 - root - INFO -   Epoch 42/100	 Time: 0.783	 Loss: 1.53931416
+2024-02-03 00:00:11,157 - root - INFO -   Epoch 43/100	 Time: 0.771	 Loss: 1.54013793
+2024-02-03 00:00:11,907 - root - INFO -   Epoch 44/100	 Time: 0.749	 Loss: 1.53978419
+2024-02-03 00:00:12,658 - root - INFO -   Epoch 45/100	 Time: 0.751	 Loss: 1.53942993
+2024-02-03 00:00:13,419 - root - INFO -   Epoch 46/100	 Time: 0.760	 Loss: 1.53936664
+2024-02-03 00:00:14,223 - root - INFO -   Epoch 47/100	 Time: 0.803	 Loss: 1.54005896
+2024-02-03 00:00:14,995 - root - INFO -   Epoch 48/100	 Time: 0.772	 Loss: 1.53984004
+2024-02-03 00:00:15,778 - root - INFO -   Epoch 49/100	 Time: 0.782	 Loss: 1.53886449
+2024-02-03 00:00:16,522 - root - INFO -   Epoch 50/100	 Time: 0.744	 Loss: 1.53988706
+2024-02-03 00:00:17,274 - root - INFO -   Epoch 51/100	 Time: 0.751	 Loss: 1.53976266
+2024-02-03 00:00:18,015 - root - INFO -   Epoch 52/100	 Time: 0.741	 Loss: 1.53955871
+2024-02-03 00:00:18,757 - root - INFO -   Epoch 53/100	 Time: 0.742	 Loss: 1.53920207
+2024-02-03 00:00:19,530 - root - INFO -   Epoch 54/100	 Time: 0.772	 Loss: 1.53996683
+2024-02-03 00:00:20,341 - root - INFO -   Epoch 55/100	 Time: 0.810	 Loss: 1.53973240
+2024-02-03 00:00:21,162 - root - INFO -   Epoch 56/100	 Time: 0.820	 Loss: 1.54008387
+2024-02-03 00:00:21,980 - root - INFO -   Epoch 57/100	 Time: 0.818	 Loss: 1.53985077
+2024-02-03 00:00:22,735 - root - INFO -   Epoch 58/100	 Time: 0.754	 Loss: 1.53959637
+2024-02-03 00:00:23,486 - root - INFO -   Epoch 59/100	 Time: 0.751	 Loss: 1.53990003
+2024-02-03 00:00:24,234 - root - INFO -   Epoch 60/100	 Time: 0.747	 Loss: 1.53940868
+2024-02-03 00:00:24,985 - root - INFO -   Epoch 61/100	 Time: 0.750	 Loss: 1.53931020
+2024-02-03 00:00:25,720 - root - INFO -   Epoch 62/100	 Time: 0.735	 Loss: 1.53945451
+2024-02-03 00:00:26,466 - root - INFO -   Epoch 63/100	 Time: 0.745	 Loss: 1.53892203
+2024-02-03 00:00:27,222 - root - INFO -   Epoch 64/100	 Time: 0.751	 Loss: 1.53989395
+2024-02-03 00:00:27,977 - root - INFO -   Epoch 65/100	 Time: 0.755	 Loss: 1.53975886
+2024-02-03 00:00:28,733 - root - INFO -   Epoch 66/100	 Time: 0.755	 Loss: 1.53942787
+2024-02-03 00:00:29,480 - root - INFO -   Epoch 67/100	 Time: 0.747	 Loss: 1.53974944
+2024-02-03 00:00:30,255 - root - INFO -   Epoch 68/100	 Time: 0.775	 Loss: 1.54020364
+2024-02-03 00:00:31,021 - root - INFO -   Epoch 69/100	 Time: 0.765	 Loss: 1.54049592
+2024-02-03 00:00:31,817 - root - INFO -   Epoch 70/100	 Time: 0.795	 Loss: 1.53954791
+2024-02-03 00:00:32,606 - root - INFO -   Epoch 71/100	 Time: 0.788	 Loss: 1.53909643
+2024-02-03 00:00:33,388 - root - INFO -   Epoch 72/100	 Time: 0.781	 Loss: 1.53930060
+2024-02-03 00:00:34,163 - root - INFO -   Epoch 73/100	 Time: 0.775	 Loss: 1.53921259
+2024-02-03 00:00:34,947 - root - INFO -   Epoch 74/100	 Time: 0.783	 Loss: 1.53972960
+2024-02-03 00:00:35,704 - root - INFO -   Epoch 75/100	 Time: 0.757	 Loss: 1.53907550
+2024-02-03 00:00:36,456 - root - INFO -   Epoch 76/100	 Time: 0.751	 Loss: 1.54023592
+2024-02-03 00:00:37,247 - root - INFO -   Epoch 77/100	 Time: 0.790	 Loss: 1.53974439
+2024-02-03 00:00:38,157 - root - INFO -   Epoch 78/100	 Time: 0.766	 Loss: 1.53953021
+2024-02-03 00:00:38,911 - root - INFO -   Epoch 79/100	 Time: 0.754	 Loss: 1.53987980
+2024-02-03 00:00:39,664 - root - INFO -   Epoch 80/100	 Time: 0.752	 Loss: 1.54032754
+2024-02-03 00:00:40,412 - root - INFO -   Epoch 81/100	 Time: 0.747	 Loss: 1.54014353
+2024-02-03 00:00:41,189 - root - INFO -   Epoch 82/100	 Time: 0.777	 Loss: 1.54015328
+2024-02-03 00:00:41,964 - root - INFO -   Epoch 83/100	 Time: 0.775	 Loss: 1.53951932
+2024-02-03 00:00:42,707 - root - INFO -   Epoch 84/100	 Time: 0.742	 Loss: 1.53917960
+2024-02-03 00:00:43,899 - root - INFO -   Epoch 85/100	 Time: 0.742	 Loss: 1.53948092
+2024-02-03 00:00:44,642 - root - INFO -   Epoch 86/100	 Time: 0.742	 Loss: 1.53950893
+2024-02-03 00:00:45,388 - root - INFO -   Epoch 87/100	 Time: 0.746	 Loss: 1.53974241
+2024-02-03 00:00:46,195 - root - INFO -   Epoch 88/100	 Time: 0.807	 Loss: 1.54028265
+2024-02-03 00:00:46,955 - root - INFO -   Epoch 89/100	 Time: 0.759	 Loss: 1.53954140
+2024-02-03 00:00:47,708 - root - INFO -   Epoch 90/100	 Time: 0.753	 Loss: 1.53977621
+2024-02-03 00:00:48,460 - root - INFO -   Epoch 91/100	 Time: 0.752	 Loss: 1.53960340
+2024-02-03 00:00:49,233 - root - INFO -   Epoch 92/100	 Time: 0.772	 Loss: 1.54026072
+2024-02-03 00:00:50,003 - root - INFO -   Epoch 93/100	 Time: 0.770	 Loss: 1.53942268
+2024-02-03 00:00:50,766 - root - INFO -   Epoch 94/100	 Time: 0.763	 Loss: 1.54011301
+2024-02-03 00:00:51,537 - root - INFO -   Epoch 95/100	 Time: 0.770	 Loss: 1.53925886
+2024-02-03 00:00:52,330 - root - INFO -   Epoch 96/100	 Time: 0.792	 Loss: 1.54001160
+2024-02-03 00:00:53,105 - root - INFO -   Epoch 97/100	 Time: 0.775	 Loss: 1.53980170
+2024-02-03 00:00:53,861 - root - INFO -   Epoch 98/100	 Time: 0.755	 Loss: 1.53974557
+2024-02-03 00:00:54,625 - root - INFO -   Epoch 99/100	 Time: 0.764	 Loss: 1.53956499
+2024-02-03 00:00:55,407 - root - INFO -   Epoch 100/100	 Time: 0.780	 Loss: 1.53952192
+2024-02-03 00:00:55,407 - root - INFO - Pretraining time: 176.574
+2024-02-03 00:00:55,407 - root - INFO - Finished pretraining.
+2024-02-03 00:00:55,409 - root - INFO - Training optimizer: adam
+2024-02-03 00:00:55,409 - root - INFO - Training learning rate: 0.001
+2024-02-03 00:00:55,409 - root - INFO - Training epochs: 50
+2024-02-03 00:00:55,409 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-02-03 00:00:55,409 - root - INFO - Training batch size: 128
+2024-02-03 00:00:55,409 - root - INFO - Training weight decay: 1e-06
+2024-02-03 00:00:55,413 - root - INFO - Initializing center c...
+2024-02-03 00:00:55,645 - root - INFO - Center c initialized.
+2024-02-03 00:00:55,645 - root - INFO - Starting training...
+2024-02-03 00:00:56,078 - root - INFO -   Epoch 1/50	 Time: 0.432	 Loss: 0.58661569
+2024-02-03 00:00:56,531 - root - INFO -   Epoch 2/50	 Time: 0.452	 Loss: 0.00426837
+2024-02-03 00:00:56,974 - root - INFO -   Epoch 3/50	 Time: 0.443	 Loss: 0.00135880
+2024-02-03 00:00:57,442 - root - INFO -   Epoch 4/50	 Time: 0.468	 Loss: 0.00083785
+2024-02-03 00:00:57,882 - root - INFO -   Epoch 5/50	 Time: 0.440	 Loss: 0.00059868
+2024-02-03 00:00:58,351 - root - INFO -   Epoch 6/50	 Time: 0.468	 Loss: 0.00072883
+2024-02-03 00:00:58,784 - root - INFO -   Epoch 7/50	 Time: 0.432	 Loss: 0.00077091
+2024-02-03 00:00:59,220 - root - INFO -   Epoch 8/50	 Time: 0.436	 Loss: 0.00087683
+2024-02-03 00:00:59,668 - root - INFO -   Epoch 9/50	 Time: 0.448	 Loss: 0.00146448
+2024-02-03 00:01:00,109 - root - INFO -   Epoch 10/50	 Time: 0.440	 Loss: 0.00149489
+2024-02-03 00:01:00,595 - root - INFO -   Epoch 11/50	 Time: 0.485	 Loss: 0.00208997
+2024-02-03 00:01:01,058 - root - INFO -   Epoch 12/50	 Time: 0.462	 Loss: 0.00217932
+2024-02-03 00:01:01,504 - root - INFO -   Epoch 13/50	 Time: 0.446	 Loss: 0.00216030
+2024-02-03 00:01:01,959 - root - INFO -   Epoch 14/50	 Time: 0.454	 Loss: 0.00391012
+2024-02-03 00:01:02,457 - root - INFO -   Epoch 15/50	 Time: 0.497	 Loss: 0.00437617
+2024-02-03 00:01:02,953 - root - INFO -   Epoch 16/50	 Time: 0.495	 Loss: 0.00396759
+2024-02-03 00:01:03,395 - root - INFO -   Epoch 17/50	 Time: 0.442	 Loss: 0.00145919
+2024-02-03 00:01:03,875 - root - INFO -   Epoch 18/50	 Time: 0.479	 Loss: 0.00094311
+2024-02-03 00:01:04,403 - root - INFO -   Epoch 19/50	 Time: 0.528	 Loss: 0.00110635
+2024-02-03 00:01:04,930 - root - INFO -   Epoch 20/50	 Time: 0.526	 Loss: 0.00306964
+2024-02-03 00:01:05,398 - root - INFO -   Epoch 21/50	 Time: 0.468	 Loss: 0.00538537
+2024-02-03 00:01:05,843 - root - INFO -   Epoch 22/50	 Time: 0.445	 Loss: 0.00408868
+2024-02-03 00:01:06,312 - root - INFO -   Epoch 23/50	 Time: 0.468	 Loss: 0.00592895
+2024-02-03 00:01:06,754 - root - INFO -   Epoch 24/50	 Time: 0.442	 Loss: 0.00389385
+2024-02-03 00:01:07,183 - root - INFO -   Epoch 25/50	 Time: 0.429	 Loss: 0.00506852
+2024-02-03 00:01:07,630 - root - INFO -   Epoch 26/50	 Time: 0.446	 Loss: 0.00657981
+2024-02-03 00:01:08,071 - root - INFO -   Epoch 27/50	 Time: 0.441	 Loss: 0.00478879
+2024-02-03 00:01:08,555 - root - INFO -   Epoch 28/50	 Time: 0.483	 Loss: 0.00096126
+2024-02-03 00:01:09,013 - root - INFO -   Epoch 29/50	 Time: 0.458	 Loss: 0.00107513
+2024-02-03 00:01:09,443 - root - INFO -   Epoch 30/50	 Time: 0.430	 Loss: 0.00135411
+2024-02-03 00:01:09,900 - root - INFO -   Epoch 31/50	 Time: 0.456	 Loss: 0.00308653
+2024-02-03 00:01:10,371 - root - INFO -   Epoch 32/50	 Time: 0.471	 Loss: 0.00408607
+2024-02-03 00:01:10,813 - root - INFO -   Epoch 33/50	 Time: 0.441	 Loss: 0.00495441
+2024-02-03 00:01:11,250 - root - INFO -   Epoch 34/50	 Time: 0.436	 Loss: 0.00325615
+2024-02-03 00:01:11,697 - root - INFO -   Epoch 35/50	 Time: 0.447	 Loss: 0.00388275
+2024-02-03 00:01:12,145 - root - INFO -   Epoch 36/50	 Time: 0.448	 Loss: 0.00417675
+2024-02-03 00:01:12,593 - root - INFO -   Epoch 37/50	 Time: 0.448	 Loss: 0.00639265
+2024-02-03 00:01:13,023 - root - INFO -   Epoch 38/50	 Time: 0.429	 Loss: 0.00276024
+2024-02-03 00:01:13,471 - root - INFO -   Epoch 39/50	 Time: 0.447	 Loss: 0.00079075
+2024-02-03 00:01:13,917 - root - INFO -   Epoch 40/50	 Time: 0.445	 Loss: 0.00069223
+2024-02-03 00:01:14,369 - root - INFO -   Epoch 41/50	 Time: 0.451	 Loss: 0.00053201
+2024-02-03 00:01:14,819 - root - INFO -   Epoch 42/50	 Time: 0.450	 Loss: 0.00163565
+2024-02-03 00:01:15,297 - root - INFO -   Epoch 43/50	 Time: 0.478	 Loss: 0.00287298
+2024-02-03 00:01:15,749 - root - INFO -   Epoch 44/50	 Time: 0.452	 Loss: 0.00351795
+2024-02-03 00:01:16,210 - root - INFO -   Epoch 45/50	 Time: 0.460	 Loss: 0.00225966
+2024-02-03 00:01:16,694 - root - INFO -   Epoch 46/50	 Time: 0.483	 Loss: 0.00310053
+2024-02-03 00:01:17,146 - root - INFO -   Epoch 47/50	 Time: 0.451	 Loss: 0.00335260
+2024-02-03 00:01:17,594 - root - INFO -   Epoch 48/50	 Time: 0.448	 Loss: 0.00290692
+2024-02-03 00:01:18,031 - root - INFO -   Epoch 49/50	 Time: 0.436	 Loss: 0.00273325
+2024-02-03 00:01:18,472 - root - INFO -   Epoch 50/50	 Time: 0.441	 Loss: 0.00293594
+2024-02-03 00:01:18,473 - root - INFO - Training time: 22.827
+2024-02-03 00:01:18,473 - root - INFO - Finished training.
+2024-02-03 00:01:18,476 - root - INFO - Starting testing...
+2024-02-03 00:01:18,615 - root - INFO - Testing time: 0.139
+2024-02-03 00:01:18,615 - root - INFO - Test set AUC: 0.00%
+2024-02-03 00:01:18,615 - root - INFO - Finished testing.
+2024-02-14 17:24:47,830 - root - INFO - Log file is ../log/log.txt.
+2024-02-14 17:24:47,830 - root - INFO - Data path is None.
+2024-02-14 17:24:47,830 - root - INFO - Export path is ../log.
+2024-02-14 17:24:47,830 - root - INFO - Dataset: lang_emb
+2024-02-14 17:24:47,830 - root - INFO - Normal class: 
+2024-02-14 17:24:47,830 - root - INFO - Network: lang_emb_LeNet
+2024-02-14 17:24:47,830 - root - INFO - Deep SVDD objective: one-class
+2024-02-14 17:24:47,830 - root - INFO - Nu-paramerter: 0.10
+2024-02-14 17:25:45,422 - root - INFO - Computation device: cuda
+2024-02-14 17:25:45,512 - root - INFO - Number of dataloader workers: 0
+2024-02-14 17:26:19,203 - root - INFO - Loading model from ../log/model.tar.
+2024-02-14 17:26:19,204 - root - INFO - Pretraining: False
+2024-02-14 17:26:19,204 - root - INFO - Training optimizer: adam
+2024-02-14 17:26:19,204 - root - INFO - Training learning rate: 0.001
+2024-02-14 17:26:19,204 - root - INFO - Training epochs: 0
+2024-02-14 17:26:19,204 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-02-14 17:26:19,204 - root - INFO - Training batch size: 128
+2024-02-14 17:26:19,204 - root - INFO - Training weight decay: 1e-06
+2024-02-14 17:26:19,355 - root - INFO - Starting training...
+2024-02-14 17:26:19,360 - root - INFO - Training time: 0.004
+2024-02-14 17:26:19,361 - root - INFO - Finished training.
+2024-02-14 17:26:19,375 - root - INFO - Starting testing...
+2024-02-14 17:27:18,549 - root - INFO - Testing time: 59.174
+2024-02-14 17:27:18,550 - root - INFO - Test set AUC: 0.00%
+2024-02-14 17:27:18,550 - root - INFO - Finished testing.
+2024-02-14 17:48:01,915 - root - INFO - Log file is ../log/log.txt.
+2024-02-14 17:48:01,915 - root - INFO - Data path is None.
+2024-02-14 17:48:01,915 - root - INFO - Export path is ../log.
+2024-02-14 17:48:01,915 - root - INFO - Dataset: lang_emb
+2024-02-14 17:48:01,915 - root - INFO - Normal class: 
+2024-02-14 17:48:01,915 - root - INFO - Network: lang_emb_LeNet
+2024-02-14 17:48:01,915 - root - INFO - Deep SVDD objective: one-class
+2024-02-14 17:48:01,915 - root - INFO - Nu-paramerter: 0.10
+2024-02-14 17:48:30,185 - root - INFO - Computation device: cuda
+2024-02-14 17:48:30,185 - root - INFO - Number of dataloader workers: 0
+2024-02-14 17:49:43,626 - root - INFO - Loading model from ../log/model.tar.
+2024-02-14 17:49:43,900 - root - INFO - Pretraining: False
+2024-02-14 17:49:43,901 - root - INFO - Training optimizer: adam
+2024-02-14 17:49:43,951 - root - INFO - Training learning rate: 0.001
+2024-02-14 17:49:43,951 - root - INFO - Training epochs: 0
+2024-02-14 17:49:43,951 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-02-14 17:49:43,952 - root - INFO - Training batch size: 128
+2024-02-14 17:49:43,952 - root - INFO - Training weight decay: 1e-06
+2024-02-14 17:49:47,166 - root - INFO - Starting training...
+2024-02-14 17:49:47,606 - root - INFO - Training time: 0.358
+2024-02-14 17:49:47,607 - root - INFO - Finished training.
+2024-02-14 17:49:49,834 - root - INFO - Starting testing...
+2024-02-14 18:34:08,222 - root - INFO - Testing time: 2658.387
+2024-02-14 18:34:08,227 - root - INFO - Test set AUC: 0.00%
+2024-02-14 18:34:08,227 - root - INFO - Finished testing.
+2024-03-31 00:58:31,268 - root - INFO - Log file is ../log/log.txt.
+2024-03-31 00:58:31,269 - root - INFO - Data path is None.
+2024-03-31 00:58:31,269 - root - INFO - Export path is ../log.
+2024-03-31 00:58:31,269 - root - INFO - Dataset: lang_emb
+2024-03-31 00:58:31,269 - root - INFO - Normal class: 
+2024-03-31 00:58:31,269 - root - INFO - Network: lang_emb_LeNet
+2024-03-31 00:58:31,269 - root - INFO - Deep SVDD objective: one-class
+2024-03-31 00:58:31,269 - root - INFO - Nu-paramerter: 0.10
+2024-03-31 00:58:31,288 - root - INFO - Computation device: cuda
+2024-03-31 00:58:31,288 - root - INFO - Number of dataloader workers: 0
+2024-03-31 00:58:37,289 - root - INFO - Loading model from ../log/model.tar.
+2024-03-31 00:58:37,290 - root - INFO - Pretraining: False
+2024-03-31 00:58:37,290 - root - INFO - Training optimizer: adam
+2024-03-31 00:58:37,290 - root - INFO - Training learning rate: 0.001
+2024-03-31 00:58:37,290 - root - INFO - Training epochs: 0
+2024-03-31 00:58:37,291 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-03-31 00:58:37,291 - root - INFO - Training batch size: 128
+2024-03-31 00:58:37,291 - root - INFO - Training weight decay: 1e-06
+2024-03-31 00:58:37,304 - root - INFO - Starting training...
+2024-03-31 00:58:37,307 - root - INFO - Training time: 0.002
+2024-03-31 00:58:37,307 - root - INFO - Finished training.
+2024-03-31 00:58:37,314 - root - INFO - Starting testing...
+2024-03-31 00:58:37,854 - root - INFO - Testing time: 0.540
+2024-03-31 00:58:37,854 - root - INFO - Test set AUC: 0.00%
+2024-03-31 00:58:37,855 - root - INFO - Finished testing.
+2024-03-31 01:03:09,922 - root - INFO - Log file is ../log/log.txt.
+2024-03-31 01:03:09,922 - root - INFO - Data path is None.
+2024-03-31 01:03:09,922 - root - INFO - Export path is ../log.
+2024-03-31 01:03:09,922 - root - INFO - Dataset: lang_emb
+2024-03-31 01:03:09,922 - root - INFO - Normal class: 
+2024-03-31 01:03:09,922 - root - INFO - Network: lang_emb_LeNet
+2024-03-31 01:03:09,922 - root - INFO - Deep SVDD objective: one-class
+2024-03-31 01:03:09,922 - root - INFO - Nu-paramerter: 0.10
+2024-03-31 01:03:09,941 - root - INFO - Computation device: cuda
+2024-03-31 01:03:09,942 - root - INFO - Number of dataloader workers: 0
+2024-03-31 01:03:15,941 - root - INFO - Loading model from ../log/model.tar.
+2024-03-31 01:03:15,941 - root - INFO - Pretraining: False
+2024-03-31 01:03:15,942 - root - INFO - Training optimizer: adam
+2024-03-31 01:03:15,942 - root - INFO - Training learning rate: 0.001
+2024-03-31 01:03:15,942 - root - INFO - Training epochs: 0
+2024-03-31 01:03:15,942 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-03-31 01:03:15,943 - root - INFO - Training batch size: 128
+2024-03-31 01:03:15,943 - root - INFO - Training weight decay: 1e-06
+2024-03-31 01:03:15,956 - root - INFO - Starting training...
+2024-03-31 01:03:15,959 - root - INFO - Training time: 0.002
+2024-03-31 01:03:15,959 - root - INFO - Finished training.
+2024-03-31 01:03:15,965 - root - INFO - Starting testing...
+2024-03-31 01:03:16,511 - root - INFO - Testing time: 0.546
+2024-03-31 01:03:16,511 - root - INFO - Test set AUC: 0.00%
+2024-03-31 01:03:16,512 - root - INFO - Finished testing.
+2024-03-31 01:04:46,916 - root - INFO - Log file is ../log/log.txt.
+2024-03-31 01:04:46,916 - root - INFO - Data path is None.
+2024-03-31 01:04:46,916 - root - INFO - Export path is ../log.
+2024-03-31 01:04:46,916 - root - INFO - Dataset: lang_emb
+2024-03-31 01:04:46,916 - root - INFO - Normal class: 
+2024-03-31 01:04:46,916 - root - INFO - Network: lang_emb_LeNet
+2024-03-31 01:04:46,916 - root - INFO - Deep SVDD objective: one-class
+2024-03-31 01:04:46,916 - root - INFO - Nu-paramerter: 0.10
+2024-03-31 01:04:46,935 - root - INFO - Computation device: cuda
+2024-03-31 01:04:46,935 - root - INFO - Number of dataloader workers: 0
+2024-03-31 01:04:52,933 - root - INFO - Loading model from ../log/model.tar.
+2024-03-31 01:04:52,933 - root - INFO - Pretraining: False
+2024-03-31 01:04:52,934 - root - INFO - Training optimizer: adam
+2024-03-31 01:04:52,934 - root - INFO - Training learning rate: 0.001
+2024-03-31 01:04:52,934 - root - INFO - Training epochs: 0
+2024-03-31 01:04:52,934 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-03-31 01:04:52,934 - root - INFO - Training batch size: 128
+2024-03-31 01:04:52,935 - root - INFO - Training weight decay: 1e-06
+2024-03-31 01:04:52,947 - root - INFO - Starting training...
+2024-03-31 01:04:52,950 - root - INFO - Training time: 0.002
+2024-03-31 01:04:52,950 - root - INFO - Finished training.
+2024-03-31 01:04:52,956 - root - INFO - Starting testing...
+2024-03-31 01:04:53,474 - root - INFO - Testing time: 0.518
+2024-03-31 01:04:53,474 - root - INFO - Test set AUC: 0.00%
+2024-03-31 01:04:53,474 - root - INFO - Finished testing.
+2024-03-31 19:07:34,699 - root - INFO - Log file is ../log/log.txt.
+2024-03-31 19:07:34,699 - root - INFO - Data path is None.
+2024-03-31 19:07:34,699 - root - INFO - Export path is ../log.
+2024-03-31 19:07:34,699 - root - INFO - Dataset: lang_emb
+2024-03-31 19:07:34,699 - root - INFO - Normal class: 
+2024-03-31 19:07:34,699 - root - INFO - Network: lang_emb_LeNet
+2024-03-31 19:07:34,700 - root - INFO - Deep SVDD objective: one-class
+2024-03-31 19:07:34,700 - root - INFO - Nu-paramerter: 0.10
+2024-03-31 19:07:34,737 - root - INFO - Computation device: cuda
+2024-03-31 19:07:34,737 - root - INFO - Number of dataloader workers: 0
+2024-03-31 19:07:40,708 - root - INFO - Loading model from ../log/model.tar.
+2024-03-31 19:07:40,709 - root - INFO - Pretraining: False
+2024-03-31 19:07:40,709 - root - INFO - Training optimizer: adam
+2024-03-31 19:07:40,709 - root - INFO - Training learning rate: 0.001
+2024-03-31 19:07:40,710 - root - INFO - Training epochs: 0
+2024-03-31 19:07:40,710 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-03-31 19:07:40,710 - root - INFO - Training batch size: 128
+2024-03-31 19:07:40,710 - root - INFO - Training weight decay: 1e-06
+2024-03-31 19:07:40,722 - root - INFO - Starting training...
+2024-03-31 19:07:40,725 - root - INFO - Training time: 0.002
+2024-03-31 19:07:40,725 - root - INFO - Finished training.
+2024-03-31 19:07:40,731 - root - INFO - Starting testing...
+2024-03-31 19:07:41,936 - root - INFO - Testing time: 1.204
+2024-03-31 19:07:41,936 - root - INFO - Test set AUC: 0.00%
+2024-03-31 19:07:41,936 - root - INFO - Finished testing.
+2024-03-31 19:10:11,383 - root - INFO - Log file is ../log/log.txt.
+2024-03-31 19:10:11,383 - root - INFO - Data path is None.
+2024-03-31 19:10:11,383 - root - INFO - Export path is ../log.
+2024-03-31 19:10:11,383 - root - INFO - Dataset: lang_emb
+2024-03-31 19:10:11,383 - root - INFO - Normal class: 
+2024-03-31 19:10:11,383 - root - INFO - Network: lang_emb_LeNet
+2024-03-31 19:10:11,383 - root - INFO - Deep SVDD objective: one-class
+2024-03-31 19:10:11,383 - root - INFO - Nu-paramerter: 0.10
+2024-03-31 19:10:11,419 - root - INFO - Computation device: cuda
+2024-03-31 19:10:11,420 - root - INFO - Number of dataloader workers: 0
+2024-03-31 19:10:17,134 - root - INFO - Loading model from ../log/model.tar.
+2024-03-31 19:10:17,135 - root - INFO - Pretraining: False
+2024-03-31 19:10:17,135 - root - INFO - Training optimizer: adam
+2024-03-31 19:10:17,135 - root - INFO - Training learning rate: 0.001
+2024-03-31 19:10:17,135 - root - INFO - Training epochs: 0
+2024-03-31 19:10:17,136 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-03-31 19:10:17,136 - root - INFO - Training batch size: 128
+2024-03-31 19:10:17,136 - root - INFO - Training weight decay: 1e-06
+2024-03-31 19:10:17,149 - root - INFO - Starting training...
+2024-03-31 19:10:17,152 - root - INFO - Training time: 0.002
+2024-03-31 19:10:17,152 - root - INFO - Finished training.
+2024-03-31 19:10:17,159 - root - INFO - Starting testing...
+2024-03-31 19:10:17,466 - root - INFO - Testing time: 0.307
+2024-03-31 19:10:17,466 - root - INFO - Test set AUC: 0.00%
+2024-03-31 19:10:17,466 - root - INFO - Finished testing.
+2024-03-31 19:11:24,214 - root - INFO - Log file is ../log/log.txt.
+2024-03-31 19:11:24,214 - root - INFO - Data path is None.
+2024-03-31 19:11:24,214 - root - INFO - Export path is ../log.
+2024-03-31 19:11:24,214 - root - INFO - Dataset: lang_emb
+2024-03-31 19:11:24,215 - root - INFO - Normal class: 
+2024-03-31 19:11:24,215 - root - INFO - Network: lang_emb_LeNet
+2024-03-31 19:11:24,215 - root - INFO - Deep SVDD objective: one-class
+2024-03-31 19:11:24,215 - root - INFO - Nu-paramerter: 0.10
+2024-03-31 19:11:24,250 - root - INFO - Computation device: cuda
+2024-03-31 19:11:24,250 - root - INFO - Number of dataloader workers: 0
+2024-03-31 19:11:30,137 - root - INFO - Loading model from ../log/model.tar.
+2024-03-31 19:11:30,138 - root - INFO - Pretraining: False
+2024-03-31 19:11:30,138 - root - INFO - Training optimizer: adam
+2024-03-31 19:11:30,138 - root - INFO - Training learning rate: 0.001
+2024-03-31 19:11:30,138 - root - INFO - Training epochs: 0
+2024-03-31 19:11:30,138 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-03-31 19:11:30,139 - root - INFO - Training batch size: 128
+2024-03-31 19:11:30,139 - root - INFO - Training weight decay: 1e-06
+2024-03-31 19:11:30,150 - root - INFO - Starting training...
+2024-03-31 19:11:30,153 - root - INFO - Training time: 0.002
+2024-03-31 19:11:30,153 - root - INFO - Finished training.
+2024-03-31 19:11:30,160 - root - INFO - Starting testing...
+2024-03-31 19:11:30,985 - root - INFO - Testing time: 0.825
+2024-03-31 19:11:30,985 - root - INFO - Test set AUC: 0.00%
+2024-03-31 19:11:30,985 - root - INFO - Finished testing.
+2024-04-11 17:53:52,682 - root - INFO - Log file is ../log/log.txt.
+2024-04-11 17:53:52,695 - root - INFO - Data path is None.
+2024-04-11 17:53:52,696 - root - INFO - Export path is ../log.
+2024-04-11 17:53:52,696 - root - INFO - Dataset: lang_emb
+2024-04-11 17:53:52,696 - root - INFO - Normal class: 
+2024-04-11 17:53:52,696 - root - INFO - Network: lang_emb_LeNet
+2024-04-11 17:53:52,696 - root - INFO - Deep SVDD objective: one-class
+2024-04-11 17:53:52,696 - root - INFO - Nu-paramerter: 0.10
+2024-04-11 17:53:52,815 - root - INFO - Computation device: cuda
+2024-04-11 17:53:52,816 - root - INFO - Number of dataloader workers: 0
+2024-04-11 17:54:00,875 - root - INFO - Loading model from ../log/model.tar.
+2024-04-11 17:54:00,876 - root - INFO - Pretraining: False
+2024-04-11 17:54:00,876 - root - INFO - Training optimizer: adam
+2024-04-11 17:54:00,877 - root - INFO - Training learning rate: 0.001
+2024-04-11 17:54:00,877 - root - INFO - Training epochs: 0
+2024-04-11 17:54:00,877 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-04-11 17:54:00,877 - root - INFO - Training batch size: 128
+2024-04-11 17:54:00,878 - root - INFO - Training weight decay: 1e-06
+2024-04-11 17:54:00,928 - root - INFO - Starting training...
+2024-04-11 17:54:00,933 - root - INFO - Training time: 0.005
+2024-04-11 17:54:00,934 - root - INFO - Finished training.
+2024-04-11 17:54:00,952 - root - INFO - Starting testing...
+2024-04-11 17:54:03,731 - root - INFO - Testing time: 2.778
+2024-04-11 17:54:03,731 - root - INFO - Test set AUC: 0.00%
+2024-04-11 17:54:03,731 - root - INFO - Finished testing.
+2024-04-12 18:51:15,050 - root - INFO - Log file is ../log/log.txt.
+2024-04-12 18:51:15,050 - root - INFO - Data path is None.
+2024-04-12 18:51:15,050 - root - INFO - Export path is ../log.
+2024-04-12 18:51:15,050 - root - INFO - Dataset: lang_emb
+2024-04-12 18:51:15,050 - root - INFO - Normal class: 
+2024-04-12 18:51:15,050 - root - INFO - Network: lang_emb_LeNet
+2024-04-12 18:51:15,050 - root - INFO - Deep SVDD objective: one-class
+2024-04-12 18:51:15,050 - root - INFO - Nu-paramerter: 0.10
+2024-04-12 18:51:15,081 - root - INFO - Computation device: cuda
+2024-04-12 18:51:15,081 - root - INFO - Number of dataloader workers: 0
+2024-04-12 18:51:20,793 - root - INFO - Loading model from ../log/model.tar.
+2024-04-12 18:51:20,794 - root - INFO - Pretraining: False
+2024-04-12 18:51:20,794 - root - INFO - Training optimizer: adam
+2024-04-12 18:51:20,794 - root - INFO - Training learning rate: 0.001
+2024-04-12 18:51:20,795 - root - INFO - Training epochs: 0
+2024-04-12 18:51:20,795 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-04-12 18:51:20,795 - root - INFO - Training batch size: 128
+2024-04-12 18:51:20,795 - root - INFO - Training weight decay: 1e-06
+2024-04-12 18:51:20,809 - root - INFO - Starting training...
+2024-04-12 18:51:20,811 - root - INFO - Training time: 0.002
+2024-04-12 18:51:20,811 - root - INFO - Finished training.
+2024-04-12 18:51:20,818 - root - INFO - Starting testing...
+2024-05-01 21:09:11,982 - root - INFO - Log file is ../log_LJ/log.txt.
+2024-05-01 21:09:11,992 - root - INFO - Data path is None.
+2024-05-01 21:09:11,992 - root - INFO - Export path is ../log_LJ.
+2024-05-01 21:09:11,992 - root - INFO - Dataset: lang_emb
+2024-05-01 21:09:11,993 - root - INFO - Normal class: 
+2024-05-01 21:09:11,993 - root - INFO - Network: lang_emb_LeNet
+2024-05-01 21:09:11,993 - root - INFO - Deep SVDD objective: one-class
+2024-05-01 21:09:11,993 - root - INFO - Nu-paramerter: 0.10
+2024-05-01 21:09:12,039 - root - INFO - Computation device: cuda
+2024-05-01 21:09:12,039 - root - INFO - Number of dataloader workers: 0
+2024-05-01 21:09:20,485 - root - INFO - Loading model from ../log_LJ/model.tar.
+2024-05-01 21:09:20,487 - root - INFO - Pretraining: False
+2024-05-01 21:09:20,487 - root - INFO - Training optimizer: adam
+2024-05-01 21:09:20,488 - root - INFO - Training learning rate: 0.001
+2024-05-01 21:09:20,488 - root - INFO - Training epochs: 0
+2024-05-01 21:09:20,488 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-05-01 21:09:20,489 - root - INFO - Training batch size: 128
+2024-05-01 21:09:20,490 - root - INFO - Training weight decay: 1e-06
+2024-05-01 21:09:20,532 - root - INFO - Starting training...
+2024-05-01 21:09:20,535 - root - INFO - Training time: 0.003
+2024-05-01 21:09:20,535 - root - INFO - Finished training.
+2024-05-01 21:09:20,554 - root - INFO - Starting testing...
+2024-05-01 21:09:22,627 - root - INFO - Testing time: 2.072
+2024-05-01 21:09:22,627 - root - INFO - Test set AUC: 0.00%
+2024-05-01 21:09:22,628 - root - INFO - Finished testing.
+2024-05-02 10:12:25,509 - root - INFO - Log file is ../log_LJ/log.txt.
+2024-05-02 10:12:25,521 - root - INFO - Data path is None.
+2024-05-02 10:12:25,522 - root - INFO - Export path is ../log_LJ.
+2024-05-02 10:12:25,522 - root - INFO - Dataset: lang_emb
+2024-05-02 10:12:25,522 - root - INFO - Normal class: 
+2024-05-02 10:12:25,522 - root - INFO - Network: lang_emb_LeNet
+2024-05-02 10:12:25,522 - root - INFO - Deep SVDD objective: one-class
+2024-05-02 10:12:25,522 - root - INFO - Nu-paramerter: 0.10
+2024-05-02 10:12:25,563 - root - INFO - Computation device: cuda
+2024-05-02 10:12:25,563 - root - INFO - Number of dataloader workers: 0
+2024-05-02 10:12:33,011 - root - INFO - Loading model from ../log_LJ/model.tar.
+2024-05-02 10:12:33,011 - root - INFO - Pretraining: False
+2024-05-02 10:12:33,012 - root - INFO - Training optimizer: adam
+2024-05-02 10:12:33,012 - root - INFO - Training learning rate: 0.001
+2024-05-02 10:12:33,012 - root - INFO - Training epochs: 0
+2024-05-02 10:12:33,012 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-05-02 10:12:33,013 - root - INFO - Training batch size: 128
+2024-05-02 10:12:33,013 - root - INFO - Training weight decay: 1e-06
+2024-05-02 10:12:33,047 - root - INFO - Starting training...
+2024-05-02 10:12:33,049 - root - INFO - Training time: 0.002
+2024-05-02 10:12:33,050 - root - INFO - Finished training.
+2024-05-02 10:12:33,075 - root - INFO - Starting testing...
+2024-05-02 10:12:33,548 - root - INFO - Testing time: 0.472
+2024-05-02 10:12:33,548 - root - INFO - Test set AUC: 0.00%
+2024-05-02 10:12:33,548 - root - INFO - Finished testing.
+2024-07-03 00:21:47,158 - root - INFO - Log file is ../log_LJ/log.txt.
+2024-07-03 00:21:47,176 - root - INFO - Data path is None.
+2024-07-03 00:21:47,176 - root - INFO - Export path is ../log_LJ.
+2024-07-03 00:21:47,176 - root - INFO - Dataset: lang_emb
+2024-07-03 00:21:47,176 - root - INFO - Normal class: 
+2024-07-03 00:21:47,176 - root - INFO - Network: lang_emb_LeNet
+2024-07-03 00:21:47,176 - root - INFO - Deep SVDD objective: one-class
+2024-07-03 00:21:47,176 - root - INFO - Nu-paramerter: 0.10
+2024-07-03 00:21:47,196 - root - INFO - Computation device: cuda
+2024-07-03 00:21:47,196 - root - INFO - Number of dataloader workers: 0
+2024-07-03 00:21:55,770 - root - INFO - Pretraining: True
+2024-07-03 00:21:55,771 - root - INFO - Pretraining optimizer: adam
+2024-07-03 00:21:55,771 - root - INFO - Pretraining learning rate: 0.001
+2024-07-03 00:21:55,771 - root - INFO - Pretraining epochs: 100
+2024-07-03 00:21:55,772 - root - INFO - Pretraining learning rate scheduler milestones: (0,)
+2024-07-03 00:21:55,772 - root - INFO - Pretraining batch size: 128
+2024-07-03 00:21:55,772 - root - INFO - Pretraining weight decay: 1e-06
+2024-07-03 00:21:56,308 - root - INFO - Starting pretraining...
+2024-07-03 00:22:35,522 - root - INFO - Log file is ../log_LJ/log.txt.
+2024-07-03 00:22:35,522 - root - INFO - Data path is None.
+2024-07-03 00:22:35,522 - root - INFO - Export path is ../log_LJ.
+2024-07-03 00:22:35,522 - root - INFO - Dataset: lang_emb
+2024-07-03 00:22:35,522 - root - INFO - Normal class: 
+2024-07-03 00:22:35,522 - root - INFO - Network: lang_emb_LeNet
+2024-07-03 00:22:35,522 - root - INFO - Deep SVDD objective: one-class
+2024-07-03 00:22:35,522 - root - INFO - Nu-paramerter: 0.10
+2024-07-03 00:22:35,567 - root - INFO - Computation device: cuda
+2024-07-03 00:22:35,567 - root - INFO - Number of dataloader workers: 0
+2024-07-03 00:22:42,124 - root - INFO - Pretraining: False
+2024-07-03 00:22:42,124 - root - INFO - Training optimizer: adam
+2024-07-03 00:22:42,125 - root - INFO - Training learning rate: 0.001
+2024-07-03 00:22:42,125 - root - INFO - Training epochs: 0
+2024-07-03 00:22:42,125 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-07-03 00:22:42,126 - root - INFO - Training batch size: 128
+2024-07-03 00:22:42,126 - root - INFO - Training weight decay: 1e-06
+2024-07-03 00:22:42,567 - root - INFO - Initializing center c...
+2024-07-03 00:22:44,646 - root - INFO - Center c initialized.
+2024-07-03 00:22:44,647 - root - INFO - Starting training...
+2024-07-03 00:22:44,650 - root - INFO - Training time: 0.003
+2024-07-03 00:22:44,650 - root - INFO - Finished training.
+2024-07-03 00:22:44,687 - root - INFO - Starting testing...
+2024-07-03 00:22:46,553 - root - INFO - Testing time: 1.867
+2024-07-03 00:22:46,554 - root - INFO - Test set AUC: 0.00%
+2024-07-03 00:22:46,554 - root - INFO - Finished testing.
+2024-07-03 00:23:58,909 - root - INFO - Log file is ../log_LJ/log.txt.
+2024-07-03 00:23:58,909 - root - INFO - Data path is None.
+2024-07-03 00:23:58,909 - root - INFO - Export path is ../log_LJ.
+2024-07-03 00:23:58,909 - root - INFO - Dataset: lang_emb
+2024-07-03 00:23:58,909 - root - INFO - Normal class: 
+2024-07-03 00:23:58,910 - root - INFO - Network: lang_emb_LeNet
+2024-07-03 00:23:58,910 - root - INFO - Deep SVDD objective: one-class
+2024-07-03 00:23:58,910 - root - INFO - Nu-paramerter: 0.10
+2024-07-03 00:23:58,959 - root - INFO - Computation device: cuda
+2024-07-03 00:23:58,959 - root - INFO - Number of dataloader workers: 0
+2024-07-03 00:24:05,577 - root - INFO - Loading model from ../log_LJ/model.tar.
+2024-07-03 00:24:05,578 - root - INFO - Pretraining: False
+2024-07-03 00:24:05,578 - root - INFO - Training optimizer: adam
+2024-07-03 00:24:05,578 - root - INFO - Training learning rate: 0.001
+2024-07-03 00:24:05,578 - root - INFO - Training epochs: 0
+2024-07-03 00:24:05,579 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-07-03 00:24:05,579 - root - INFO - Training batch size: 128
+2024-07-03 00:24:05,579 - root - INFO - Training weight decay: 1e-06
+2024-07-03 00:24:05,621 - root - INFO - Starting training...
+2024-07-03 00:24:05,623 - root - INFO - Training time: 0.002
+2024-07-03 00:24:05,624 - root - INFO - Finished training.
+2024-07-03 00:24:05,658 - root - INFO - Starting testing...
+2024-07-03 00:24:07,747 - root - INFO - Testing time: 2.089
+2024-07-03 00:24:07,747 - root - INFO - Test set AUC: 0.00%
+2024-07-03 00:24:07,747 - root - INFO - Finished testing.
+2024-07-03 00:25:12,664 - root - INFO - Log file is ../log_LJ/log.txt.
+2024-07-03 00:25:12,664 - root - INFO - Data path is None.
+2024-07-03 00:25:12,665 - root - INFO - Export path is ../log_LJ.
+2024-07-03 00:25:12,665 - root - INFO - Dataset: lang_emb
+2024-07-03 00:25:12,665 - root - INFO - Normal class: 
+2024-07-03 00:25:12,665 - root - INFO - Network: lang_emb_LeNet
+2024-07-03 00:25:12,665 - root - INFO - Deep SVDD objective: one-class
+2024-07-03 00:25:12,665 - root - INFO - Nu-paramerter: 0.10
+2024-07-03 00:25:12,697 - root - INFO - Computation device: cuda
+2024-07-03 00:25:12,697 - root - INFO - Number of dataloader workers: 0
+2024-07-03 00:25:19,481 - root - INFO - Loading model from ../log_LJ/model.tar.
+2024-07-03 00:25:19,481 - root - INFO - Pretraining: False
+2024-07-03 00:25:19,482 - root - INFO - Training optimizer: adam
+2024-07-03 00:25:19,482 - root - INFO - Training learning rate: 0.001
+2024-07-03 00:25:19,482 - root - INFO - Training epochs: 0
+2024-07-03 00:25:19,482 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-07-03 00:25:19,483 - root - INFO - Training batch size: 128
+2024-07-03 00:25:19,483 - root - INFO - Training weight decay: 1e-06
+2024-07-03 00:25:19,529 - root - INFO - Starting training...
+2024-07-03 00:25:19,532 - root - INFO - Training time: 0.003
+2024-07-03 00:25:19,533 - root - INFO - Finished training.
+2024-07-03 00:25:19,566 - root - INFO - Starting testing...
+2024-07-03 00:25:20,363 - root - INFO - Testing time: 0.797
+2024-07-03 00:25:20,363 - root - INFO - Test set AUC: 0.00%
+2024-07-03 00:25:20,364 - root - INFO - Finished testing.
+2024-07-03 00:25:46,254 - root - INFO - Log file is ../log_LJ/log.txt.
+2024-07-03 00:25:46,255 - root - INFO - Data path is None.
+2024-07-03 00:25:46,255 - root - INFO - Export path is ../log_LJ.
+2024-07-03 00:25:46,255 - root - INFO - Dataset: lang_emb
+2024-07-03 00:25:46,255 - root - INFO - Normal class: 
+2024-07-03 00:25:46,255 - root - INFO - Network: lang_emb_LeNet
+2024-07-03 00:25:46,255 - root - INFO - Deep SVDD objective: one-class
+2024-07-03 00:25:46,255 - root - INFO - Nu-paramerter: 0.10
+2024-07-03 00:25:46,274 - root - INFO - Computation device: cuda
+2024-07-03 00:25:46,274 - root - INFO - Number of dataloader workers: 0
+2024-07-03 00:25:52,756 - root - INFO - Loading model from ../log_LJ/model.tar.
+2024-07-03 00:25:52,756 - root - INFO - Pretraining: False
+2024-07-03 00:25:52,757 - root - INFO - Training optimizer: adam
+2024-07-03 00:25:52,757 - root - INFO - Training learning rate: 0.001
+2024-07-03 00:25:52,757 - root - INFO - Training epochs: 0
+2024-07-03 00:25:52,757 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-07-03 00:25:52,757 - root - INFO - Training batch size: 128
+2024-07-03 00:25:52,758 - root - INFO - Training weight decay: 1e-06
+2024-07-03 00:25:52,797 - root - INFO - Starting training...
+2024-07-03 00:25:52,800 - root - INFO - Training time: 0.002
+2024-07-03 00:25:52,800 - root - INFO - Finished training.
+2024-07-03 00:25:52,830 - root - INFO - Starting testing...
+2024-07-03 00:25:53,711 - root - INFO - Testing time: 0.880
+2024-07-03 00:25:53,711 - root - INFO - Test set AUC: 0.00%
+2024-07-03 00:25:53,712 - root - INFO - Finished testing.
+2024-07-03 00:27:40,668 - root - INFO - Log file is ../log_LJ/log.txt.
+2024-07-03 00:27:40,668 - root - INFO - Data path is None.
+2024-07-03 00:27:40,668 - root - INFO - Export path is ../log_LJ.
+2024-07-03 00:27:40,668 - root - INFO - Dataset: lang_emb
+2024-07-03 00:27:40,668 - root - INFO - Normal class: 
+2024-07-03 00:27:40,668 - root - INFO - Network: lang_emb_LeNet
+2024-07-03 00:27:40,668 - root - INFO - Deep SVDD objective: one-class
+2024-07-03 00:27:40,668 - root - INFO - Nu-paramerter: 0.10
+2024-07-03 00:27:40,712 - root - INFO - Computation device: cuda
+2024-07-03 00:27:40,713 - root - INFO - Number of dataloader workers: 0
+2024-07-03 00:27:47,443 - root - INFO - Loading model from ../log_LJ/model.tar.
+2024-07-03 00:27:47,443 - root - INFO - Pretraining: False
+2024-07-03 00:27:47,444 - root - INFO - Training optimizer: adam
+2024-07-03 00:27:47,444 - root - INFO - Training learning rate: 0.001
+2024-07-03 00:27:47,444 - root - INFO - Training epochs: 0
+2024-07-03 00:27:47,444 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-07-03 00:27:47,445 - root - INFO - Training batch size: 128
+2024-07-03 00:27:47,445 - root - INFO - Training weight decay: 1e-06
+2024-07-03 00:27:47,489 - root - INFO - Starting training...
+2024-07-03 00:27:47,492 - root - INFO - Training time: 0.003
+2024-07-03 00:27:47,492 - root - INFO - Finished training.
+2024-07-03 00:27:47,529 - root - INFO - Starting testing...
+2024-07-03 00:27:49,710 - root - INFO - Testing time: 2.180
+2024-07-03 00:27:49,710 - root - INFO - Test set AUC: 0.00%
+2024-07-03 00:27:49,710 - root - INFO - Finished testing.
+2024-07-03 00:28:18,453 - root - INFO - Log file is ../log_LJ/log.txt.
+2024-07-03 00:28:18,453 - root - INFO - Data path is None.
+2024-07-03 00:28:18,453 - root - INFO - Export path is ../log_LJ.
+2024-07-03 00:28:18,453 - root - INFO - Dataset: lang_emb
+2024-07-03 00:28:18,453 - root - INFO - Normal class: 
+2024-07-03 00:28:18,453 - root - INFO - Network: lang_emb_LeNet
+2024-07-03 00:28:18,453 - root - INFO - Deep SVDD objective: one-class
+2024-07-03 00:28:18,453 - root - INFO - Nu-paramerter: 0.10
+2024-07-03 00:28:18,496 - root - INFO - Computation device: cuda
+2024-07-03 00:28:18,496 - root - INFO - Number of dataloader workers: 0
+2024-07-03 00:28:25,453 - root - INFO - Loading model from ../log_LJ/model.tar.
+2024-07-03 00:28:25,453 - root - INFO - Pretraining: False
+2024-07-03 00:28:25,454 - root - INFO - Training optimizer: adam
+2024-07-03 00:28:25,454 - root - INFO - Training learning rate: 0.001
+2024-07-03 00:28:25,454 - root - INFO - Training epochs: 0
+2024-07-03 00:28:25,454 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-07-03 00:28:25,455 - root - INFO - Training batch size: 128
+2024-07-03 00:28:25,455 - root - INFO - Training weight decay: 1e-06
+2024-07-03 00:28:25,498 - root - INFO - Starting training...
+2024-07-03 00:28:25,501 - root - INFO - Training time: 0.002
+2024-07-03 00:28:25,501 - root - INFO - Finished training.
+2024-07-03 00:28:25,536 - root - INFO - Starting testing...
+2024-07-03 00:28:26,586 - root - INFO - Testing time: 1.050
+2024-07-03 00:28:26,587 - root - INFO - Test set AUC: 0.00%
+2024-07-03 00:28:26,587 - root - INFO - Finished testing.
+2024-07-03 00:28:51,324 - root - INFO - Log file is ../log_LJ/log.txt.
+2024-07-03 00:28:51,324 - root - INFO - Data path is None.
+2024-07-03 00:28:51,324 - root - INFO - Export path is ../log_LJ.
+2024-07-03 00:28:51,325 - root - INFO - Dataset: lang_emb
+2024-07-03 00:28:51,325 - root - INFO - Normal class: 
+2024-07-03 00:28:51,325 - root - INFO - Network: lang_emb_LeNet
+2024-07-03 00:28:51,325 - root - INFO - Deep SVDD objective: one-class
+2024-07-03 00:28:51,325 - root - INFO - Nu-paramerter: 0.10
+2024-07-03 00:28:51,364 - root - INFO - Computation device: cuda
+2024-07-03 00:28:51,364 - root - INFO - Number of dataloader workers: 0
+2024-07-03 00:28:58,016 - root - INFO - Loading model from ../log_LJ/model.tar.
+2024-07-03 00:28:58,017 - root - INFO - Pretraining: False
+2024-07-03 00:28:58,018 - root - INFO - Training optimizer: adam
+2024-07-03 00:28:58,018 - root - INFO - Training learning rate: 0.001
+2024-07-03 00:28:58,018 - root - INFO - Training epochs: 0
+2024-07-03 00:28:58,018 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-07-03 00:28:58,019 - root - INFO - Training batch size: 128
+2024-07-03 00:28:58,019 - root - INFO - Training weight decay: 1e-06
+2024-07-03 00:28:58,066 - root - INFO - Starting training...
+2024-07-03 00:28:58,068 - root - INFO - Training time: 0.002
+2024-07-03 00:28:58,068 - root - INFO - Finished training.
+2024-07-03 00:28:58,110 - root - INFO - Starting testing...
+2024-07-03 00:28:58,994 - root - INFO - Testing time: 0.884
+2024-07-03 00:28:58,994 - root - INFO - Test set AUC: 0.00%
+2024-07-03 00:28:58,995 - root - INFO - Finished testing.
+2024-08-03 20:33:36,691 - root - INFO - Log file is ../log_LJ/log.txt.
+2024-08-03 20:33:36,717 - root - INFO - Data path is None.
+2024-08-03 20:33:36,717 - root - INFO - Export path is ../log_LJ.
+2024-08-03 20:33:36,718 - root - INFO - Dataset: lang_emb
+2024-08-03 20:33:36,718 - root - INFO - Normal class: 
+2024-08-03 20:33:36,718 - root - INFO - Network: lang_emb_LeNet
+2024-08-03 20:33:36,718 - root - INFO - Deep SVDD objective: one-class
+2024-08-03 20:33:36,718 - root - INFO - Nu-paramerter: 0.10
+2024-08-03 20:33:36,746 - root - INFO - Computation device: cuda
+2024-08-03 20:33:36,746 - root - INFO - Number of dataloader workers: 0
+2024-08-03 20:33:44,305 - root - INFO - Loading model from ../log_LJ/model.tar.
+2024-08-03 20:33:44,306 - root - INFO - Pretraining: False
+2024-08-03 20:33:44,307 - root - INFO - Training optimizer: adam
+2024-08-03 20:33:44,307 - root - INFO - Training learning rate: 0.001
+2024-08-03 20:33:44,307 - root - INFO - Training epochs: 0
+2024-08-03 20:33:44,308 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-08-03 20:33:44,308 - root - INFO - Training batch size: 128
+2024-08-03 20:33:44,308 - root - INFO - Training weight decay: 1e-06
+2024-08-03 20:33:44,349 - root - INFO - Starting training...
+2024-08-03 20:33:44,351 - root - INFO - Training time: 0.002
+2024-08-03 20:33:44,351 - root - INFO - Finished training.
+2024-08-03 20:33:44,359 - root - INFO - Starting testing...
+2024-08-03 20:33:46,823 - root - INFO - Testing time: 2.463
+2024-08-03 20:33:46,823 - root - INFO - Test set AUC: 0.00%
+2024-08-03 20:33:46,823 - root - INFO - Finished testing.
+2024-08-11 17:49:49,759 - root - INFO - Log file is ../log_LJ/log.txt.
+2024-08-11 17:49:49,759 - root - INFO - Data path is None.
+2024-08-11 17:49:49,759 - root - INFO - Export path is ../log_LJ.
+2024-08-11 17:49:49,759 - root - INFO - Dataset: lang_emb
+2024-08-11 17:49:49,759 - root - INFO - Normal class: 
+2024-08-11 17:49:49,759 - root - INFO - Network: lang_emb_LeNet
+2024-08-11 17:49:49,759 - root - INFO - Deep SVDD objective: one-class
+2024-08-11 17:49:49,759 - root - INFO - Nu-paramerter: 0.10
+2024-08-11 17:49:49,776 - root - INFO - Computation device: cuda
+2024-08-11 17:49:49,776 - root - INFO - Number of dataloader workers: 0
+2024-08-11 17:50:25,205 - root - INFO - Log file is ../log_LJ/log.txt.
+2024-08-11 17:50:25,205 - root - INFO - Data path is None.
+2024-08-11 17:50:25,205 - root - INFO - Export path is ../log_LJ.
+2024-08-11 17:50:25,205 - root - INFO - Dataset: lang_emb
+2024-08-11 17:50:25,205 - root - INFO - Normal class: 
+2024-08-11 17:50:25,205 - root - INFO - Network: lang_emb_LeNet
+2024-08-11 17:50:25,205 - root - INFO - Deep SVDD objective: one-class
+2024-08-11 17:50:25,205 - root - INFO - Nu-paramerter: 0.10
+2024-08-11 17:50:25,230 - root - INFO - Computation device: cuda
+2024-08-11 17:50:25,231 - root - INFO - Number of dataloader workers: 0
+2024-08-11 17:50:31,841 - root - INFO - Loading model from ../log_LJ/model.tar.
+2024-08-11 17:50:31,842 - root - INFO - Pretraining: False
+2024-08-11 17:50:31,842 - root - INFO - Training optimizer: adam
+2024-08-11 17:50:31,842 - root - INFO - Training learning rate: 0.001
+2024-08-11 17:50:31,843 - root - INFO - Training epochs: 0
+2024-08-11 17:50:31,843 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-08-11 17:50:31,843 - root - INFO - Training batch size: 128
+2024-08-11 17:50:31,843 - root - INFO - Training weight decay: 1e-06
+2024-08-11 17:50:31,858 - root - INFO - Starting training...
+2024-08-11 17:50:31,861 - root - INFO - Training time: 0.003
+2024-08-11 17:50:31,861 - root - INFO - Finished training.
+2024-08-11 17:50:31,869 - root - INFO - Starting testing...
+2024-08-16 14:33:25,092 - root - INFO - Log file is ../log_LJ/log.txt.
+2024-08-16 14:33:25,092 - root - INFO - Data path is None.
+2024-08-16 14:33:25,092 - root - INFO - Export path is ../log_LJ.
+2024-08-16 14:33:25,092 - root - INFO - Dataset: lang_emb
+2024-08-16 14:33:25,092 - root - INFO - Normal class: 
+2024-08-16 14:33:25,092 - root - INFO - Network: lang_emb_LeNet
+2024-08-16 14:33:25,092 - root - INFO - Deep SVDD objective: one-class
+2024-08-16 14:33:25,092 - root - INFO - Nu-paramerter: 0.10
+2024-08-16 14:33:25,148 - root - INFO - Computation device: cuda
+2024-08-16 14:33:25,149 - root - INFO - Number of dataloader workers: 0
+2024-08-16 14:33:37,313 - root - INFO - Loading model from ../log_LJ/model.tar.
+2024-08-16 14:33:37,314 - root - INFO - Pretraining: False
+2024-08-16 14:33:37,314 - root - INFO - Training optimizer: adam
+2024-08-16 14:33:37,314 - root - INFO - Training learning rate: 0.001
+2024-08-16 14:33:37,314 - root - INFO - Training epochs: 0
+2024-08-16 14:33:37,315 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-08-16 14:33:37,315 - root - INFO - Training batch size: 128
+2024-08-16 14:33:37,315 - root - INFO - Training weight decay: 1e-06
+2024-08-16 14:33:37,525 - root - INFO - Starting training...
+2024-08-16 14:33:37,529 - root - INFO - Training time: 0.003
+2024-08-16 14:33:37,558 - root - INFO - Finished training.
+2024-08-16 14:33:38,610 - root - INFO - Starting testing...
+2024-08-16 14:33:42,126 - root - INFO - Testing time: 3.515
+2024-08-16 14:33:42,127 - root - INFO - Test set AUC: 0.00%
+2024-08-16 14:33:42,127 - root - INFO - Finished testing.
+2024-08-16 14:34:08,683 - root - INFO - Log file is ../log_LJ/log.txt.
+2024-08-16 14:34:08,683 - root - INFO - Data path is None.
+2024-08-16 14:34:08,683 - root - INFO - Export path is ../log_LJ.
+2024-08-16 14:34:08,683 - root - INFO - Dataset: lang_emb
+2024-08-16 14:34:08,683 - root - INFO - Normal class: 
+2024-08-16 14:34:08,683 - root - INFO - Network: lang_emb_LeNet
+2024-08-16 14:34:08,683 - root - INFO - Deep SVDD objective: one-class
+2024-08-16 14:34:08,683 - root - INFO - Nu-paramerter: 0.10
+2024-08-16 14:34:08,729 - root - INFO - Computation device: cuda
+2024-08-16 14:34:08,730 - root - INFO - Number of dataloader workers: 0
+2024-08-16 14:34:16,100 - root - INFO - Loading model from ../log_LJ/model.tar.
+2024-08-16 14:34:16,100 - root - INFO - Pretraining: False
+2024-08-16 14:34:16,101 - root - INFO - Training optimizer: adam
+2024-08-16 14:34:16,101 - root - INFO - Training learning rate: 0.001
+2024-08-16 14:34:16,101 - root - INFO - Training epochs: 0
+2024-08-16 14:34:16,101 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-08-16 14:34:16,102 - root - INFO - Training batch size: 128
+2024-08-16 14:34:16,102 - root - INFO - Training weight decay: 1e-06
+2024-08-16 14:34:16,597 - root - INFO - Starting training...
+2024-08-16 14:34:16,600 - root - INFO - Training time: 0.002
+2024-08-16 14:34:16,600 - root - INFO - Finished training.
+2024-08-16 14:34:17,971 - root - INFO - Starting testing...
+2024-08-16 14:34:18,996 - root - INFO - Testing time: 1.024
+2024-08-16 14:34:18,996 - root - INFO - Test set AUC: 0.00%
+2024-08-16 14:34:18,996 - root - INFO - Finished testing.
+2024-08-16 14:34:46,476 - root - INFO - Log file is ../log_LJ/log.txt.
+2024-08-16 14:34:46,476 - root - INFO - Data path is None.
+2024-08-16 14:34:46,476 - root - INFO - Export path is ../log_LJ.
+2024-08-16 14:34:46,476 - root - INFO - Dataset: lang_emb
+2024-08-16 14:34:46,476 - root - INFO - Normal class: 
+2024-08-16 14:34:46,476 - root - INFO - Network: lang_emb_LeNet
+2024-08-16 14:34:46,476 - root - INFO - Deep SVDD objective: one-class
+2024-08-16 14:34:46,476 - root - INFO - Nu-paramerter: 0.10
+2024-08-16 14:34:46,517 - root - INFO - Computation device: cuda
+2024-08-16 14:34:46,518 - root - INFO - Number of dataloader workers: 0
+2024-08-16 14:34:53,845 - root - INFO - Loading model from ../log_LJ/model.tar.
+2024-08-16 14:34:53,845 - root - INFO - Pretraining: False
+2024-08-16 14:34:53,846 - root - INFO - Training optimizer: adam
+2024-08-16 14:34:53,846 - root - INFO - Training learning rate: 0.001
+2024-08-16 14:34:53,846 - root - INFO - Training epochs: 0
+2024-08-16 14:34:53,846 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-08-16 14:34:53,847 - root - INFO - Training batch size: 128
+2024-08-16 14:34:53,847 - root - INFO - Training weight decay: 1e-06
+2024-08-16 14:34:54,350 - root - INFO - Starting training...
+2024-08-16 14:34:54,353 - root - INFO - Training time: 0.002
+2024-08-16 14:34:54,353 - root - INFO - Finished training.
+2024-08-16 14:34:54,523 - root - INFO - Starting testing...
+2024-08-16 14:34:55,550 - root - INFO - Testing time: 1.027
+2024-08-16 14:34:55,550 - root - INFO - Test set AUC: 0.00%
+2024-08-16 14:34:55,551 - root - INFO - Finished testing.
+2024-09-06 15:35:12,519 - root - INFO - Log file is ../log_LJ/log.txt.
+2024-09-06 15:35:12,567 - root - INFO - Data path is None.
+2024-09-06 15:35:12,567 - root - INFO - Export path is ../log_LJ.
+2024-09-06 15:35:12,567 - root - INFO - Dataset: lang_emb
+2024-09-06 15:35:12,567 - root - INFO - Normal class: 
+2024-09-06 15:35:12,567 - root - INFO - Network: lang_emb_LeNet
+2024-09-06 15:35:12,568 - root - INFO - Deep SVDD objective: one-class
+2024-09-06 15:35:12,568 - root - INFO - Nu-paramerter: 0.10
+2024-09-06 15:35:12,745 - root - INFO - Computation device: cuda
+2024-09-06 15:35:12,745 - root - INFO - Number of dataloader workers: 0
+2024-09-06 15:35:20,136 - root - INFO - Pretraining: False
+2024-09-06 15:35:20,137 - root - INFO - Training optimizer: adam
+2024-09-06 15:35:20,137 - root - INFO - Training learning rate: 0.001
+2024-09-06 15:35:20,137 - root - INFO - Training epochs: 0
+2024-09-06 15:35:20,138 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-09-06 15:35:20,138 - root - INFO - Training batch size: 128
+2024-09-06 15:35:20,138 - root - INFO - Training weight decay: 1e-06
+2024-09-06 15:35:20,628 - root - INFO - Initializing center c...
+2024-09-06 15:35:22,874 - root - INFO - Center c initialized.
+2024-09-06 15:35:22,874 - root - INFO - Starting training...
+2024-09-06 15:35:22,878 - root - INFO - Training time: 0.003
+2024-09-06 15:35:22,878 - root - INFO - Finished training.
+2024-09-06 15:35:22,908 - root - INFO - Starting testing...
+2024-09-06 15:35:25,086 - root - INFO - Testing time: 2.177
+2024-09-06 15:35:25,087 - root - INFO - Test set AUC: 0.00%
+2024-09-06 15:35:25,087 - root - INFO - Finished testing.
+2024-10-02 03:43:34,024 - root - INFO - Log file is ../log_LJ/log.txt.
+2024-10-02 03:43:34,038 - root - INFO - Data path is None.
+2024-10-02 03:43:34,038 - root - INFO - Export path is ../log_LJ.
+2024-10-02 03:43:34,038 - root - INFO - Dataset: lang_emb
+2024-10-02 03:43:34,038 - root - INFO - Normal class: 
+2024-10-02 03:43:34,038 - root - INFO - Network: lang_emb_LeNet
+2024-10-02 03:43:34,038 - root - INFO - Deep SVDD objective: one-class
+2024-10-02 03:43:34,038 - root - INFO - Nu-paramerter: 0.10
+2024-10-02 03:43:34,136 - root - INFO - Computation device: cuda
+2024-10-02 03:43:34,136 - root - INFO - Number of dataloader workers: 0
+2024-10-02 03:43:40,389 - root - INFO - Loading model from ../log_LJ/model.tar.
+2024-10-02 03:43:40,390 - root - INFO - Pretraining: False
+2024-10-02 03:43:40,390 - root - INFO - Training optimizer: adam
+2024-10-02 03:43:40,390 - root - INFO - Training learning rate: 0.001
+2024-10-02 03:43:40,391 - root - INFO - Training epochs: 0
+2024-10-02 03:43:40,391 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-10-02 03:43:40,391 - root - INFO - Training batch size: 128
+2024-10-02 03:43:40,391 - root - INFO - Training weight decay: 1e-06
+2024-10-02 03:43:40,434 - root - INFO - Starting training...
+2024-10-02 03:43:40,437 - root - INFO - Training time: 0.002
+2024-10-02 03:43:40,437 - root - INFO - Finished training.
+2024-10-02 03:43:40,469 - root - INFO - Starting testing...
+2024-10-02 03:43:40,737 - root - INFO - Testing time: 0.268
+2024-10-02 03:43:40,737 - root - INFO - Test set AUC: 0.00%
+2024-10-02 03:43:40,737 - root - INFO - Finished testing.
+2024-11-08 10:54:47,407 - root - INFO - Log file is ../log_LJ/log.txt.
+2024-11-08 10:54:47,418 - root - INFO - Data path is None.
+2024-11-08 10:54:47,418 - root - INFO - Export path is ../log_LJ.
+2024-11-08 10:54:47,418 - root - INFO - Dataset: lang_emb
+2024-11-08 10:54:47,419 - root - INFO - Normal class: 
+2024-11-08 10:54:47,419 - root - INFO - Network: lang_emb
+2024-11-08 10:54:47,419 - root - INFO - Deep SVDD objective: one-class
+2024-11-08 10:54:47,419 - root - INFO - Nu-paramerter: 0.10
+2024-11-08 10:54:47,582 - root - INFO - Computation device: cuda
+2024-11-08 10:54:47,582 - root - INFO - Number of dataloader workers: 0
+2024-11-08 10:55:39,446 - root - INFO - Log file is ../log_LJ/log.txt.
+2024-11-08 10:55:39,446 - root - INFO - Data path is None.
+2024-11-08 10:55:39,446 - root - INFO - Export path is ../log_LJ.
+2024-11-08 10:55:39,446 - root - INFO - Dataset: lang_emb
+2024-11-08 10:55:39,446 - root - INFO - Normal class: 
+2024-11-08 10:55:39,446 - root - INFO - Network: lang_emb_LeNet
+2024-11-08 10:55:39,447 - root - INFO - Deep SVDD objective: one-class
+2024-11-08 10:55:39,447 - root - INFO - Nu-paramerter: 0.10
+2024-11-08 10:55:39,491 - root - INFO - Computation device: cuda
+2024-11-08 10:55:39,492 - root - INFO - Number of dataloader workers: 0
+2024-11-08 10:55:45,329 - root - INFO - Pretraining: False
+2024-11-08 10:55:45,330 - root - INFO - Training optimizer: adam
+2024-11-08 10:55:45,330 - root - INFO - Training learning rate: 0.001
+2024-11-08 10:55:45,330 - root - INFO - Training epochs: 0
+2024-11-08 10:55:45,331 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-11-08 10:55:45,331 - root - INFO - Training batch size: 128
+2024-11-08 10:55:45,331 - root - INFO - Training weight decay: 1e-06
+2024-11-08 10:55:45,881 - root - INFO - Initializing center c...
+2024-11-08 10:55:47,928 - root - INFO - Center c initialized.
+2024-11-08 10:55:47,929 - root - INFO - Starting training...
+2024-11-08 10:55:47,932 - root - INFO - Training time: 0.002
+2024-11-08 10:55:47,932 - root - INFO - Finished training.
+2024-11-08 10:55:47,963 - root - INFO - Starting testing...
+2024-11-08 10:55:48,498 - root - INFO - Testing time: 0.535
+2024-11-08 10:55:48,498 - root - INFO - Test set AUC: 0.00%
+2024-11-08 10:55:48,498 - root - INFO - Finished testing.
+2025-08-15 12:50:39,917 - root - INFO - Log file is ../log_LJ/log.txt.
+2025-08-15 12:50:39,917 - root - INFO - Data path is None.
+2025-08-15 12:50:39,917 - root - INFO - Export path is ../log_LJ.
+2025-08-15 12:50:39,917 - root - INFO - Dataset: lang_emb
+2025-08-15 12:50:39,917 - root - INFO - Normal class: 
+2025-08-15 12:50:39,917 - root - INFO - Network: lang_emb_LeNet
+2025-08-15 12:50:39,917 - root - INFO - Deep SVDD objective: one-class
+2025-08-15 12:50:39,918 - root - INFO - Nu-paramerter: 0.10
+2025-08-15 12:50:40,047 - root - INFO - Computation device: cuda
+2025-08-15 12:50:40,047 - root - INFO - Number of dataloader workers: 0
+2025-08-15 12:51:28,968 - root - INFO - Log file is ../log_LJ/log.txt.
+2025-08-15 12:51:28,969 - root - INFO - Data path is None.
+2025-08-15 12:51:28,969 - root - INFO - Export path is ../log_LJ.
+2025-08-15 12:51:28,969 - root - INFO - Dataset: lang_emb
+2025-08-15 12:51:28,969 - root - INFO - Normal class: 
+2025-08-15 12:51:28,969 - root - INFO - Network: lang_emb_LeNet
+2025-08-15 12:51:28,969 - root - INFO - Deep SVDD objective: one-class
+2025-08-15 12:51:28,969 - root - INFO - Nu-paramerter: 0.10
+2025-08-15 12:51:29,063 - root - INFO - Computation device: cuda
+2025-08-15 12:51:29,063 - root - INFO - Number of dataloader workers: 0
+2025-08-15 12:51:36,829 - root - INFO - Loading model from ../log_LJ/model.tar.
+2025-08-15 12:51:36,830 - root - INFO - Pretraining: False
+2025-08-15 12:51:36,830 - root - INFO - Training optimizer: adam
+2025-08-15 12:51:36,830 - root - INFO - Training learning rate: 0.001
+2025-08-15 12:51:36,831 - root - INFO - Training epochs: 0
+2025-08-15 12:51:36,831 - root - INFO - Training learning rate scheduler milestones: (0,)
+2025-08-15 12:51:36,831 - root - INFO - Training batch size: 128
+2025-08-15 12:51:36,831 - root - INFO - Training weight decay: 1e-06
+2025-08-15 12:51:36,894 - root - INFO - Starting training...
+2025-08-15 12:51:36,897 - root - INFO - Training time: 0.002
+2025-08-15 12:51:36,897 - root - INFO - Finished training.
+2025-08-15 12:51:36,931 - root - INFO - Starting testing...
+2025-08-15 12:51:39,397 - root - INFO - Testing time: 2.466
+2025-08-15 12:51:39,398 - root - INFO - Test set AUC: 0.00%
+2025-08-15 12:51:39,398 - root - INFO - Finished testing.
+2025-08-15 12:54:29,116 - root - INFO - Log file is ../log_LJ/log.txt.
+2025-08-15 12:54:29,116 - root - INFO - Data path is None.
+2025-08-15 12:54:29,116 - root - INFO - Export path is ../log_LJ.
+2025-08-15 12:54:29,116 - root - INFO - Dataset: lang_emb
+2025-08-15 12:54:29,116 - root - INFO - Normal class: 
+2025-08-15 12:54:29,116 - root - INFO - Network: lang_emb_LeNet
+2025-08-15 12:54:29,116 - root - INFO - Deep SVDD objective: one-class
+2025-08-15 12:54:29,116 - root - INFO - Nu-paramerter: 0.10
+2025-08-15 12:54:29,209 - root - INFO - Computation device: cuda
+2025-08-15 12:54:29,209 - root - INFO - Number of dataloader workers: 0
+2025-08-15 12:54:35,127 - root - INFO - Loading model from ../log_LJ/model.tar.
+2025-08-15 12:54:35,128 - root - INFO - Pretraining: False
+2025-08-15 12:54:35,128 - root - INFO - Training optimizer: adam
+2025-08-15 12:54:35,128 - root - INFO - Training learning rate: 0.001
+2025-08-15 12:54:35,128 - root - INFO - Training epochs: 0
+2025-08-15 12:54:35,129 - root - INFO - Training learning rate scheduler milestones: (0,)
+2025-08-15 12:54:35,129 - root - INFO - Training batch size: 128
+2025-08-15 12:54:35,129 - root - INFO - Training weight decay: 1e-06
+2025-08-15 12:54:35,162 - root - INFO - Starting training...
+2025-08-15 12:54:35,164 - root - INFO - Training time: 0.002
+2025-08-15 12:54:35,165 - root - INFO - Finished training.
+2025-08-15 12:54:35,190 - root - INFO - Starting testing...
+2025-08-15 12:54:35,719 - root - INFO - Testing time: 0.529
+2025-08-15 12:54:35,720 - root - INFO - Test set AUC: 0.00%
+2025-08-15 12:54:35,720 - root - INFO - Finished testing.
+2025-08-15 12:56:09,709 - root - INFO - Log file is ../log_LJ/log.txt.
+2025-08-15 12:56:09,709 - root - INFO - Data path is None.
+2025-08-15 12:56:09,710 - root - INFO - Export path is ../log_LJ.
+2025-08-15 12:56:09,710 - root - INFO - Dataset: lang_emb
+2025-08-15 12:56:09,710 - root - INFO - Normal class: 
+2025-08-15 12:56:09,710 - root - INFO - Network: lang_emb_LeNet
+2025-08-15 12:56:09,710 - root - INFO - Deep SVDD objective: one-class
+2025-08-15 12:56:09,710 - root - INFO - Nu-paramerter: 0.10
+2025-08-15 12:56:09,846 - root - INFO - Computation device: cuda
+2025-08-15 12:56:09,846 - root - INFO - Number of dataloader workers: 0
+2025-08-15 12:56:16,064 - root - INFO - Loading model from ../log_LJ/model.tar.
+2025-08-15 12:56:16,065 - root - INFO - Pretraining: False
+2025-08-15 12:56:16,065 - root - INFO - Training optimizer: adam
+2025-08-15 12:56:16,066 - root - INFO - Training learning rate: 0.001
+2025-08-15 12:56:16,066 - root - INFO - Training epochs: 0
+2025-08-15 12:56:16,066 - root - INFO - Training learning rate scheduler milestones: (0,)
+2025-08-15 12:56:16,066 - root - INFO - Training batch size: 128
+2025-08-15 12:56:16,066 - root - INFO - Training weight decay: 1e-06
+2025-08-15 12:56:16,103 - root - INFO - Starting training...
+2025-08-15 12:56:16,105 - root - INFO - Training time: 0.002
+2025-08-15 12:56:16,105 - root - INFO - Finished training.
+2025-08-15 12:56:16,135 - root - INFO - Starting testing...
+2025-08-15 12:56:16,777 - root - INFO - Testing time: 0.641
+2025-08-15 12:56:16,777 - root - INFO - Test set AUC: 0.00%
+2025-08-15 12:56:16,777 - root - INFO - Finished testing.
+2025-08-15 12:57:51,698 - root - INFO - Log file is ../log_LJ/log.txt.
+2025-08-15 12:57:51,698 - root - INFO - Data path is None.
+2025-08-15 12:57:51,698 - root - INFO - Export path is ../log_LJ.
+2025-08-15 12:57:51,698 - root - INFO - Dataset: lang_emb
+2025-08-15 12:57:51,698 - root - INFO - Normal class: 
+2025-08-15 12:57:51,699 - root - INFO - Network: lang_emb_LeNet
+2025-08-15 12:57:51,699 - root - INFO - Deep SVDD objective: one-class
+2025-08-15 12:57:51,699 - root - INFO - Nu-paramerter: 0.10
+2025-08-15 12:57:51,813 - root - INFO - Computation device: cuda
+2025-08-15 12:57:51,813 - root - INFO - Number of dataloader workers: 0
+2025-08-15 12:57:58,202 - root - INFO - Loading model from ../log_LJ/model.tar.
+2025-08-15 12:57:58,203 - root - INFO - Pretraining: False
+2025-08-15 12:57:58,204 - root - INFO - Training optimizer: adam
+2025-08-15 12:57:58,204 - root - INFO - Training learning rate: 0.001
+2025-08-15 12:57:58,204 - root - INFO - Training epochs: 0
+2025-08-15 12:57:58,204 - root - INFO - Training learning rate scheduler milestones: (0,)
+2025-08-15 12:57:58,205 - root - INFO - Training batch size: 128
+2025-08-15 12:57:58,205 - root - INFO - Training weight decay: 1e-06
+2025-08-15 12:57:58,240 - root - INFO - Starting training...
+2025-08-15 12:57:58,243 - root - INFO - Training time: 0.003
+2025-08-15 12:57:58,243 - root - INFO - Finished training.
+2025-08-15 12:57:58,270 - root - INFO - Starting testing...
+2025-08-15 12:57:58,772 - root - INFO - Testing time: 0.502
+2025-08-15 12:57:58,772 - root - INFO - Test set AUC: 0.00%
+2025-08-15 12:57:58,772 - root - INFO - Finished testing.
+2025-08-15 12:58:38,346 - root - INFO - Log file is ../log_LJ/log.txt.
+2025-08-15 12:58:38,347 - root - INFO - Data path is None.
+2025-08-15 12:58:38,347 - root - INFO - Export path is ../log_LJ.
+2025-08-15 12:58:38,347 - root - INFO - Dataset: lang_emb
+2025-08-15 12:58:38,347 - root - INFO - Normal class: 
+2025-08-15 12:58:38,347 - root - INFO - Network: lang_emb_LeNet
+2025-08-15 12:58:38,347 - root - INFO - Deep SVDD objective: one-class
+2025-08-15 12:58:38,347 - root - INFO - Nu-paramerter: 0.10
+2025-08-15 12:58:38,459 - root - INFO - Computation device: cuda
+2025-08-15 12:58:38,459 - root - INFO - Number of dataloader workers: 0
+2025-08-15 12:58:44,538 - root - INFO - Loading model from ../log_LJ/model.tar.
+2025-08-15 12:58:44,538 - root - INFO - Pretraining: False
+2025-08-15 12:58:44,539 - root - INFO - Training optimizer: adam
+2025-08-15 12:58:44,539 - root - INFO - Training learning rate: 0.001
+2025-08-15 12:58:44,539 - root - INFO - Training epochs: 0
+2025-08-15 12:58:44,539 - root - INFO - Training learning rate scheduler milestones: (0,)
+2025-08-15 12:58:44,539 - root - INFO - Training batch size: 128
+2025-08-15 12:58:44,540 - root - INFO - Training weight decay: 1e-06
+2025-08-15 12:58:44,580 - root - INFO - Starting training...
+2025-08-15 12:58:44,582 - root - INFO - Training time: 0.002
+2025-08-15 12:58:44,583 - root - INFO - Finished training.
+2025-08-15 12:58:44,615 - root - INFO - Starting testing...
+2025-08-15 12:58:45,262 - root - INFO - Testing time: 0.647
+2025-08-15 12:58:45,263 - root - INFO - Test set AUC: 0.00%
+2025-08-15 12:58:45,263 - root - INFO - Finished testing.
+2025-08-15 12:59:27,206 - root - INFO - Log file is ../log_LJ/log.txt.
+2025-08-15 12:59:27,206 - root - INFO - Data path is None.
+2025-08-15 12:59:27,206 - root - INFO - Export path is ../log_LJ.
+2025-08-15 12:59:27,206 - root - INFO - Dataset: lang_emb
+2025-08-15 12:59:27,206 - root - INFO - Normal class: 
+2025-08-15 12:59:27,207 - root - INFO - Network: lang_emb_LeNet
+2025-08-15 12:59:27,207 - root - INFO - Deep SVDD objective: one-class
+2025-08-15 12:59:27,207 - root - INFO - Nu-paramerter: 0.10
+2025-08-15 12:59:27,297 - root - INFO - Computation device: cuda
+2025-08-15 12:59:27,298 - root - INFO - Number of dataloader workers: 0
+2025-08-15 12:59:33,232 - root - INFO - Loading model from ../log_LJ/model.tar.
+2025-08-15 12:59:33,233 - root - INFO - Pretraining: False
+2025-08-15 12:59:33,233 - root - INFO - Training optimizer: adam
+2025-08-15 12:59:33,233 - root - INFO - Training learning rate: 0.001
+2025-08-15 12:59:33,233 - root - INFO - Training epochs: 0
+2025-08-15 12:59:33,233 - root - INFO - Training learning rate scheduler milestones: (0,)
+2025-08-15 12:59:33,234 - root - INFO - Training batch size: 128
+2025-08-15 12:59:33,234 - root - INFO - Training weight decay: 1e-06
+2025-08-15 12:59:33,266 - root - INFO - Starting training...
+2025-08-15 12:59:33,269 - root - INFO - Training time: 0.002
+2025-08-15 12:59:33,269 - root - INFO - Finished training.
+2025-08-15 12:59:33,293 - root - INFO - Starting testing...
+2025-08-15 12:59:33,755 - root - INFO - Testing time: 0.462
+2025-08-15 12:59:33,755 - root - INFO - Test set AUC: 0.00%
+2025-08-15 12:59:33,755 - root - INFO - Finished testing.
+2025-08-20 05:46:54,390 - root - INFO - Log file is ../log_LJ/log.txt.
+2025-08-20 05:46:54,390 - root - INFO - Data path is None.
+2025-08-20 05:46:54,391 - root - INFO - Export path is ../log_LJ.
+2025-08-20 05:46:54,391 - root - INFO - Dataset: lang_emb
+2025-08-20 05:46:54,391 - root - INFO - Normal class: 
+2025-08-20 05:46:54,391 - root - INFO - Network: lang_emb_LeNet
+2025-08-20 05:46:54,391 - root - INFO - Deep SVDD objective: one-class
+2025-08-20 05:46:54,391 - root - INFO - Nu-paramerter: 0.10
+2025-08-20 05:46:54,484 - root - INFO - Computation device: cuda
+2025-08-20 05:46:54,485 - root - INFO - Number of dataloader workers: 0
+2025-08-20 05:47:01,017 - root - INFO - Loading model from ../log_LJ/model.tar.
+2025-08-20 05:47:01,018 - root - INFO - Pretraining: False
+2025-08-20 05:47:01,018 - root - INFO - Training optimizer: adam
+2025-08-20 05:47:01,019 - root - INFO - Training learning rate: 0.001
+2025-08-20 05:47:01,019 - root - INFO - Training epochs: 0
+2025-08-20 05:47:01,019 - root - INFO - Training learning rate scheduler milestones: (0,)
+2025-08-20 05:47:01,019 - root - INFO - Training batch size: 128
+2025-08-20 05:47:01,020 - root - INFO - Training weight decay: 1e-06
+2025-08-20 05:47:01,059 - root - INFO - Starting training...
+2025-08-20 05:47:01,061 - root - INFO - Training time: 0.002
+2025-08-20 05:47:01,061 - root - INFO - Finished training.
+2025-08-20 05:47:01,088 - root - INFO - Starting testing...
+2025-08-20 05:47:02,147 - root - INFO - Testing time: 1.058
+2025-08-20 05:47:02,147 - root - INFO - Test set AUC: 0.00%
+2025-08-20 05:47:02,147 - root - INFO - Finished testing.

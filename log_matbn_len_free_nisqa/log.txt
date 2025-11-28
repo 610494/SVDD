@@ -1,0 +1,335 @@
+2024-10-02 00:59:53,510 - root - INFO - Log file is ../log_matbn_len_free_nisqa/log.txt.
+2024-10-02 00:59:53,510 - root - INFO - Data path is None.
+2024-10-02 00:59:53,511 - root - INFO - Export path is ../log_matbn_len_free_nisqa.
+2024-10-02 00:59:53,511 - root - INFO - Dataset: lang_emb_len_free_nisqa
+2024-10-02 00:59:53,511 - root - INFO - Normal class: 
+2024-10-02 00:59:53,511 - root - INFO - Network: lang_emb_LeNet_len_free_nisqa
+2024-10-02 00:59:53,511 - root - INFO - Deep SVDD objective: one-class
+2024-10-02 00:59:53,511 - root - INFO - Nu-paramerter: 0.10
+2024-10-02 00:59:53,638 - root - INFO - Computation device: cuda
+2024-10-02 00:59:53,638 - root - INFO - Number of dataloader workers: 0
+2024-10-02 01:00:00,659 - root - INFO - Pretraining: True
+2024-10-02 01:00:00,685 - root - INFO - Pretraining optimizer: adam
+2024-10-02 01:00:00,685 - root - INFO - Pretraining learning rate: 0.001
+2024-10-02 01:00:00,686 - root - INFO - Pretraining epochs: 100
+2024-10-02 01:00:00,686 - root - INFO - Pretraining learning rate scheduler milestones: (0,)
+2024-10-02 01:00:00,686 - root - INFO - Pretraining batch size: 128
+2024-10-02 01:00:00,687 - root - INFO - Pretraining weight decay: 1e-06
+2024-10-02 01:03:23,110 - root - INFO - Log file is ../log_matbn_len_free_nisqa/log.txt.
+2024-10-02 01:03:23,111 - root - INFO - Data path is None.
+2024-10-02 01:03:23,111 - root - INFO - Export path is ../log_matbn_len_free_nisqa.
+2024-10-02 01:03:23,111 - root - INFO - Dataset: lang_emb_len_free_nisqa
+2024-10-02 01:03:23,111 - root - INFO - Normal class: 
+2024-10-02 01:03:23,111 - root - INFO - Network: lang_emb_LeNet_len_free_nisqa
+2024-10-02 01:03:23,111 - root - INFO - Deep SVDD objective: one-class
+2024-10-02 01:03:23,111 - root - INFO - Nu-paramerter: 0.10
+2024-10-02 01:03:23,212 - root - INFO - Computation device: cuda
+2024-10-02 01:03:23,213 - root - INFO - Number of dataloader workers: 0
+2024-10-02 01:03:29,006 - root - INFO - Pretraining: True
+2024-10-02 01:03:29,006 - root - INFO - Pretraining optimizer: adam
+2024-10-02 01:03:29,007 - root - INFO - Pretraining learning rate: 0.001
+2024-10-02 01:03:29,007 - root - INFO - Pretraining epochs: 100
+2024-10-02 01:03:29,007 - root - INFO - Pretraining learning rate scheduler milestones: (0,)
+2024-10-02 01:03:29,007 - root - INFO - Pretraining batch size: 128
+2024-10-02 01:03:29,007 - root - INFO - Pretraining weight decay: 1e-06
+2024-10-02 01:03:29,373 - root - INFO - Starting pretraining...
+2024-10-02 02:32:17,094 - root - INFO - Log file is ../log_matbn_len_free_nisqa/log.txt.
+2024-10-02 02:32:17,094 - root - INFO - Data path is None.
+2024-10-02 02:32:17,094 - root - INFO - Export path is ../log_matbn_len_free_nisqa.
+2024-10-02 02:32:17,094 - root - INFO - Dataset: lang_emb_len_free_nisqa
+2024-10-02 02:32:17,094 - root - INFO - Normal class: 
+2024-10-02 02:32:17,094 - root - INFO - Network: lang_emb_LeNet_len_free_nisqa
+2024-10-02 02:32:17,095 - root - INFO - Deep SVDD objective: one-class
+2024-10-02 02:32:17,095 - root - INFO - Nu-paramerter: 0.10
+2024-10-02 02:32:17,182 - root - INFO - Computation device: cuda
+2024-10-02 02:32:17,182 - root - INFO - Number of dataloader workers: 0
+2024-10-02 02:32:23,254 - root - INFO - Pretraining: True
+2024-10-02 02:32:23,255 - root - INFO - Pretraining optimizer: adam
+2024-10-02 02:32:23,255 - root - INFO - Pretraining learning rate: 0.001
+2024-10-02 02:32:23,256 - root - INFO - Pretraining epochs: 100
+2024-10-02 02:32:23,256 - root - INFO - Pretraining learning rate scheduler milestones: (0,)
+2024-10-02 02:32:23,256 - root - INFO - Pretraining batch size: 128
+2024-10-02 02:32:23,257 - root - INFO - Pretraining weight decay: 1e-06
+2024-10-02 02:32:23,626 - root - INFO - Starting pretraining...
+2024-10-02 02:33:00,664 - root - INFO - Log file is ../log_matbn_len_free_nisqa/log.txt.
+2024-10-02 02:33:00,664 - root - INFO - Data path is None.
+2024-10-02 02:33:00,664 - root - INFO - Export path is ../log_matbn_len_free_nisqa.
+2024-10-02 02:33:00,664 - root - INFO - Dataset: lang_emb_len_free_nisqa
+2024-10-02 02:33:00,664 - root - INFO - Normal class: 
+2024-10-02 02:33:00,664 - root - INFO - Network: lang_emb_LeNet_len_free_nisqa
+2024-10-02 02:33:00,664 - root - INFO - Deep SVDD objective: one-class
+2024-10-02 02:33:00,664 - root - INFO - Nu-paramerter: 0.10
+2024-10-02 02:33:00,764 - root - INFO - Computation device: cuda
+2024-10-02 02:33:00,764 - root - INFO - Number of dataloader workers: 0
+2024-10-02 02:33:07,116 - root - INFO - Pretraining: True
+2024-10-02 02:33:07,117 - root - INFO - Pretraining optimizer: adam
+2024-10-02 02:33:07,117 - root - INFO - Pretraining learning rate: 0.001
+2024-10-02 02:33:07,117 - root - INFO - Pretraining epochs: 100
+2024-10-02 02:33:07,117 - root - INFO - Pretraining learning rate scheduler milestones: (0,)
+2024-10-02 02:33:07,118 - root - INFO - Pretraining batch size: 128
+2024-10-02 02:33:07,118 - root - INFO - Pretraining weight decay: 1e-06
+2024-10-02 02:33:07,483 - root - INFO - Starting pretraining...
+2024-10-02 02:49:50,107 - root - INFO - Log file is ../log_matbn_len_free_nisqa/log.txt.
+2024-10-02 02:49:50,107 - root - INFO - Data path is None.
+2024-10-02 02:49:50,107 - root - INFO - Export path is ../log_matbn_len_free_nisqa.
+2024-10-02 02:49:50,107 - root - INFO - Dataset: lang_emb_len_free_nisqa
+2024-10-02 02:49:50,107 - root - INFO - Normal class: 
+2024-10-02 02:49:50,107 - root - INFO - Network: lang_emb_LeNet_len_free_nisqa
+2024-10-02 02:49:50,107 - root - INFO - Deep SVDD objective: one-class
+2024-10-02 02:49:50,107 - root - INFO - Nu-paramerter: 0.10
+2024-10-02 02:49:50,197 - root - INFO - Computation device: cuda
+2024-10-02 02:49:50,197 - root - INFO - Number of dataloader workers: 0
+2024-10-02 02:49:55,754 - root - INFO - Pretraining: True
+2024-10-02 02:49:55,754 - root - INFO - Pretraining optimizer: adam
+2024-10-02 02:49:55,755 - root - INFO - Pretraining learning rate: 0.001
+2024-10-02 02:49:55,755 - root - INFO - Pretraining epochs: 100
+2024-10-02 02:49:55,755 - root - INFO - Pretraining learning rate scheduler milestones: (0,)
+2024-10-02 02:49:55,755 - root - INFO - Pretraining batch size: 128
+2024-10-02 02:49:55,756 - root - INFO - Pretraining weight decay: 1e-06
+2024-10-02 02:49:56,155 - root - INFO - Starting pretraining...
+2024-10-02 03:06:55,559 - root - INFO - Log file is ../log_matbn_len_free_nisqa/log.txt.
+2024-10-02 03:06:55,559 - root - INFO - Data path is None.
+2024-10-02 03:06:55,559 - root - INFO - Export path is ../log_matbn_len_free_nisqa.
+2024-10-02 03:06:55,560 - root - INFO - Dataset: lang_emb_len_free_nisqa
+2024-10-02 03:06:55,560 - root - INFO - Normal class: 
+2024-10-02 03:06:55,560 - root - INFO - Network: lang_emb_LeNet_len_free_nisqa
+2024-10-02 03:06:55,560 - root - INFO - Deep SVDD objective: one-class
+2024-10-02 03:06:55,560 - root - INFO - Nu-paramerter: 0.10
+2024-10-02 03:06:55,650 - root - INFO - Computation device: cuda
+2024-10-02 03:06:55,651 - root - INFO - Number of dataloader workers: 0
+2024-10-02 03:07:01,044 - root - INFO - Pretraining: True
+2024-10-02 03:07:01,045 - root - INFO - Pretraining optimizer: adam
+2024-10-02 03:07:01,045 - root - INFO - Pretraining learning rate: 0.001
+2024-10-02 03:07:01,045 - root - INFO - Pretraining epochs: 100
+2024-10-02 03:07:01,046 - root - INFO - Pretraining learning rate scheduler milestones: (0,)
+2024-10-02 03:07:01,046 - root - INFO - Pretraining batch size: 128
+2024-10-02 03:07:01,046 - root - INFO - Pretraining weight decay: 1e-06
+2024-10-02 03:07:01,458 - root - INFO - Starting pretraining...
+2024-10-02 03:10:27,509 - root - INFO - Log file is ../log_matbn_len_free_nisqa/log.txt.
+2024-10-02 03:10:27,510 - root - INFO - Data path is None.
+2024-10-02 03:10:27,510 - root - INFO - Export path is ../log_matbn_len_free_nisqa.
+2024-10-02 03:10:27,510 - root - INFO - Dataset: lang_emb_len_free_nisqa
+2024-10-02 03:10:27,510 - root - INFO - Normal class: 
+2024-10-02 03:10:27,510 - root - INFO - Network: lang_emb_LeNet_len_free_nisqa
+2024-10-02 03:10:27,510 - root - INFO - Deep SVDD objective: one-class
+2024-10-02 03:10:27,511 - root - INFO - Nu-paramerter: 0.10
+2024-10-02 03:10:27,648 - root - INFO - Computation device: cuda
+2024-10-02 03:10:27,648 - root - INFO - Number of dataloader workers: 0
+2024-10-02 03:10:33,124 - root - INFO - Pretraining: True
+2024-10-02 03:10:33,125 - root - INFO - Pretraining optimizer: adam
+2024-10-02 03:10:33,125 - root - INFO - Pretraining learning rate: 0.001
+2024-10-02 03:10:33,125 - root - INFO - Pretraining epochs: 100
+2024-10-02 03:10:33,126 - root - INFO - Pretraining learning rate scheduler milestones: (0,)
+2024-10-02 03:10:33,126 - root - INFO - Pretraining batch size: 128
+2024-10-02 03:10:33,126 - root - INFO - Pretraining weight decay: 1e-06
+2024-10-02 03:10:33,455 - root - INFO - Starting pretraining...
+2024-10-02 03:15:19,939 - root - INFO - Log file is ../log_matbn_len_free_nisqa/log.txt.
+2024-10-02 03:15:19,939 - root - INFO - Data path is None.
+2024-10-02 03:15:19,939 - root - INFO - Export path is ../log_matbn_len_free_nisqa.
+2024-10-02 03:15:19,939 - root - INFO - Dataset: lang_emb_len_free_nisqa
+2024-10-02 03:15:19,939 - root - INFO - Normal class: 
+2024-10-02 03:15:19,939 - root - INFO - Network: lang_emb_LeNet_len_free_nisqa
+2024-10-02 03:15:19,939 - root - INFO - Deep SVDD objective: one-class
+2024-10-02 03:15:19,939 - root - INFO - Nu-paramerter: 0.10
+2024-10-02 03:15:20,046 - root - INFO - Computation device: cuda
+2024-10-02 03:15:20,047 - root - INFO - Number of dataloader workers: 0
+2024-10-02 03:15:25,632 - root - INFO - Pretraining: True
+2024-10-02 03:15:25,632 - root - INFO - Pretraining optimizer: adam
+2024-10-02 03:15:25,633 - root - INFO - Pretraining learning rate: 0.001
+2024-10-02 03:15:25,633 - root - INFO - Pretraining epochs: 100
+2024-10-02 03:15:25,633 - root - INFO - Pretraining learning rate scheduler milestones: (0,)
+2024-10-02 03:15:25,633 - root - INFO - Pretraining batch size: 130
+2024-10-02 03:15:25,633 - root - INFO - Pretraining weight decay: 1e-06
+2024-10-02 03:15:25,965 - root - INFO - Starting pretraining...
+2024-10-02 03:15:28,579 - root - INFO -   Epoch 1/100	 Time: 2.612	 Loss: 0.27670462
+2024-10-02 03:15:30,696 - root - INFO -   Epoch 2/100	 Time: 2.116	 Loss: 0.27469001
+2024-10-02 03:15:33,115 - root - INFO -   Epoch 3/100	 Time: 2.418	 Loss: 0.27475534
+2024-10-02 03:15:35,098 - root - INFO -   Epoch 4/100	 Time: 1.981	 Loss: 0.27467365
+2024-10-02 03:15:37,209 - root - INFO -   Epoch 5/100	 Time: 2.108	 Loss: 0.27468966
+2024-10-02 03:15:39,328 - root - INFO -   Epoch 6/100	 Time: 2.116	 Loss: 0.27468078
+2024-10-02 03:15:41,261 - root - INFO -   Epoch 7/100	 Time: 1.931	 Loss: 0.27471011
+2024-10-02 03:15:43,195 - root - INFO -   Epoch 8/100	 Time: 1.898	 Loss: 0.27468243
+2024-10-02 03:15:45,101 - root - INFO -   Epoch 9/100	 Time: 1.904	 Loss: 0.27472440
+2024-10-02 03:15:46,970 - root - INFO -   Epoch 10/100	 Time: 1.867	 Loss: 0.27466693
+2024-10-02 03:15:48,843 - root - INFO -   Epoch 11/100	 Time: 1.871	 Loss: 0.27469750
+2024-10-02 03:15:50,736 - root - INFO -   Epoch 12/100	 Time: 1.892	 Loss: 0.27469647
+2024-10-02 03:15:52,603 - root - INFO -   Epoch 13/100	 Time: 1.866	 Loss: 0.27471158
+2024-10-02 03:15:54,634 - root - INFO -   Epoch 14/100	 Time: 2.030	 Loss: 0.27469384
+2024-10-02 03:15:56,631 - root - INFO -   Epoch 15/100	 Time: 1.981	 Loss: 0.27466367
+2024-10-02 03:15:58,624 - root - INFO -   Epoch 16/100	 Time: 1.992	 Loss: 0.27470114
+2024-10-02 03:16:00,655 - root - INFO -   Epoch 17/100	 Time: 2.029	 Loss: 0.27467785
+2024-10-02 03:16:02,553 - root - INFO -   Epoch 18/100	 Time: 1.896	 Loss: 0.27469107
+2024-10-02 03:16:04,470 - root - INFO -   Epoch 19/100	 Time: 1.916	 Loss: 0.27472022
+2024-10-02 03:16:06,369 - root - INFO -   Epoch 20/100	 Time: 1.897	 Loss: 0.27468783
+2024-10-02 03:16:08,268 - root - INFO -   Epoch 21/100	 Time: 1.897	 Loss: 0.27470551
+2024-10-02 03:16:10,154 - root - INFO -   Epoch 22/100	 Time: 1.885	 Loss: 0.27469406
+2024-10-02 03:16:12,112 - root - INFO -   Epoch 23/100	 Time: 1.956	 Loss: 0.27470132
+2024-10-02 03:16:14,085 - root - INFO -   Epoch 24/100	 Time: 1.972	 Loss: 0.27464624
+2024-10-02 03:16:16,049 - root - INFO -   Epoch 25/100	 Time: 1.962	 Loss: 0.27472321
+2024-10-02 03:16:18,019 - root - INFO -   Epoch 26/100	 Time: 1.969	 Loss: 0.27468916
+2024-10-02 03:16:19,984 - root - INFO -   Epoch 27/100	 Time: 1.963	 Loss: 0.27470735
+2024-10-02 03:16:21,990 - root - INFO -   Epoch 28/100	 Time: 2.005	 Loss: 0.27469028
+2024-10-02 03:16:23,967 - root - INFO -   Epoch 29/100	 Time: 1.975	 Loss: 0.27467733
+2024-10-02 03:16:25,943 - root - INFO -   Epoch 30/100	 Time: 1.975	 Loss: 0.27471226
+2024-10-02 03:16:28,064 - root - INFO -   Epoch 31/100	 Time: 2.120	 Loss: 0.27475622
+2024-10-02 03:16:30,039 - root - INFO -   Epoch 32/100	 Time: 1.974	 Loss: 0.27465491
+2024-10-02 03:16:32,012 - root - INFO -   Epoch 33/100	 Time: 1.972	 Loss: 0.27470767
+2024-10-02 03:16:34,004 - root - INFO -   Epoch 34/100	 Time: 1.992	 Loss: 0.27469165
+2024-10-02 03:16:36,052 - root - INFO -   Epoch 35/100	 Time: 2.046	 Loss: 0.27471988
+2024-10-02 03:16:38,028 - root - INFO -   Epoch 36/100	 Time: 1.961	 Loss: 0.27466353
+2024-10-02 03:16:40,001 - root - INFO -   Epoch 37/100	 Time: 1.972	 Loss: 0.27466240
+2024-10-02 03:16:41,961 - root - INFO -   Epoch 38/100	 Time: 1.958	 Loss: 0.27473628
+2024-10-02 03:16:43,875 - root - INFO -   Epoch 39/100	 Time: 1.913	 Loss: 0.27468991
+2024-10-02 03:16:45,812 - root - INFO -   Epoch 40/100	 Time: 1.935	 Loss: 0.27475452
+2024-10-02 03:16:47,766 - root - INFO -   Epoch 41/100	 Time: 1.953	 Loss: 0.27466290
+2024-10-02 03:16:49,703 - root - INFO -   Epoch 42/100	 Time: 1.936	 Loss: 0.27472159
+2024-10-02 03:16:51,647 - root - INFO -   Epoch 43/100	 Time: 1.942	 Loss: 0.27467801
+2024-10-02 03:16:53,576 - root - INFO -   Epoch 44/100	 Time: 1.928	 Loss: 0.27472289
+2024-10-02 03:16:55,519 - root - INFO -   Epoch 45/100	 Time: 1.942	 Loss: 0.27471494
+2024-10-02 03:16:57,471 - root - INFO -   Epoch 46/100	 Time: 1.950	 Loss: 0.27459333
+2024-10-02 03:16:59,478 - root - INFO -   Epoch 47/100	 Time: 2.006	 Loss: 0.27465250
+2024-10-02 03:17:01,524 - root - INFO -   Epoch 48/100	 Time: 2.045	 Loss: 0.27461623
+2024-10-02 03:17:03,540 - root - INFO -   Epoch 49/100	 Time: 2.015	 Loss: 0.27464214
+2024-10-02 03:17:05,548 - root - INFO -   Epoch 50/100	 Time: 2.008	 Loss: 0.27467253
+2024-10-02 03:17:07,564 - root - INFO -   Epoch 51/100	 Time: 2.015	 Loss: 0.27469953
+2024-10-02 03:17:09,752 - root - INFO -   Epoch 52/100	 Time: 2.187	 Loss: 0.27466252
+2024-10-02 03:17:11,928 - root - INFO -   Epoch 53/100	 Time: 2.175	 Loss: 0.27466433
+2024-10-02 03:17:14,102 - root - INFO -   Epoch 54/100	 Time: 2.172	 Loss: 0.27467478
+2024-10-02 03:17:16,268 - root - INFO -   Epoch 55/100	 Time: 2.165	 Loss: 0.27475682
+2024-10-02 03:17:18,455 - root - INFO -   Epoch 56/100	 Time: 2.185	 Loss: 0.27468296
+2024-10-02 03:17:20,610 - root - INFO -   Epoch 57/100	 Time: 2.153	 Loss: 0.27470979
+2024-10-02 03:17:22,588 - root - INFO -   Epoch 58/100	 Time: 1.977	 Loss: 0.27471052
+2024-10-02 03:17:24,543 - root - INFO -   Epoch 59/100	 Time: 1.954	 Loss: 0.27471571
+2024-10-02 03:17:26,489 - root - INFO -   Epoch 60/100	 Time: 1.945	 Loss: 0.27467804
+2024-10-02 03:17:28,437 - root - INFO -   Epoch 61/100	 Time: 1.946	 Loss: 0.27466070
+2024-10-02 03:17:30,386 - root - INFO -   Epoch 62/100	 Time: 1.949	 Loss: 0.27463297
+2024-10-02 03:17:32,470 - root - INFO -   Epoch 63/100	 Time: 2.082	 Loss: 0.27462778
+2024-10-02 03:17:34,505 - root - INFO -   Epoch 64/100	 Time: 2.033	 Loss: 0.27467427
+2024-10-02 03:17:36,521 - root - INFO -   Epoch 65/100	 Time: 2.015	 Loss: 0.27468302
+2024-10-02 03:17:38,466 - root - INFO -   Epoch 66/100	 Time: 1.943	 Loss: 0.27466542
+2024-10-02 03:17:40,409 - root - INFO -   Epoch 67/100	 Time: 1.942	 Loss: 0.27474461
+2024-10-02 03:17:42,361 - root - INFO -   Epoch 68/100	 Time: 1.950	 Loss: 0.27467427
+2024-10-02 03:17:44,301 - root - INFO -   Epoch 69/100	 Time: 1.939	 Loss: 0.27468539
+2024-10-02 03:17:46,237 - root - INFO -   Epoch 70/100	 Time: 1.934	 Loss: 0.27473796
+2024-10-02 03:17:48,167 - root - INFO -   Epoch 71/100	 Time: 1.929	 Loss: 0.27463271
+2024-10-02 03:17:50,112 - root - INFO -   Epoch 72/100	 Time: 1.944	 Loss: 0.27471896
+2024-10-02 03:17:52,054 - root - INFO -   Epoch 73/100	 Time: 1.941	 Loss: 0.27470085
+2024-10-02 03:17:53,974 - root - INFO -   Epoch 74/100	 Time: 1.919	 Loss: 0.27470439
+2024-10-02 03:17:55,921 - root - INFO -   Epoch 75/100	 Time: 1.946	 Loss: 0.27471588
+2024-10-02 03:17:57,859 - root - INFO -   Epoch 76/100	 Time: 1.937	 Loss: 0.27467549
+2024-10-02 03:17:59,830 - root - INFO -   Epoch 77/100	 Time: 1.970	 Loss: 0.27473097
+2024-10-02 03:18:01,786 - root - INFO -   Epoch 78/100	 Time: 1.955	 Loss: 0.27470707
+2024-10-02 03:18:03,783 - root - INFO -   Epoch 79/100	 Time: 1.995	 Loss: 0.27471581
+2024-10-02 03:18:05,832 - root - INFO -   Epoch 80/100	 Time: 2.047	 Loss: 0.27470614
+2024-10-02 03:18:07,788 - root - INFO -   Epoch 81/100	 Time: 1.955	 Loss: 0.27474067
+2024-10-02 03:18:09,709 - root - INFO -   Epoch 82/100	 Time: 1.919	 Loss: 0.27472243
+2024-10-02 03:18:11,684 - root - INFO -   Epoch 83/100	 Time: 1.973	 Loss: 0.27472530
+2024-10-02 03:18:13,688 - root - INFO -   Epoch 84/100	 Time: 2.003	 Loss: 0.27469185
+2024-10-02 03:18:15,867 - root - INFO -   Epoch 85/100	 Time: 2.178	 Loss: 0.27471484
+2024-10-02 03:18:18,132 - root - INFO -   Epoch 86/100	 Time: 2.264	 Loss: 0.27467434
+2024-10-02 03:18:20,387 - root - INFO -   Epoch 87/100	 Time: 2.254	 Loss: 0.27469719
+2024-10-02 03:18:22,652 - root - INFO -   Epoch 88/100	 Time: 2.263	 Loss: 0.27468898
+2024-10-02 03:18:24,915 - root - INFO -   Epoch 89/100	 Time: 2.262	 Loss: 0.27470593
+2024-10-02 03:18:27,122 - root - INFO -   Epoch 90/100	 Time: 2.206	 Loss: 0.27472197
+2024-10-02 03:18:28,967 - root - INFO -   Epoch 91/100	 Time: 1.844	 Loss: 0.27469428
+2024-10-02 03:18:30,840 - root - INFO -   Epoch 92/100	 Time: 1.872	 Loss: 0.27471440
+2024-10-02 03:18:32,702 - root - INFO -   Epoch 93/100	 Time: 1.862	 Loss: 0.27469475
+2024-10-02 03:18:34,576 - root - INFO -   Epoch 94/100	 Time: 1.872	 Loss: 0.27477057
+2024-10-02 03:18:36,457 - root - INFO -   Epoch 95/100	 Time: 1.880	 Loss: 0.27475696
+2024-10-02 03:18:38,310 - root - INFO -   Epoch 96/100	 Time: 1.852	 Loss: 0.27465818
+2024-10-02 03:18:40,182 - root - INFO -   Epoch 97/100	 Time: 1.871	 Loss: 0.27465969
+2024-10-02 03:18:42,060 - root - INFO -   Epoch 98/100	 Time: 1.877	 Loss: 0.27477151
+2024-10-02 03:18:43,940 - root - INFO -   Epoch 99/100	 Time: 1.879	 Loss: 0.27472996
+2024-10-02 03:18:45,828 - root - INFO -   Epoch 100/100	 Time: 1.887	 Loss: 0.27466378
+2024-10-02 03:18:45,830 - root - INFO - Pretraining time: 199.865
+2024-10-02 03:18:45,830 - root - INFO - Finished pretraining.
+2024-10-02 03:18:45,837 - root - INFO - Training optimizer: adam
+2024-10-02 03:18:45,837 - root - INFO - Training learning rate: 0.001
+2024-10-02 03:18:45,837 - root - INFO - Training epochs: 50
+2024-10-02 03:18:45,838 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-10-02 03:18:45,838 - root - INFO - Training batch size: 130
+2024-10-02 03:18:45,838 - root - INFO - Training weight decay: 1e-06
+2024-10-02 03:18:45,848 - root - INFO - Initializing center c...
+2024-10-02 03:18:46,719 - root - INFO - Center c initialized.
+2024-10-02 03:18:46,720 - root - INFO - Starting training...
+2024-10-02 03:18:47,970 - root - INFO -   Epoch 1/50	 Time: 1.249	 Loss: 0.17254240
+2024-10-02 03:18:49,225 - root - INFO -   Epoch 2/50	 Time: 1.254	 Loss: 0.00536095
+2024-10-02 03:18:50,467 - root - INFO -   Epoch 3/50	 Time: 1.241	 Loss: 0.00707710
+2024-10-02 03:18:51,703 - root - INFO -   Epoch 4/50	 Time: 1.235	 Loss: 0.00837248
+2024-10-02 03:18:52,943 - root - INFO -   Epoch 5/50	 Time: 1.239	 Loss: 0.00837346
+2024-10-02 03:18:54,197 - root - INFO -   Epoch 6/50	 Time: 1.253	 Loss: 0.00698029
+2024-10-02 03:18:55,437 - root - INFO -   Epoch 7/50	 Time: 1.238	 Loss: 0.00875582
+2024-10-02 03:18:56,677 - root - INFO -   Epoch 8/50	 Time: 1.239	 Loss: 0.00522688
+2024-10-02 03:18:57,915 - root - INFO -   Epoch 9/50	 Time: 1.237	 Loss: 0.00839012
+2024-10-02 03:18:59,159 - root - INFO -   Epoch 10/50	 Time: 1.243	 Loss: 0.00820790
+2024-10-02 03:19:00,406 - root - INFO -   Epoch 11/50	 Time: 1.246	 Loss: 0.00650659
+2024-10-02 03:19:01,672 - root - INFO -   Epoch 12/50	 Time: 1.266	 Loss: 0.00526392
+2024-10-02 03:19:02,919 - root - INFO -   Epoch 13/50	 Time: 1.245	 Loss: 0.00458781
+2024-10-02 03:19:04,170 - root - INFO -   Epoch 14/50	 Time: 1.250	 Loss: 0.00345443
+2024-10-02 03:19:05,418 - root - INFO -   Epoch 15/50	 Time: 1.247	 Loss: 0.00353740
+2024-10-02 03:19:06,662 - root - INFO -   Epoch 16/50	 Time: 1.243	 Loss: 0.00458365
+2024-10-02 03:19:07,908 - root - INFO -   Epoch 17/50	 Time: 1.245	 Loss: 0.00370910
+2024-10-02 03:19:09,159 - root - INFO -   Epoch 18/50	 Time: 1.250	 Loss: 0.00387291
+2024-10-02 03:19:10,406 - root - INFO -   Epoch 19/50	 Time: 1.247	 Loss: 0.00432986
+2024-10-02 03:19:11,650 - root - INFO -   Epoch 20/50	 Time: 1.243	 Loss: 0.00486244
+2024-10-02 03:19:12,901 - root - INFO -   Epoch 21/50	 Time: 1.251	 Loss: 0.00326148
+2024-10-02 03:19:14,162 - root - INFO -   Epoch 22/50	 Time: 1.260	 Loss: 0.00271724
+2024-10-02 03:19:15,425 - root - INFO -   Epoch 23/50	 Time: 1.262	 Loss: 0.00223667
+2024-10-02 03:19:16,679 - root - INFO -   Epoch 24/50	 Time: 1.252	 Loss: 0.00287992
+2024-10-02 03:19:17,934 - root - INFO -   Epoch 25/50	 Time: 1.253	 Loss: 0.00486034
+2024-10-02 03:19:19,190 - root - INFO -   Epoch 26/50	 Time: 1.255	 Loss: 0.00417957
+2024-10-02 03:19:20,461 - root - INFO -   Epoch 27/50	 Time: 1.270	 Loss: 0.00212939
+2024-10-02 03:19:21,735 - root - INFO -   Epoch 28/50	 Time: 1.273	 Loss: 0.00208732
+2024-10-02 03:19:22,990 - root - INFO -   Epoch 29/50	 Time: 1.254	 Loss: 0.00327517
+2024-10-02 03:19:24,243 - root - INFO -   Epoch 30/50	 Time: 1.252	 Loss: 0.01392772
+2024-10-02 03:19:25,488 - root - INFO -   Epoch 31/50	 Time: 1.244	 Loss: 0.00137972
+2024-10-02 03:19:26,741 - root - INFO -   Epoch 32/50	 Time: 1.252	 Loss: 0.00167239
+2024-10-02 03:19:27,991 - root - INFO -   Epoch 33/50	 Time: 1.249	 Loss: 0.00119890
+2024-10-02 03:19:29,249 - root - INFO -   Epoch 34/50	 Time: 1.256	 Loss: 0.00159023
+2024-10-02 03:19:30,501 - root - INFO -   Epoch 35/50	 Time: 1.251	 Loss: 0.00153775
+2024-10-02 03:19:31,760 - root - INFO -   Epoch 36/50	 Time: 1.258	 Loss: 0.00194845
+2024-10-02 03:19:33,011 - root - INFO -   Epoch 37/50	 Time: 1.250	 Loss: 0.00267357
+2024-10-02 03:19:34,253 - root - INFO -   Epoch 38/50	 Time: 1.240	 Loss: 0.00188953
+2024-10-02 03:19:35,502 - root - INFO -   Epoch 39/50	 Time: 1.248	 Loss: 0.00196019
+2024-10-02 03:19:36,752 - root - INFO -   Epoch 40/50	 Time: 1.249	 Loss: 0.00210182
+2024-10-02 03:19:37,994 - root - INFO -   Epoch 41/50	 Time: 1.241	 Loss: 0.00227130
+2024-10-02 03:19:39,243 - root - INFO -   Epoch 42/50	 Time: 1.248	 Loss: 0.00185164
+2024-10-02 03:19:40,493 - root - INFO -   Epoch 43/50	 Time: 1.249	 Loss: 0.00223643
+2024-10-02 03:19:41,746 - root - INFO -   Epoch 44/50	 Time: 1.252	 Loss: 0.00395662
+2024-10-02 03:19:42,993 - root - INFO -   Epoch 45/50	 Time: 1.247	 Loss: 0.00128902
+2024-10-02 03:19:44,262 - root - INFO -   Epoch 46/50	 Time: 1.268	 Loss: 0.00129812
+2024-10-02 03:19:45,516 - root - INFO -   Epoch 47/50	 Time: 1.253	 Loss: 0.00084526
+2024-10-02 03:19:46,763 - root - INFO -   Epoch 48/50	 Time: 1.245	 Loss: 0.00136627
+2024-10-02 03:19:48,015 - root - INFO -   Epoch 49/50	 Time: 1.251	 Loss: 0.00140409
+2024-10-02 03:19:49,270 - root - INFO -   Epoch 50/50	 Time: 1.254	 Loss: 0.00115074
+2024-10-02 03:19:49,271 - root - INFO - Training time: 62.551
+2024-10-02 03:19:49,271 - root - INFO - Finished training.
+2024-10-02 03:19:49,278 - root - INFO - Starting testing...
+2024-10-02 03:19:49,299 - root - INFO - Testing time: 0.021
+2024-10-02 03:19:49,299 - root - INFO - Test set AUC: 0.00%
+2024-10-02 03:19:49,299 - root - INFO - Finished testing.
+2024-10-02 03:22:26,287 - root - INFO - Log file is ../log_matbn_len_free_nisqa/log.txt.
+2024-10-02 03:22:26,287 - root - INFO - Data path is None.
+2024-10-02 03:22:26,287 - root - INFO - Export path is ../log_matbn_len_free_nisqa.
+2024-10-02 03:22:26,287 - root - INFO - Dataset: lang_emb_len_free_nisqa
+2024-10-02 03:22:26,287 - root - INFO - Normal class: 
+2024-10-02 03:22:26,287 - root - INFO - Network: lang_emb_LeNet_len_free_nisqa
+2024-10-02 03:22:26,288 - root - INFO - Deep SVDD objective: one-class
+2024-10-02 03:22:26,288 - root - INFO - Nu-paramerter: 0.10
+2024-10-02 03:22:26,426 - root - INFO - Computation device: cuda
+2024-10-02 03:22:26,426 - root - INFO - Number of dataloader workers: 0
+2024-10-02 03:22:32,140 - root - INFO - Loading model from ../log_matbn_len_free_nisqa/model.tar.
+2024-10-02 03:22:32,141 - root - INFO - Pretraining: False
+2024-10-02 03:22:32,141 - root - INFO - Training optimizer: adam
+2024-10-02 03:22:32,141 - root - INFO - Training learning rate: 0.001
+2024-10-02 03:22:32,141 - root - INFO - Training epochs: 0
+2024-10-02 03:22:32,142 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-10-02 03:22:32,142 - root - INFO - Training batch size: 130
+2024-10-02 03:22:32,142 - root - INFO - Training weight decay: 1e-06
+2024-10-02 03:22:32,153 - root - INFO - Starting training...
+2024-10-02 03:22:32,156 - root - INFO - Training time: 0.002
+2024-10-02 03:22:32,156 - root - INFO - Finished training.
+2024-10-02 03:22:32,161 - root - INFO - Starting testing...
+2024-10-02 03:22:32,871 - root - INFO - Testing time: 0.709
+2024-10-02 03:22:32,871 - root - INFO - Test set AUC: 0.00%
+2024-10-02 03:22:32,871 - root - INFO - Finished testing.

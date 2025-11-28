@@ -1,0 +1,501 @@
+2024-08-16 01:27:07,482 - root - INFO - Log file is ../log_LJ_ssl/log.txt.
+2024-08-16 01:27:07,482 - root - INFO - Data path is None.
+2024-08-16 01:27:07,482 - root - INFO - Export path is ../log_LJ_ssl.
+2024-08-16 01:27:07,482 - root - INFO - Dataset: lang_emb_ssl
+2024-08-16 01:27:07,482 - root - INFO - Normal class: 
+2024-08-16 01:27:07,482 - root - INFO - Network: lang_emb_LeNet_ssl
+2024-08-16 01:27:07,482 - root - INFO - Deep SVDD objective: one-class
+2024-08-16 01:27:07,482 - root - INFO - Nu-paramerter: 0.10
+2024-08-16 01:27:07,570 - root - INFO - Computation device: cuda
+2024-08-16 01:27:07,571 - root - INFO - Number of dataloader workers: 0
+2024-08-16 01:28:41,330 - root - INFO - Log file is ../log_LJ_ssl/log.txt.
+2024-08-16 01:28:41,330 - root - INFO - Data path is None.
+2024-08-16 01:28:41,330 - root - INFO - Export path is ../log_LJ_ssl.
+2024-08-16 01:28:41,330 - root - INFO - Dataset: lang_emb_ssl
+2024-08-16 01:28:41,330 - root - INFO - Normal class: 
+2024-08-16 01:28:41,330 - root - INFO - Network: lang_emb_LeNet_ssl
+2024-08-16 01:28:41,330 - root - INFO - Deep SVDD objective: one-class
+2024-08-16 01:28:41,331 - root - INFO - Nu-paramerter: 0.10
+2024-08-16 01:28:41,432 - root - INFO - Computation device: cuda
+2024-08-16 01:28:41,432 - root - INFO - Number of dataloader workers: 0
+2024-08-16 01:30:06,209 - root - INFO - Log file is ../log_LJ_ssl/log.txt.
+2024-08-16 01:30:06,209 - root - INFO - Data path is None.
+2024-08-16 01:30:06,209 - root - INFO - Export path is ../log_LJ_ssl.
+2024-08-16 01:30:06,209 - root - INFO - Dataset: lang_emb_ssl
+2024-08-16 01:30:06,209 - root - INFO - Normal class: 
+2024-08-16 01:30:06,209 - root - INFO - Network: lang_emb_LeNet_ssl
+2024-08-16 01:30:06,210 - root - INFO - Deep SVDD objective: one-class
+2024-08-16 01:30:06,210 - root - INFO - Nu-paramerter: 0.10
+2024-08-16 01:30:06,301 - root - INFO - Computation device: cuda
+2024-08-16 01:30:06,301 - root - INFO - Number of dataloader workers: 0
+2024-08-16 01:30:33,535 - root - INFO - Log file is ../log_LJ_ssl/log.txt.
+2024-08-16 01:30:33,535 - root - INFO - Data path is None.
+2024-08-16 01:30:33,535 - root - INFO - Export path is ../log_LJ_ssl.
+2024-08-16 01:30:33,535 - root - INFO - Dataset: lang_emb_ssl
+2024-08-16 01:30:33,535 - root - INFO - Normal class: 
+2024-08-16 01:30:33,535 - root - INFO - Network: lang_emb_LeNet_ssl
+2024-08-16 01:30:33,535 - root - INFO - Deep SVDD objective: one-class
+2024-08-16 01:30:33,536 - root - INFO - Nu-paramerter: 0.10
+2024-08-16 01:30:33,671 - root - INFO - Computation device: cuda
+2024-08-16 01:30:33,672 - root - INFO - Number of dataloader workers: 0
+2024-08-16 01:32:52,779 - root - INFO - Log file is ../log_LJ_ssl/log.txt.
+2024-08-16 01:32:52,780 - root - INFO - Data path is None.
+2024-08-16 01:32:52,780 - root - INFO - Export path is ../log_LJ_ssl.
+2024-08-16 01:32:52,780 - root - INFO - Dataset: lang_emb_ssl
+2024-08-16 01:32:52,780 - root - INFO - Normal class: 
+2024-08-16 01:32:52,780 - root - INFO - Network: lang_emb_LeNet_ssl
+2024-08-16 01:32:52,780 - root - INFO - Deep SVDD objective: one-class
+2024-08-16 01:32:52,780 - root - INFO - Nu-paramerter: 0.10
+2024-08-16 01:32:52,882 - root - INFO - Computation device: cuda
+2024-08-16 01:32:52,882 - root - INFO - Number of dataloader workers: 0
+2024-08-16 01:32:58,368 - root - INFO - Pretraining: True
+2024-08-16 01:32:58,369 - root - INFO - Pretraining optimizer: adam
+2024-08-16 01:32:58,369 - root - INFO - Pretraining learning rate: 0.001
+2024-08-16 01:32:58,370 - root - INFO - Pretraining epochs: 100
+2024-08-16 01:32:58,370 - root - INFO - Pretraining learning rate scheduler milestones: (0,)
+2024-08-16 01:32:58,370 - root - INFO - Pretraining batch size: 128
+2024-08-16 01:32:58,371 - root - INFO - Pretraining weight decay: 1e-06
+2024-08-16 01:32:58,787 - root - INFO - Starting pretraining...
+2024-08-16 01:33:03,443 - root - INFO -   Epoch 1/100	 Time: 4.653	 Loss: 1.31982207
+2024-08-16 01:33:04,504 - root - INFO -   Epoch 2/100	 Time: 1.023	 Loss: 1.29854599
+2024-08-16 01:33:05,559 - root - INFO -   Epoch 3/100	 Time: 1.054	 Loss: 1.29860220
+2024-08-16 01:33:06,667 - root - INFO -   Epoch 4/100	 Time: 1.106	 Loss: 1.29866557
+2024-08-16 01:33:07,708 - root - INFO -   Epoch 5/100	 Time: 1.039	 Loss: 1.29880406
+2024-08-16 01:33:08,773 - root - INFO -   Epoch 6/100	 Time: 1.064	 Loss: 1.29854305
+2024-08-16 01:33:09,824 - root - INFO -   Epoch 7/100	 Time: 1.049	 Loss: 1.29838886
+2024-08-16 01:33:10,882 - root - INFO -   Epoch 8/100	 Time: 1.057	 Loss: 1.29865540
+2024-08-16 01:33:11,930 - root - INFO -   Epoch 9/100	 Time: 1.044	 Loss: 1.29851375
+2024-08-16 01:33:12,984 - root - INFO -   Epoch 10/100	 Time: 1.052	 Loss: 1.29863085
+2024-08-16 01:33:14,036 - root - INFO -   Epoch 11/100	 Time: 1.051	 Loss: 1.29847849
+2024-08-16 01:33:15,079 - root - INFO -   Epoch 12/100	 Time: 1.042	 Loss: 1.29858822
+2024-08-16 01:33:16,163 - root - INFO -   Epoch 13/100	 Time: 1.082	 Loss: 1.29860522
+2024-08-16 01:33:17,213 - root - INFO -   Epoch 14/100	 Time: 1.049	 Loss: 1.29851047
+2024-08-16 01:33:18,277 - root - INFO -   Epoch 15/100	 Time: 1.061	 Loss: 1.29869040
+2024-08-16 01:33:19,339 - root - INFO -   Epoch 16/100	 Time: 1.061	 Loss: 1.29846828
+2024-08-16 01:33:20,439 - root - INFO -   Epoch 17/100	 Time: 1.098	 Loss: 1.29851656
+2024-08-16 01:33:21,506 - root - INFO -   Epoch 18/100	 Time: 1.065	 Loss: 1.29842213
+2024-08-16 01:33:22,538 - root - INFO -   Epoch 19/100	 Time: 1.031	 Loss: 1.29858813
+2024-08-16 01:33:23,572 - root - INFO -   Epoch 20/100	 Time: 1.032	 Loss: 1.29849789
+2024-08-16 01:33:24,610 - root - INFO -   Epoch 21/100	 Time: 1.037	 Loss: 1.29845566
+2024-08-16 01:33:25,694 - root - INFO -   Epoch 22/100	 Time: 1.040	 Loss: 1.29845768
+2024-08-16 01:33:26,716 - root - INFO -   Epoch 23/100	 Time: 1.020	 Loss: 1.29850976
+2024-08-16 01:33:27,739 - root - INFO -   Epoch 24/100	 Time: 1.022	 Loss: 1.29845180
+2024-08-16 01:33:28,768 - root - INFO -   Epoch 25/100	 Time: 1.028	 Loss: 1.29849240
+2024-08-16 01:33:29,814 - root - INFO -   Epoch 26/100	 Time: 1.045	 Loss: 1.29845548
+2024-08-16 01:33:30,856 - root - INFO -   Epoch 27/100	 Time: 1.041	 Loss: 1.29839559
+2024-08-16 01:33:31,908 - root - INFO -   Epoch 28/100	 Time: 1.051	 Loss: 1.29845861
+2024-08-16 01:33:32,943 - root - INFO -   Epoch 29/100	 Time: 1.033	 Loss: 1.29840607
+2024-08-16 01:33:33,986 - root - INFO -   Epoch 30/100	 Time: 1.042	 Loss: 1.29852617
+2024-08-16 01:33:35,021 - root - INFO -   Epoch 31/100	 Time: 1.034	 Loss: 1.29847289
+2024-08-16 01:33:36,067 - root - INFO -   Epoch 32/100	 Time: 1.045	 Loss: 1.29871552
+2024-08-16 01:33:37,107 - root - INFO -   Epoch 33/100	 Time: 1.039	 Loss: 1.29852888
+2024-08-16 01:33:38,151 - root - INFO -   Epoch 34/100	 Time: 1.043	 Loss: 1.29842922
+2024-08-16 01:33:39,198 - root - INFO -   Epoch 35/100	 Time: 1.046	 Loss: 1.29848602
+2024-08-16 01:33:40,237 - root - INFO -   Epoch 36/100	 Time: 1.038	 Loss: 1.29857746
+2024-08-16 01:33:41,284 - root - INFO -   Epoch 37/100	 Time: 1.046	 Loss: 1.29851138
+2024-08-16 01:33:42,333 - root - INFO -   Epoch 38/100	 Time: 1.048	 Loss: 1.29849776
+2024-08-16 01:33:43,368 - root - INFO -   Epoch 39/100	 Time: 1.033	 Loss: 1.29846634
+2024-08-16 01:33:44,411 - root - INFO -   Epoch 40/100	 Time: 1.042	 Loss: 1.29855429
+2024-08-16 01:33:45,450 - root - INFO -   Epoch 41/100	 Time: 1.038	 Loss: 1.29826473
+2024-08-16 01:33:46,490 - root - INFO -   Epoch 42/100	 Time: 1.039	 Loss: 1.29846145
+2024-08-16 01:33:47,530 - root - INFO -   Epoch 43/100	 Time: 1.039	 Loss: 1.29850715
+2024-08-16 01:33:48,570 - root - INFO -   Epoch 44/100	 Time: 1.038	 Loss: 1.29849806
+2024-08-16 01:33:49,612 - root - INFO -   Epoch 45/100	 Time: 1.041	 Loss: 1.29856373
+2024-08-16 01:33:50,652 - root - INFO -   Epoch 46/100	 Time: 1.039	 Loss: 1.29847018
+2024-08-16 01:33:51,685 - root - INFO -   Epoch 47/100	 Time: 1.031	 Loss: 1.29855408
+2024-08-16 01:33:52,726 - root - INFO -   Epoch 48/100	 Time: 1.040	 Loss: 1.29847095
+2024-08-16 01:33:53,765 - root - INFO -   Epoch 49/100	 Time: 1.038	 Loss: 1.29833558
+2024-08-16 01:33:54,818 - root - INFO -   Epoch 50/100	 Time: 1.052	 Loss: 1.29835175
+2024-08-16 01:33:55,864 - root - INFO -   Epoch 51/100	 Time: 1.045	 Loss: 1.29856824
+2024-08-16 01:33:56,922 - root - INFO -   Epoch 52/100	 Time: 1.057	 Loss: 1.29859065
+2024-08-16 01:33:57,970 - root - INFO -   Epoch 53/100	 Time: 1.046	 Loss: 1.29865766
+2024-08-16 01:33:59,020 - root - INFO -   Epoch 54/100	 Time: 1.049	 Loss: 1.29851077
+2024-08-16 01:34:00,062 - root - INFO -   Epoch 55/100	 Time: 1.040	 Loss: 1.29858091
+2024-08-16 01:34:01,107 - root - INFO -   Epoch 56/100	 Time: 1.045	 Loss: 1.29844497
+2024-08-16 01:34:02,152 - root - INFO -   Epoch 57/100	 Time: 1.044	 Loss: 1.29857025
+2024-08-16 01:34:03,205 - root - INFO -   Epoch 58/100	 Time: 1.052	 Loss: 1.29853963
+2024-08-16 01:34:04,268 - root - INFO -   Epoch 59/100	 Time: 1.061	 Loss: 1.29848814
+2024-08-16 01:34:05,320 - root - INFO -   Epoch 60/100	 Time: 1.051	 Loss: 1.29855390
+2024-08-16 01:34:06,380 - root - INFO -   Epoch 61/100	 Time: 1.058	 Loss: 1.29844120
+2024-08-16 01:34:07,437 - root - INFO -   Epoch 62/100	 Time: 1.056	 Loss: 1.29847663
+2024-08-16 01:34:08,465 - root - INFO -   Epoch 63/100	 Time: 1.027	 Loss: 1.29858586
+2024-08-16 01:34:09,505 - root - INFO -   Epoch 64/100	 Time: 1.038	 Loss: 1.29830345
+2024-08-16 01:34:10,571 - root - INFO -   Epoch 65/100	 Time: 1.065	 Loss: 1.29851555
+2024-08-16 01:34:11,628 - root - INFO -   Epoch 66/100	 Time: 1.056	 Loss: 1.29846962
+2024-08-16 01:34:12,675 - root - INFO -   Epoch 67/100	 Time: 1.045	 Loss: 1.29846639
+2024-08-16 01:34:13,736 - root - INFO -   Epoch 68/100	 Time: 1.061	 Loss: 1.29856020
+2024-08-16 01:34:14,787 - root - INFO -   Epoch 69/100	 Time: 1.049	 Loss: 1.29852584
+2024-08-16 01:34:15,834 - root - INFO -   Epoch 70/100	 Time: 1.045	 Loss: 1.29835058
+2024-08-16 01:34:16,874 - root - INFO -   Epoch 71/100	 Time: 1.039	 Loss: 1.29844865
+2024-08-16 01:34:17,920 - root - INFO -   Epoch 72/100	 Time: 1.045	 Loss: 1.29855952
+2024-08-16 01:34:18,966 - root - INFO -   Epoch 73/100	 Time: 1.045	 Loss: 1.29839452
+2024-08-16 01:34:20,039 - root - INFO -   Epoch 74/100	 Time: 1.072	 Loss: 1.29861244
+2024-08-16 01:34:21,092 - root - INFO -   Epoch 75/100	 Time: 1.051	 Loss: 1.29846991
+2024-08-16 01:34:22,130 - root - INFO -   Epoch 76/100	 Time: 1.037	 Loss: 1.29850390
+2024-08-16 01:34:23,166 - root - INFO -   Epoch 77/100	 Time: 1.034	 Loss: 1.29839732
+2024-08-16 01:34:24,195 - root - INFO -   Epoch 78/100	 Time: 1.028	 Loss: 1.29843421
+2024-08-16 01:34:25,227 - root - INFO -   Epoch 79/100	 Time: 1.031	 Loss: 1.29841184
+2024-08-16 01:34:26,255 - root - INFO -   Epoch 80/100	 Time: 1.027	 Loss: 1.29860185
+2024-08-16 01:34:27,293 - root - INFO -   Epoch 81/100	 Time: 1.037	 Loss: 1.29845834
+2024-08-16 01:34:28,327 - root - INFO -   Epoch 82/100	 Time: 1.032	 Loss: 1.29856654
+2024-08-16 01:34:29,360 - root - INFO -   Epoch 83/100	 Time: 1.032	 Loss: 1.29852390
+2024-08-16 01:34:30,406 - root - INFO -   Epoch 84/100	 Time: 1.045	 Loss: 1.29851512
+2024-08-16 01:34:31,457 - root - INFO -   Epoch 85/100	 Time: 1.050	 Loss: 1.29855353
+2024-08-16 01:34:32,495 - root - INFO -   Epoch 86/100	 Time: 1.036	 Loss: 1.29865596
+2024-08-16 01:34:33,540 - root - INFO -   Epoch 87/100	 Time: 1.044	 Loss: 1.29848414
+2024-08-16 01:34:34,581 - root - INFO -   Epoch 88/100	 Time: 1.040	 Loss: 1.29839051
+2024-08-16 01:34:35,608 - root - INFO -   Epoch 89/100	 Time: 1.025	 Loss: 1.29867797
+2024-08-16 01:34:36,638 - root - INFO -   Epoch 90/100	 Time: 1.030	 Loss: 1.29850254
+2024-08-16 01:34:37,672 - root - INFO -   Epoch 91/100	 Time: 1.032	 Loss: 1.29856271
+2024-08-16 01:34:38,721 - root - INFO -   Epoch 92/100	 Time: 1.048	 Loss: 1.29850065
+2024-08-16 01:34:39,754 - root - INFO -   Epoch 93/100	 Time: 1.032	 Loss: 1.29843118
+2024-08-16 01:34:40,795 - root - INFO -   Epoch 94/100	 Time: 1.040	 Loss: 1.29862587
+2024-08-16 01:34:41,831 - root - INFO -   Epoch 95/100	 Time: 1.035	 Loss: 1.29849466
+2024-08-16 01:34:42,860 - root - INFO -   Epoch 96/100	 Time: 1.027	 Loss: 1.29852530
+2024-08-16 01:34:43,894 - root - INFO -   Epoch 97/100	 Time: 1.033	 Loss: 1.29847111
+2024-08-16 01:34:44,919 - root - INFO -   Epoch 98/100	 Time: 1.024	 Loss: 1.29866184
+2024-08-16 01:34:45,945 - root - INFO -   Epoch 99/100	 Time: 1.025	 Loss: 1.29859326
+2024-08-16 01:34:46,977 - root - INFO -   Epoch 100/100	 Time: 1.031	 Loss: 1.29852981
+2024-08-16 01:34:46,979 - root - INFO - Pretraining time: 108.192
+2024-08-16 01:34:46,979 - root - INFO - Finished pretraining.
+2024-08-16 01:34:46,990 - root - INFO - Training optimizer: adam
+2024-08-16 01:34:46,991 - root - INFO - Training learning rate: 0.001
+2024-08-16 01:34:46,991 - root - INFO - Training epochs: 50
+2024-08-16 01:34:46,991 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-08-16 01:34:46,991 - root - INFO - Training batch size: 128
+2024-08-16 01:34:46,991 - root - INFO - Training weight decay: 1e-06
+2024-08-16 01:34:46,996 - root - INFO - Initializing center c...
+2024-08-16 01:34:47,586 - root - INFO - Center c initialized.
+2024-08-16 01:34:47,586 - root - INFO - Starting training...
+2024-08-16 01:34:48,248 - root - INFO -   Epoch 1/50	 Time: 0.660	 Loss: 0.32071771
+2024-08-16 01:34:48,908 - root - INFO -   Epoch 2/50	 Time: 0.659	 Loss: 0.00047433
+2024-08-16 01:34:49,568 - root - INFO -   Epoch 3/50	 Time: 0.659	 Loss: 0.00053150
+2024-08-16 01:34:50,236 - root - INFO -   Epoch 4/50	 Time: 0.667	 Loss: 0.00079961
+2024-08-16 01:34:50,913 - root - INFO -   Epoch 5/50	 Time: 0.676	 Loss: 0.00076061
+2024-08-16 01:34:51,572 - root - INFO -   Epoch 6/50	 Time: 0.658	 Loss: 0.00098768
+2024-08-16 01:34:52,230 - root - INFO -   Epoch 7/50	 Time: 0.657	 Loss: 0.00130852
+2024-08-16 01:34:52,890 - root - INFO -   Epoch 8/50	 Time: 0.659	 Loss: 0.00212708
+2024-08-16 01:34:53,550 - root - INFO -   Epoch 9/50	 Time: 0.658	 Loss: 0.00654220
+2024-08-16 01:34:54,208 - root - INFO -   Epoch 10/50	 Time: 0.658	 Loss: 0.00194708
+2024-08-16 01:34:54,885 - root - INFO -   Epoch 11/50	 Time: 0.675	 Loss: 0.00326336
+2024-08-16 01:34:55,565 - root - INFO -   Epoch 12/50	 Time: 0.679	 Loss: 0.00804450
+2024-08-16 01:34:56,253 - root - INFO -   Epoch 13/50	 Time: 0.687	 Loss: 0.00886652
+2024-08-16 01:34:56,931 - root - INFO -   Epoch 14/50	 Time: 0.677	 Loss: 0.00192401
+2024-08-16 01:34:57,619 - root - INFO -   Epoch 15/50	 Time: 0.688	 Loss: 0.00149529
+2024-08-16 01:34:58,291 - root - INFO -   Epoch 16/50	 Time: 0.671	 Loss: 0.00323318
+2024-08-16 01:34:58,970 - root - INFO -   Epoch 17/50	 Time: 0.678	 Loss: 0.00434051
+2024-08-16 01:34:59,657 - root - INFO -   Epoch 18/50	 Time: 0.686	 Loss: 0.00689139
+2024-08-16 01:35:00,336 - root - INFO -   Epoch 19/50	 Time: 0.678	 Loss: 0.00926440
+2024-08-16 01:35:01,015 - root - INFO -   Epoch 20/50	 Time: 0.678	 Loss: 0.00521003
+2024-08-16 01:35:01,694 - root - INFO -   Epoch 21/50	 Time: 0.678	 Loss: 0.00500711
+2024-08-16 01:35:02,372 - root - INFO -   Epoch 22/50	 Time: 0.678	 Loss: 0.00689835
+2024-08-16 01:35:03,052 - root - INFO -   Epoch 23/50	 Time: 0.679	 Loss: 0.00736516
+2024-08-16 01:35:03,732 - root - INFO -   Epoch 24/50	 Time: 0.679	 Loss: 0.00710280
+2024-08-16 01:35:04,411 - root - INFO -   Epoch 25/50	 Time: 0.678	 Loss: 0.00115708
+2024-08-16 01:35:05,090 - root - INFO -   Epoch 26/50	 Time: 0.678	 Loss: 0.00231122
+2024-08-16 01:35:05,770 - root - INFO -   Epoch 27/50	 Time: 0.679	 Loss: 0.00446213
+2024-08-16 01:35:06,451 - root - INFO -   Epoch 28/50	 Time: 0.680	 Loss: 0.00560190
+2024-08-16 01:35:07,141 - root - INFO -   Epoch 29/50	 Time: 0.689	 Loss: 0.00349345
+2024-08-16 01:35:07,824 - root - INFO -   Epoch 30/50	 Time: 0.682	 Loss: 0.00268196
+2024-08-16 01:35:08,505 - root - INFO -   Epoch 31/50	 Time: 0.680	 Loss: 0.00470227
+2024-08-16 01:35:09,185 - root - INFO -   Epoch 32/50	 Time: 0.679	 Loss: 0.00394272
+2024-08-16 01:35:09,870 - root - INFO -   Epoch 33/50	 Time: 0.684	 Loss: 0.00498576
+2024-08-16 01:35:10,548 - root - INFO -   Epoch 34/50	 Time: 0.677	 Loss: 0.00468361
+2024-08-16 01:35:11,227 - root - INFO -   Epoch 35/50	 Time: 0.678	 Loss: 0.00372025
+2024-08-16 01:35:11,911 - root - INFO -   Epoch 36/50	 Time: 0.683	 Loss: 0.00069214
+2024-08-16 01:35:12,601 - root - INFO -   Epoch 37/50	 Time: 0.688	 Loss: 0.00234333
+2024-08-16 01:35:13,280 - root - INFO -   Epoch 38/50	 Time: 0.678	 Loss: 0.00343953
+2024-08-16 01:35:13,963 - root - INFO -   Epoch 39/50	 Time: 0.682	 Loss: 0.00127304
+2024-08-16 01:35:14,643 - root - INFO -   Epoch 40/50	 Time: 0.679	 Loss: 0.00130273
+2024-08-16 01:35:15,317 - root - INFO -   Epoch 41/50	 Time: 0.673	 Loss: 0.00432850
+2024-08-16 01:35:15,994 - root - INFO -   Epoch 42/50	 Time: 0.676	 Loss: 0.00438830
+2024-08-16 01:35:16,675 - root - INFO -   Epoch 43/50	 Time: 0.680	 Loss: 0.00161092
+2024-08-16 01:35:17,353 - root - INFO -   Epoch 44/50	 Time: 0.677	 Loss: 0.00459296
+2024-08-16 01:35:18,031 - root - INFO -   Epoch 45/50	 Time: 0.677	 Loss: 0.00425363
+2024-08-16 01:35:18,709 - root - INFO -   Epoch 46/50	 Time: 0.677	 Loss: 0.00387615
+2024-08-16 01:35:19,386 - root - INFO -   Epoch 47/50	 Time: 0.676	 Loss: 0.00123952
+2024-08-16 01:35:20,081 - root - INFO -   Epoch 48/50	 Time: 0.693	 Loss: 0.00113868
+2024-08-16 01:35:20,756 - root - INFO -   Epoch 49/50	 Time: 0.675	 Loss: 0.00185325
+2024-08-16 01:35:21,430 - root - INFO -   Epoch 50/50	 Time: 0.672	 Loss: 0.00215176
+2024-08-16 01:35:21,431 - root - INFO - Training time: 33.845
+2024-08-16 01:35:21,432 - root - INFO - Finished training.
+2024-08-16 01:35:21,434 - root - INFO - Starting testing...
+2024-08-16 01:35:22,954 - root - INFO - Testing time: 1.520
+2024-08-16 01:35:22,954 - root - INFO - Test set AUC: 0.00%
+2024-08-16 01:35:22,955 - root - INFO - Finished testing.
+2024-08-16 01:38:16,382 - root - INFO - Log file is ../log_LJ_ssl/log.txt.
+2024-08-16 01:38:16,382 - root - INFO - Data path is None.
+2024-08-16 01:38:16,382 - root - INFO - Export path is ../log_LJ_ssl.
+2024-08-16 01:38:16,382 - root - INFO - Dataset: lang_emb_ssl
+2024-08-16 01:38:16,382 - root - INFO - Normal class: 
+2024-08-16 01:38:16,383 - root - INFO - Network: lang_emb_LeNet_ssl
+2024-08-16 01:38:16,383 - root - INFO - Deep SVDD objective: one-class
+2024-08-16 01:38:16,383 - root - INFO - Nu-paramerter: 0.10
+2024-08-16 01:38:16,474 - root - INFO - Computation device: cuda
+2024-08-16 01:38:16,474 - root - INFO - Number of dataloader workers: 0
+2024-08-16 01:38:22,461 - root - INFO - Loading model from ../log_LJ_ssl/model.tar.
+2024-08-16 01:38:22,462 - root - INFO - Pretraining: False
+2024-08-16 01:38:22,462 - root - INFO - Training optimizer: adam
+2024-08-16 01:38:22,462 - root - INFO - Training learning rate: 0.001
+2024-08-16 01:38:22,463 - root - INFO - Training epochs: 0
+2024-08-16 01:38:22,463 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-08-16 01:38:22,463 - root - INFO - Training batch size: 128
+2024-08-16 01:38:22,463 - root - INFO - Training weight decay: 1e-06
+2024-08-16 01:38:22,469 - root - INFO - Starting training...
+2024-08-16 01:38:22,471 - root - INFO - Training time: 0.002
+2024-08-16 01:38:22,472 - root - INFO - Finished training.
+2024-08-16 01:38:22,473 - root - INFO - Starting testing...
+2024-08-16 01:38:24,088 - root - INFO - Testing time: 1.614
+2024-08-16 01:38:24,088 - root - INFO - Test set AUC: 0.00%
+2024-08-16 01:38:24,088 - root - INFO - Finished testing.
+2024-08-16 01:39:11,999 - root - INFO - Log file is ../log_LJ_ssl/log.txt.
+2024-08-16 01:39:11,999 - root - INFO - Data path is None.
+2024-08-16 01:39:11,999 - root - INFO - Export path is ../log_LJ_ssl.
+2024-08-16 01:39:12,000 - root - INFO - Dataset: lang_emb_ssl
+2024-08-16 01:39:12,000 - root - INFO - Normal class: 
+2024-08-16 01:39:12,000 - root - INFO - Network: lang_emb_LeNet_ssl
+2024-08-16 01:39:12,000 - root - INFO - Deep SVDD objective: one-class
+2024-08-16 01:39:12,000 - root - INFO - Nu-paramerter: 0.10
+2024-08-16 01:39:12,095 - root - INFO - Computation device: cuda
+2024-08-16 01:39:12,095 - root - INFO - Number of dataloader workers: 0
+2024-08-16 01:39:17,948 - root - INFO - Loading model from ../log_LJ_ssl/model.tar.
+2024-08-16 01:39:17,949 - root - INFO - Pretraining: False
+2024-08-16 01:39:17,949 - root - INFO - Training optimizer: adam
+2024-08-16 01:39:17,949 - root - INFO - Training learning rate: 0.001
+2024-08-16 01:39:17,949 - root - INFO - Training epochs: 0
+2024-08-16 01:39:17,950 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-08-16 01:39:17,950 - root - INFO - Training batch size: 128
+2024-08-16 01:39:17,950 - root - INFO - Training weight decay: 1e-06
+2024-08-16 01:39:17,957 - root - INFO - Starting training...
+2024-08-16 01:39:17,960 - root - INFO - Training time: 0.002
+2024-08-16 01:39:17,960 - root - INFO - Finished training.
+2024-08-16 01:39:17,962 - root - INFO - Starting testing...
+2024-08-16 01:39:21,792 - root - INFO - Testing time: 3.830
+2024-08-16 01:39:21,792 - root - INFO - Test set AUC: 0.00%
+2024-08-16 01:39:21,793 - root - INFO - Finished testing.
+2025-02-11 13:00:15,139 - root - INFO - Log file is ../log_LJ_ssl/log.txt.
+2025-02-11 13:00:15,160 - root - INFO - Data path is None.
+2025-02-11 13:00:15,160 - root - INFO - Export path is ../log_LJ_ssl.
+2025-02-11 13:00:15,160 - root - INFO - Dataset: lang_emb_ssl
+2025-02-11 13:00:15,160 - root - INFO - Normal class: 
+2025-02-11 13:00:15,160 - root - INFO - Network: lang_emb_LeNet_ssl
+2025-02-11 13:00:15,160 - root - INFO - Deep SVDD objective: one-class
+2025-02-11 13:00:15,160 - root - INFO - Nu-paramerter: 0.10
+2025-02-11 13:00:15,185 - root - INFO - Computation device: cuda
+2025-02-11 13:00:15,186 - root - INFO - Number of dataloader workers: 0
+2025-02-11 13:00:21,240 - root - INFO - Pretraining: False
+2025-02-11 13:00:21,240 - root - INFO - Training optimizer: adam
+2025-02-11 13:00:21,240 - root - INFO - Training learning rate: 0.001
+2025-02-11 13:00:21,240 - root - INFO - Training epochs: 0
+2025-02-11 13:00:21,241 - root - INFO - Training learning rate scheduler milestones: (0,)
+2025-02-11 13:00:21,241 - root - INFO - Training batch size: 128
+2025-02-11 13:00:21,241 - root - INFO - Training weight decay: 1e-06
+2025-02-11 13:00:21,588 - root - INFO - Initializing center c...
+2025-02-11 13:00:22,200 - root - INFO - Center c initialized.
+2025-02-11 13:00:22,201 - root - INFO - Starting training...
+2025-02-11 13:00:22,203 - root - INFO - Training time: 0.002
+2025-02-11 13:00:22,203 - root - INFO - Finished training.
+2025-02-11 13:00:22,205 - root - INFO - Starting testing...
+2025-02-11 13:00:23,414 - root - INFO - Testing time: 1.209
+2025-02-11 13:00:23,414 - root - INFO - Test set AUC: 0.00%
+2025-02-11 13:00:23,415 - root - INFO - Finished testing.
+2025-08-18 12:55:30,302 - root - INFO - Log file is ../log_LJ_ssl/log.txt.
+2025-08-18 12:55:30,311 - root - INFO - Data path is None.
+2025-08-18 12:55:30,311 - root - INFO - Export path is ../log_LJ_ssl.
+2025-08-18 12:55:30,311 - root - INFO - Dataset: lang_emb_ssl
+2025-08-18 12:55:30,312 - root - INFO - Normal class: 
+2025-08-18 12:55:30,312 - root - INFO - Network: lang_emb_LeNet_ssl
+2025-08-18 12:55:30,312 - root - INFO - Deep SVDD objective: one-class
+2025-08-18 12:55:30,312 - root - INFO - Nu-paramerter: 0.10
+2025-08-18 12:55:30,405 - root - INFO - Computation device: cuda
+2025-08-18 12:55:30,405 - root - INFO - Number of dataloader workers: 0
+2025-08-18 12:55:37,069 - root - INFO - Loading model from ../log_LJ_ssl/model.tar.
+2025-08-18 12:55:37,070 - root - INFO - Pretraining: False
+2025-08-18 12:55:37,070 - root - INFO - Training optimizer: adam
+2025-08-18 12:55:37,070 - root - INFO - Training learning rate: 0.001
+2025-08-18 12:55:37,071 - root - INFO - Training epochs: 0
+2025-08-18 12:55:37,071 - root - INFO - Training learning rate scheduler milestones: (0,)
+2025-08-18 12:55:37,071 - root - INFO - Training batch size: 128
+2025-08-18 12:55:37,071 - root - INFO - Training weight decay: 1e-06
+2025-08-18 12:55:37,078 - root - INFO - Starting training...
+2025-08-18 12:55:37,080 - root - INFO - Training time: 0.002
+2025-08-18 12:55:37,080 - root - INFO - Finished training.
+2025-08-18 12:55:37,082 - root - INFO - Starting testing...
+2025-08-18 12:55:38,219 - root - INFO - Testing time: 1.137
+2025-08-18 12:55:38,219 - root - INFO - Test set AUC: 0.00%
+2025-08-18 12:55:38,219 - root - INFO - Finished testing.
+2025-08-18 12:56:52,132 - root - INFO - Log file is ../log_LJ_ssl/log.txt.
+2025-08-18 12:56:52,133 - root - INFO - Data path is None.
+2025-08-18 12:56:52,133 - root - INFO - Export path is ../log_LJ_ssl.
+2025-08-18 12:56:52,133 - root - INFO - Dataset: lang_emb_ssl
+2025-08-18 12:56:52,133 - root - INFO - Normal class: 
+2025-08-18 12:56:52,133 - root - INFO - Network: lang_emb_LeNet_ssl
+2025-08-18 12:56:52,133 - root - INFO - Deep SVDD objective: one-class
+2025-08-18 12:56:52,134 - root - INFO - Nu-paramerter: 0.10
+2025-08-18 12:56:52,228 - root - INFO - Computation device: cuda
+2025-08-18 12:56:52,229 - root - INFO - Number of dataloader workers: 0
+2025-08-18 12:56:58,291 - root - INFO - Loading model from ../log_LJ_ssl/model.tar.
+2025-08-18 12:56:58,292 - root - INFO - Pretraining: False
+2025-08-18 12:56:58,292 - root - INFO - Training optimizer: adam
+2025-08-18 12:56:58,292 - root - INFO - Training learning rate: 0.001
+2025-08-18 12:56:58,293 - root - INFO - Training epochs: 0
+2025-08-18 12:56:58,293 - root - INFO - Training learning rate scheduler milestones: (0,)
+2025-08-18 12:56:58,293 - root - INFO - Training batch size: 128
+2025-08-18 12:56:58,293 - root - INFO - Training weight decay: 1e-06
+2025-08-18 12:56:58,299 - root - INFO - Starting training...
+2025-08-18 12:56:58,302 - root - INFO - Training time: 0.002
+2025-08-18 12:56:58,302 - root - INFO - Finished training.
+2025-08-18 12:56:58,303 - root - INFO - Starting testing...
+2025-08-18 12:56:58,979 - root - INFO - Testing time: 0.675
+2025-08-18 12:56:58,979 - root - INFO - Test set AUC: 0.00%
+2025-08-18 12:56:58,979 - root - INFO - Finished testing.
+2025-08-18 12:57:44,209 - root - INFO - Log file is ../log_LJ_ssl/log.txt.
+2025-08-18 12:57:44,210 - root - INFO - Data path is None.
+2025-08-18 12:57:44,210 - root - INFO - Export path is ../log_LJ_ssl.
+2025-08-18 12:57:44,210 - root - INFO - Dataset: lang_emb_ssl
+2025-08-18 12:57:44,210 - root - INFO - Normal class: 
+2025-08-18 12:57:44,210 - root - INFO - Network: lang_emb_LeNet_ssl
+2025-08-18 12:57:44,210 - root - INFO - Deep SVDD objective: one-class
+2025-08-18 12:57:44,210 - root - INFO - Nu-paramerter: 0.10
+2025-08-18 12:57:44,307 - root - INFO - Computation device: cuda
+2025-08-18 12:57:44,307 - root - INFO - Number of dataloader workers: 0
+2025-08-18 12:57:50,469 - root - INFO - Loading model from ../log_LJ_ssl/model.tar.
+2025-08-18 12:57:50,469 - root - INFO - Pretraining: False
+2025-08-18 12:57:50,470 - root - INFO - Training optimizer: adam
+2025-08-18 12:57:50,470 - root - INFO - Training learning rate: 0.001
+2025-08-18 12:57:50,470 - root - INFO - Training epochs: 0
+2025-08-18 12:57:50,470 - root - INFO - Training learning rate scheduler milestones: (0,)
+2025-08-18 12:57:50,471 - root - INFO - Training batch size: 128
+2025-08-18 12:57:50,471 - root - INFO - Training weight decay: 1e-06
+2025-08-18 12:57:50,477 - root - INFO - Starting training...
+2025-08-18 12:57:50,479 - root - INFO - Training time: 0.002
+2025-08-18 12:57:50,480 - root - INFO - Finished training.
+2025-08-18 12:57:50,481 - root - INFO - Starting testing...
+2025-08-18 12:57:51,119 - root - INFO - Testing time: 0.637
+2025-08-18 12:57:51,119 - root - INFO - Test set AUC: 0.00%
+2025-08-18 12:57:51,120 - root - INFO - Finished testing.
+2025-08-18 12:58:28,530 - root - INFO - Log file is ../log_LJ_ssl/log.txt.
+2025-08-18 12:58:28,530 - root - INFO - Data path is None.
+2025-08-18 12:58:28,531 - root - INFO - Export path is ../log_LJ_ssl.
+2025-08-18 12:58:28,531 - root - INFO - Dataset: lang_emb_ssl
+2025-08-18 12:58:28,531 - root - INFO - Normal class: 
+2025-08-18 12:58:28,531 - root - INFO - Network: lang_emb_LeNet_ssl
+2025-08-18 12:58:28,531 - root - INFO - Deep SVDD objective: one-class
+2025-08-18 12:58:28,531 - root - INFO - Nu-paramerter: 0.10
+2025-08-18 12:58:28,622 - root - INFO - Computation device: cuda
+2025-08-18 12:58:28,622 - root - INFO - Number of dataloader workers: 0
+2025-08-18 12:58:34,624 - root - INFO - Loading model from ../log_LJ_ssl/model.tar.
+2025-08-18 12:58:34,624 - root - INFO - Pretraining: False
+2025-08-18 12:58:34,625 - root - INFO - Training optimizer: adam
+2025-08-18 12:58:34,625 - root - INFO - Training learning rate: 0.001
+2025-08-18 12:58:34,625 - root - INFO - Training epochs: 0
+2025-08-18 12:58:34,625 - root - INFO - Training learning rate scheduler milestones: (0,)
+2025-08-18 12:58:34,625 - root - INFO - Training batch size: 128
+2025-08-18 12:58:34,626 - root - INFO - Training weight decay: 1e-06
+2025-08-18 12:58:34,632 - root - INFO - Starting training...
+2025-08-18 12:58:34,634 - root - INFO - Training time: 0.002
+2025-08-18 12:58:34,635 - root - INFO - Finished training.
+2025-08-18 12:58:34,636 - root - INFO - Starting testing...
+2025-08-18 12:58:35,153 - root - INFO - Testing time: 0.516
+2025-08-18 12:58:35,153 - root - INFO - Test set AUC: 0.00%
+2025-08-18 12:58:35,153 - root - INFO - Finished testing.
+2025-08-18 12:59:13,105 - root - INFO - Log file is ../log_LJ_ssl/log.txt.
+2025-08-18 12:59:13,106 - root - INFO - Data path is None.
+2025-08-18 12:59:13,106 - root - INFO - Export path is ../log_LJ_ssl.
+2025-08-18 12:59:13,106 - root - INFO - Dataset: lang_emb_ssl
+2025-08-18 12:59:13,106 - root - INFO - Normal class: 
+2025-08-18 12:59:13,106 - root - INFO - Network: lang_emb_LeNet_ssl
+2025-08-18 12:59:13,106 - root - INFO - Deep SVDD objective: one-class
+2025-08-18 12:59:13,106 - root - INFO - Nu-paramerter: 0.10
+2025-08-18 12:59:13,203 - root - INFO - Computation device: cuda
+2025-08-18 12:59:13,204 - root - INFO - Number of dataloader workers: 0
+2025-08-18 12:59:19,262 - root - INFO - Loading model from ../log_LJ_ssl/model.tar.
+2025-08-18 12:59:19,263 - root - INFO - Pretraining: False
+2025-08-18 12:59:19,263 - root - INFO - Training optimizer: adam
+2025-08-18 12:59:19,263 - root - INFO - Training learning rate: 0.001
+2025-08-18 12:59:19,263 - root - INFO - Training epochs: 0
+2025-08-18 12:59:19,264 - root - INFO - Training learning rate scheduler milestones: (0,)
+2025-08-18 12:59:19,264 - root - INFO - Training batch size: 128
+2025-08-18 12:59:19,264 - root - INFO - Training weight decay: 1e-06
+2025-08-18 12:59:19,270 - root - INFO - Starting training...
+2025-08-18 12:59:19,272 - root - INFO - Training time: 0.002
+2025-08-18 12:59:19,273 - root - INFO - Finished training.
+2025-08-18 12:59:19,274 - root - INFO - Starting testing...
+2025-08-18 12:59:20,279 - root - INFO - Testing time: 1.004
+2025-08-18 12:59:20,279 - root - INFO - Test set AUC: 0.00%
+2025-08-18 12:59:20,279 - root - INFO - Finished testing.
+2025-08-18 12:59:59,883 - root - INFO - Log file is ../log_LJ_ssl/log.txt.
+2025-08-18 12:59:59,883 - root - INFO - Data path is None.
+2025-08-18 12:59:59,883 - root - INFO - Export path is ../log_LJ_ssl.
+2025-08-18 12:59:59,883 - root - INFO - Dataset: lang_emb_ssl
+2025-08-18 12:59:59,883 - root - INFO - Normal class: 
+2025-08-18 12:59:59,883 - root - INFO - Network: lang_emb_LeNet_ssl
+2025-08-18 12:59:59,883 - root - INFO - Deep SVDD objective: one-class
+2025-08-18 12:59:59,883 - root - INFO - Nu-paramerter: 0.10
+2025-08-18 12:59:59,982 - root - INFO - Computation device: cuda
+2025-08-18 12:59:59,982 - root - INFO - Number of dataloader workers: 0
+2025-08-18 13:00:06,204 - root - INFO - Loading model from ../log_LJ_ssl/model.tar.
+2025-08-18 13:00:06,205 - root - INFO - Pretraining: False
+2025-08-18 13:00:06,205 - root - INFO - Training optimizer: adam
+2025-08-18 13:00:06,205 - root - INFO - Training learning rate: 0.001
+2025-08-18 13:00:06,206 - root - INFO - Training epochs: 0
+2025-08-18 13:00:06,206 - root - INFO - Training learning rate scheduler milestones: (0,)
+2025-08-18 13:00:06,206 - root - INFO - Training batch size: 128
+2025-08-18 13:00:06,206 - root - INFO - Training weight decay: 1e-06
+2025-08-18 13:00:06,213 - root - INFO - Starting training...
+2025-08-18 13:00:06,216 - root - INFO - Training time: 0.002
+2025-08-18 13:00:06,216 - root - INFO - Finished training.
+2025-08-18 13:00:06,218 - root - INFO - Starting testing...
+2025-08-18 13:00:06,931 - root - INFO - Testing time: 0.713
+2025-08-18 13:00:06,931 - root - INFO - Test set AUC: 0.00%
+2025-08-18 13:00:06,931 - root - INFO - Finished testing.
+2025-08-18 13:00:27,710 - root - INFO - Log file is ../log_LJ_ssl/log.txt.
+2025-08-18 13:00:27,711 - root - INFO - Data path is None.
+2025-08-18 13:00:27,711 - root - INFO - Export path is ../log_LJ_ssl.
+2025-08-18 13:00:27,711 - root - INFO - Dataset: lang_emb_ssl
+2025-08-18 13:00:27,711 - root - INFO - Normal class: 
+2025-08-18 13:00:27,711 - root - INFO - Network: lang_emb_LeNet_ssl
+2025-08-18 13:00:27,711 - root - INFO - Deep SVDD objective: one-class
+2025-08-18 13:00:27,712 - root - INFO - Nu-paramerter: 0.10
+2025-08-18 13:00:27,804 - root - INFO - Computation device: cuda
+2025-08-18 13:00:27,805 - root - INFO - Number of dataloader workers: 0
+2025-08-18 13:00:33,851 - root - INFO - Loading model from ../log_LJ_ssl/model.tar.
+2025-08-18 13:00:33,852 - root - INFO - Pretraining: False
+2025-08-18 13:00:33,852 - root - INFO - Training optimizer: adam
+2025-08-18 13:00:33,853 - root - INFO - Training learning rate: 0.001
+2025-08-18 13:00:33,853 - root - INFO - Training epochs: 0
+2025-08-18 13:00:33,853 - root - INFO - Training learning rate scheduler milestones: (0,)
+2025-08-18 13:00:33,853 - root - INFO - Training batch size: 128
+2025-08-18 13:00:33,854 - root - INFO - Training weight decay: 1e-06
+2025-08-18 13:00:33,860 - root - INFO - Starting training...
+2025-08-18 13:00:33,862 - root - INFO - Training time: 0.002
+2025-08-18 13:00:33,863 - root - INFO - Finished training.
+2025-08-18 13:00:33,864 - root - INFO - Starting testing...
+2025-08-18 13:00:34,358 - root - INFO - Testing time: 0.494
+2025-08-18 13:00:34,359 - root - INFO - Test set AUC: 0.00%
+2025-08-18 13:00:34,359 - root - INFO - Finished testing.
+2025-08-18 13:01:12,190 - root - INFO - Log file is ../log_LJ_ssl/log.txt.
+2025-08-18 13:01:12,190 - root - INFO - Data path is None.
+2025-08-18 13:01:12,190 - root - INFO - Export path is ../log_LJ_ssl.
+2025-08-18 13:01:12,190 - root - INFO - Dataset: lang_emb_ssl
+2025-08-18 13:01:12,190 - root - INFO - Normal class: 
+2025-08-18 13:01:12,191 - root - INFO - Network: lang_emb_LeNet_ssl
+2025-08-18 13:01:12,191 - root - INFO - Deep SVDD objective: one-class
+2025-08-18 13:01:12,191 - root - INFO - Nu-paramerter: 0.10
+2025-08-18 13:01:12,333 - root - INFO - Computation device: cuda
+2025-08-18 13:01:12,334 - root - INFO - Number of dataloader workers: 0
+2025-08-18 13:01:18,636 - root - INFO - Loading model from ../log_LJ_ssl/model.tar.
+2025-08-18 13:01:18,637 - root - INFO - Pretraining: False
+2025-08-18 13:01:18,637 - root - INFO - Training optimizer: adam
+2025-08-18 13:01:18,638 - root - INFO - Training learning rate: 0.001
+2025-08-18 13:01:18,638 - root - INFO - Training epochs: 0
+2025-08-18 13:01:18,638 - root - INFO - Training learning rate scheduler milestones: (0,)
+2025-08-18 13:01:18,638 - root - INFO - Training batch size: 128
+2025-08-18 13:01:18,638 - root - INFO - Training weight decay: 1e-06
+2025-08-18 13:01:18,644 - root - INFO - Starting training...
+2025-08-18 13:01:18,647 - root - INFO - Training time: 0.002
+2025-08-18 13:01:18,647 - root - INFO - Finished training.
+2025-08-18 13:01:18,648 - root - INFO - Starting testing...
+2025-08-18 13:01:19,175 - root - INFO - Testing time: 0.527
+2025-08-18 13:01:19,176 - root - INFO - Test set AUC: 0.00%
+2025-08-18 13:01:19,176 - root - INFO - Finished testing.

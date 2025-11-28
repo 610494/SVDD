@@ -1,0 +1,55 @@
+============================== load_config ==================================
+type(self.npz_file["features"]): <class 'numpy.ndarray'>
+INFO:root:Loading model from ../log_LJ_len_free/model.tar.
+INFO:root:Pretraining: False
+INFO:root:Training optimizer: adam
+INFO:root:Training learning rate: 0.001
+INFO:root:Training epochs: 0
+INFO:root:Training learning rate scheduler milestones: (0,)
+INFO:root:Training batch size: 128
+INFO:root:Training weight decay: 1e-06
+type(self.npz_file["features"]): <class 'numpy.ndarray'>
+type(self.npz_file["features"]): <class 'numpy.ndarray'>
+type(self.npz_file["features"]): <class 'numpy.ndarray'>
+/mnt/md1/user_wago/miniconda3/envs/svdd/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+INFO:root:Starting training...
+0it [00:00, ?it/s]
+INFO:root:Training time: 0.004
+INFO:root:Finished training.
+type(self.npz_file["features"]): <class 'numpy.ndarray'>
+type(self.npz_file["features"]): <class 'numpy.ndarray'>
+INFO:root:Starting testing...
+0it [00:03, ?it/s]
+Traceback (most recent call last):
+  File "/mnt/md1/user_wago/SVDD/src/npz_to_json.py", line 208, in <module>
+    main()
+  File "/mnt/md1/user_wago/miniconda3/envs/svdd/lib/python3.10/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/mnt/md1/user_wago/miniconda3/envs/svdd/lib/python3.10/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/mnt/md1/user_wago/miniconda3/envs/svdd/lib/python3.10/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/mnt/md1/user_wago/miniconda3/envs/svdd/lib/python3.10/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/mnt/md1/user_wago/SVDD/src/npz_to_json.py", line 180, in main
+    deep_SVDD.test(dataset, device=device, n_jobs_dataloader=n_jobs_dataloader)
+  File "/mnt/md1/user_wago/SVDD/src/deepSVDD.py", line 91, in test
+    self.trainer.test(dataset, self.net)
+  File "/mnt/md1/user_wago/SVDD/src/optim/deepSVDD_trainer.py", line 139, in test
+    for data in tqdm(test_loader):
+  File "/mnt/md1/user_wago/miniconda3/envs/svdd/lib/python3.10/site-packages/tqdm/std.py", line 1181, in __iter__
+    for obj in iterable:
+  File "/mnt/md1/user_wago/miniconda3/envs/svdd/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/mnt/md1/user_wago/miniconda3/envs/svdd/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 674, in _next_data
+    index = self._next_index()  # may raise StopIteration
+  File "/mnt/md1/user_wago/miniconda3/envs/svdd/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 621, in _next_index
+    return next(self._sampler_iter)  # may raise StopIteration
+  File "/mnt/md1/user_wago/miniconda3/envs/svdd/lib/python3.10/site-packages/torch/utils/data/sampler.py", line 287, in __iter__
+    for idx in self.sampler:
+  File "/mnt/md1/user_wago/miniconda3/envs/svdd/lib/python3.10/site-packages/torch/utils/data/sampler.py", line 111, in __iter__
+    return iter(range(len(self.data_source)))
+  File "/mnt/md1/user_wago/SVDD/src/datasets/lang_emb_len_free.py", line 69, in __len__
+    return len(self.npz_file["features"])
+TypeError: len() of unsized object

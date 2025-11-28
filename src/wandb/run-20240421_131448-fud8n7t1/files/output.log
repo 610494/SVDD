@@ -1,0 +1,43 @@
+
+============================== pretrain ==================================
+INFO:root:Pretraining: True
+INFO:root:Pretraining optimizer: adam
+INFO:root:Pretraining learning rate: 0.001
+INFO:root:Pretraining epochs: 100
+INFO:root:Pretraining learning rate scheduler milestones: (0,)
+INFO:root:Pretraining batch size: 128
+INFO:root:Pretraining weight decay: 1e-06
+/mnt/md1/user_wago/miniconda3/envs/svdd/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+INFO:root:Starting pretraining...
+  0%|                                 | 0/100 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/mnt/md1/user_wago/SVDD/src/npz_to_json.py", line 207, in <module>
+    main()
+  File "/mnt/md1/user_wago/miniconda3/envs/svdd/lib/python3.10/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/mnt/md1/user_wago/miniconda3/envs/svdd/lib/python3.10/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/mnt/md1/user_wago/miniconda3/envs/svdd/lib/python3.10/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/mnt/md1/user_wago/miniconda3/envs/svdd/lib/python3.10/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/mnt/md1/user_wago/SVDD/src/npz_to_json.py", line 148, in main
+    deep_SVDD.pretrain(dataset,
+  File "/mnt/md1/user_wago/SVDD/src/deepSVDD.py", line 107, in pretrain
+    self.ae_net = self.ae_trainer.train(dataset, self.ae_net)
+  File "/mnt/md1/user_wago/SVDD/src/optim/ae_trainer.py", line 60, in train
+    outputs = ae_net(inputs)
+  File "/mnt/md1/user_wago/miniconda3/envs/svdd/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mnt/md1/user_wago/miniconda3/envs/svdd/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/md1/user_wago/SVDD/src/networks/lang_emb_LeNet.py", line 73, in forward
+    x = self.fc0(x)
+  File "/mnt/md1/user_wago/miniconda3/envs/svdd/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mnt/md1/user_wago/miniconda3/envs/svdd/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/md1/user_wago/miniconda3/envs/svdd/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 116, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (128x12 and 20x512)

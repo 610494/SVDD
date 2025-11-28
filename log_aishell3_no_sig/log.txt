@@ -1,0 +1,195 @@
+2024-05-02 00:53:28,403 - root - INFO - Log file is ../log_aishell3_no_sig/log.txt.
+2024-05-02 00:53:28,403 - root - INFO - Data path is None.
+2024-05-02 00:53:28,403 - root - INFO - Export path is ../log_aishell3_no_sig.
+2024-05-02 00:53:28,403 - root - INFO - Dataset: lang_emb_no_sig
+2024-05-02 00:53:28,403 - root - INFO - Normal class: 
+2024-05-02 00:53:28,403 - root - INFO - Network: lang_emb_LeNet_no_sig
+2024-05-02 00:53:28,404 - root - INFO - Deep SVDD objective: one-class
+2024-05-02 00:53:28,404 - root - INFO - Nu-paramerter: 0.10
+2024-05-02 00:53:28,423 - root - INFO - Computation device: cuda
+2024-05-02 00:53:28,423 - root - INFO - Number of dataloader workers: 0
+2024-05-02 00:54:02,380 - root - INFO - Log file is ../log_aishell3_no_sig/log.txt.
+2024-05-02 00:54:02,380 - root - INFO - Data path is None.
+2024-05-02 00:54:02,381 - root - INFO - Export path is ../log_aishell3_no_sig.
+2024-05-02 00:54:02,381 - root - INFO - Dataset: lang_emb_no_sig
+2024-05-02 00:54:02,381 - root - INFO - Normal class: 
+2024-05-02 00:54:02,381 - root - INFO - Network: lang_emb_LeNet_no_SIG
+2024-05-02 00:54:02,381 - root - INFO - Deep SVDD objective: one-class
+2024-05-02 00:54:02,381 - root - INFO - Nu-paramerter: 0.10
+2024-05-02 00:54:02,398 - root - INFO - Computation device: cuda
+2024-05-02 00:54:02,399 - root - INFO - Number of dataloader workers: 0
+2024-05-02 00:54:08,103 - root - INFO - Pretraining: True
+2024-05-02 00:54:08,104 - root - INFO - Pretraining optimizer: adam
+2024-05-02 00:54:08,104 - root - INFO - Pretraining learning rate: 0.001
+2024-05-02 00:54:08,104 - root - INFO - Pretraining epochs: 100
+2024-05-02 00:54:08,104 - root - INFO - Pretraining learning rate scheduler milestones: (0,)
+2024-05-02 00:54:08,105 - root - INFO - Pretraining batch size: 128
+2024-05-02 00:54:08,105 - root - INFO - Pretraining weight decay: 1e-06
+2024-05-02 00:54:08,473 - root - INFO - Starting pretraining...
+2024-05-02 00:54:13,955 - root - INFO -   Epoch 1/100	 Time: 5.479	 Loss: 0.79408586
+2024-05-02 00:54:19,128 - root - INFO -   Epoch 2/100	 Time: 5.171	 Loss: 0.79191279
+2024-05-02 00:54:24,277 - root - INFO -   Epoch 3/100	 Time: 5.147	 Loss: 0.79191163
+2024-05-02 00:54:29,362 - root - INFO -   Epoch 4/100	 Time: 5.084	 Loss: 0.79183760
+2024-05-02 00:54:34,209 - root - INFO -   Epoch 5/100	 Time: 4.845	 Loss: 0.79189861
+2024-05-02 00:54:39,081 - root - INFO -   Epoch 6/100	 Time: 4.868	 Loss: 0.79181350
+2024-05-02 00:54:43,932 - root - INFO -   Epoch 7/100	 Time: 4.843	 Loss: 0.79187289
+2024-05-02 00:54:48,587 - root - INFO -   Epoch 8/100	 Time: 4.653	 Loss: 0.79190845
+2024-05-02 00:54:53,699 - root - INFO -   Epoch 9/100	 Time: 5.111	 Loss: 0.79189576
+2024-05-02 00:54:58,781 - root - INFO -   Epoch 10/100	 Time: 5.080	 Loss: 0.79188810
+2024-05-02 00:55:03,742 - root - INFO -   Epoch 11/100	 Time: 4.958	 Loss: 0.79198703
+2024-05-02 00:55:08,760 - root - INFO -   Epoch 12/100	 Time: 5.015	 Loss: 0.79191368
+2024-05-02 00:55:13,738 - root - INFO -   Epoch 13/100	 Time: 4.976	 Loss: 0.79188787
+2024-05-02 00:55:18,811 - root - INFO -   Epoch 14/100	 Time: 5.073	 Loss: 0.79194768
+2024-05-02 00:55:23,595 - root - INFO -   Epoch 15/100	 Time: 4.782	 Loss: 0.79187622
+2024-05-02 00:55:28,540 - root - INFO -   Epoch 16/100	 Time: 4.943	 Loss: 0.79187181
+2024-05-02 00:55:33,040 - root - INFO -   Epoch 17/100	 Time: 4.499	 Loss: 0.79191068
+2024-05-02 00:55:38,160 - root - INFO -   Epoch 18/100	 Time: 5.118	 Loss: 0.79186222
+2024-05-02 00:55:42,826 - root - INFO -   Epoch 19/100	 Time: 4.663	 Loss: 0.79194333
+2024-05-02 00:55:47,932 - root - INFO -   Epoch 20/100	 Time: 5.105	 Loss: 0.79193787
+2024-05-02 00:55:52,992 - root - INFO -   Epoch 21/100	 Time: 5.059	 Loss: 0.79199065
+2024-05-02 00:55:58,040 - root - INFO -   Epoch 22/100	 Time: 5.046	 Loss: 0.79184330
+2024-05-02 00:56:03,087 - root - INFO -   Epoch 23/100	 Time: 5.046	 Loss: 0.79187003
+2024-05-02 00:56:08,173 - root - INFO -   Epoch 24/100	 Time: 5.084	 Loss: 0.79190794
+2024-05-02 00:56:13,309 - root - INFO -   Epoch 25/100	 Time: 5.134	 Loss: 0.79195494
+2024-05-02 00:56:18,135 - root - INFO -   Epoch 26/100	 Time: 4.825	 Loss: 0.79191946
+2024-05-02 00:56:22,949 - root - INFO -   Epoch 27/100	 Time: 4.813	 Loss: 0.79185729
+2024-05-02 00:56:27,738 - root - INFO -   Epoch 28/100	 Time: 4.787	 Loss: 0.79185194
+2024-05-02 00:56:32,637 - root - INFO -   Epoch 29/100	 Time: 4.898	 Loss: 0.79192301
+2024-05-02 00:56:37,874 - root - INFO -   Epoch 30/100	 Time: 5.236	 Loss: 0.79188654
+2024-05-02 00:56:42,983 - root - INFO -   Epoch 31/100	 Time: 5.106	 Loss: 0.79192755
+2024-05-02 00:56:47,927 - root - INFO -   Epoch 32/100	 Time: 4.942	 Loss: 0.79187145
+2024-05-02 00:56:52,814 - root - INFO -   Epoch 33/100	 Time: 4.885	 Loss: 0.79186900
+2024-05-02 00:56:57,718 - root - INFO -   Epoch 34/100	 Time: 4.902	 Loss: 0.79197404
+2024-05-02 00:57:02,716 - root - INFO -   Epoch 35/100	 Time: 4.997	 Loss: 0.79185539
+2024-05-02 00:57:07,747 - root - INFO -   Epoch 36/100	 Time: 5.030	 Loss: 0.79187549
+2024-05-02 00:57:12,850 - root - INFO -   Epoch 37/100	 Time: 5.101	 Loss: 0.79185824
+2024-05-02 00:57:17,692 - root - INFO -   Epoch 38/100	 Time: 4.840	 Loss: 0.79196313
+2024-05-02 00:57:22,682 - root - INFO -   Epoch 39/100	 Time: 4.989	 Loss: 0.79211424
+2024-05-02 00:57:27,732 - root - INFO -   Epoch 40/100	 Time: 5.048	 Loss: 0.79185645
+2024-05-02 00:57:32,793 - root - INFO -   Epoch 41/100	 Time: 5.060	 Loss: 0.79197323
+2024-05-02 00:57:37,677 - root - INFO -   Epoch 42/100	 Time: 4.882	 Loss: 0.79188041
+2024-05-02 00:57:42,792 - root - INFO -   Epoch 43/100	 Time: 5.114	 Loss: 0.79190796
+2024-05-02 00:57:47,862 - root - INFO -   Epoch 44/100	 Time: 5.067	 Loss: 0.79191346
+2024-05-02 00:57:52,898 - root - INFO -   Epoch 45/100	 Time: 5.034	 Loss: 0.79188546
+2024-05-02 00:57:58,111 - root - INFO -   Epoch 46/100	 Time: 5.212	 Loss: 0.79180578
+2024-05-02 00:58:03,063 - root - INFO -   Epoch 47/100	 Time: 4.950	 Loss: 0.79192827
+2024-05-02 00:58:08,131 - root - INFO -   Epoch 48/100	 Time: 5.066	 Loss: 0.79185551
+2024-05-02 00:58:13,358 - root - INFO -   Epoch 49/100	 Time: 5.226	 Loss: 0.79192043
+2024-05-02 00:58:18,181 - root - INFO -   Epoch 50/100	 Time: 4.821	 Loss: 0.79192551
+2024-05-02 00:58:23,181 - root - INFO -   Epoch 51/100	 Time: 4.999	 Loss: 0.79189819
+2024-05-02 00:58:28,049 - root - INFO -   Epoch 52/100	 Time: 4.866	 Loss: 0.79196181
+2024-05-02 00:58:32,795 - root - INFO -   Epoch 53/100	 Time: 4.744	 Loss: 0.79186409
+2024-05-02 00:58:37,840 - root - INFO -   Epoch 54/100	 Time: 5.043	 Loss: 0.79193805
+2024-05-02 00:58:42,760 - root - INFO -   Epoch 55/100	 Time: 4.919	 Loss: 0.79183270
+2024-05-02 00:58:47,764 - root - INFO -   Epoch 56/100	 Time: 5.002	 Loss: 0.79194954
+2024-05-02 00:58:52,529 - root - INFO -   Epoch 57/100	 Time: 4.764	 Loss: 0.79195268
+2024-05-02 00:58:57,479 - root - INFO -   Epoch 58/100	 Time: 4.948	 Loss: 0.79191940
+2024-05-02 00:59:02,549 - root - INFO -   Epoch 59/100	 Time: 5.069	 Loss: 0.79191025
+2024-05-02 00:59:07,570 - root - INFO -   Epoch 60/100	 Time: 5.019	 Loss: 0.79191910
+2024-05-02 00:59:12,443 - root - INFO -   Epoch 61/100	 Time: 4.871	 Loss: 0.79190696
+2024-05-02 00:59:17,515 - root - INFO -   Epoch 62/100	 Time: 5.071	 Loss: 0.79191785
+2024-05-02 00:59:22,135 - root - INFO -   Epoch 63/100	 Time: 4.619	 Loss: 0.79183551
+2024-05-02 00:59:27,150 - root - INFO -   Epoch 64/100	 Time: 5.012	 Loss: 0.79190881
+2024-05-02 00:59:31,980 - root - INFO -   Epoch 65/100	 Time: 4.829	 Loss: 0.79196010
+2024-05-02 00:59:36,783 - root - INFO -   Epoch 66/100	 Time: 4.802	 Loss: 0.79192516
+2024-05-02 00:59:41,152 - root - INFO -   Epoch 67/100	 Time: 4.366	 Loss: 0.79188299
+2024-05-02 00:59:45,790 - root - INFO -   Epoch 68/100	 Time: 4.637	 Loss: 0.79191085
+2024-05-02 00:59:50,639 - root - INFO -   Epoch 69/100	 Time: 4.848	 Loss: 0.79189832
+2024-05-02 00:59:55,635 - root - INFO -   Epoch 70/100	 Time: 4.993	 Loss: 0.79199263
+2024-05-02 01:00:00,676 - root - INFO -   Epoch 71/100	 Time: 5.039	 Loss: 0.79188514
+2024-05-02 01:00:05,375 - root - INFO -   Epoch 72/100	 Time: 4.697	 Loss: 0.79192699
+2024-05-02 01:00:10,196 - root - INFO -   Epoch 73/100	 Time: 4.820	 Loss: 0.79190543
+2024-05-02 01:00:14,664 - root - INFO -   Epoch 74/100	 Time: 4.466	 Loss: 0.79198171
+2024-05-02 01:00:19,754 - root - INFO -   Epoch 75/100	 Time: 5.088	 Loss: 0.79191391
+2024-05-02 01:00:24,875 - root - INFO -   Epoch 76/100	 Time: 5.120	 Loss: 0.79193583
+2024-05-02 01:00:29,726 - root - INFO -   Epoch 77/100	 Time: 4.848	 Loss: 0.79184053
+2024-05-02 01:00:34,727 - root - INFO -   Epoch 78/100	 Time: 4.999	 Loss: 0.79187901
+2024-05-02 01:00:39,735 - root - INFO -   Epoch 79/100	 Time: 5.007	 Loss: 0.79209726
+2024-05-02 01:00:44,735 - root - INFO -   Epoch 80/100	 Time: 4.999	 Loss: 0.79193432
+2024-05-02 01:00:49,717 - root - INFO -   Epoch 81/100	 Time: 4.980	 Loss: 0.79184718
+2024-05-02 01:00:54,758 - root - INFO -   Epoch 82/100	 Time: 5.039	 Loss: 0.79192190
+2024-05-02 01:00:59,774 - root - INFO -   Epoch 83/100	 Time: 5.014	 Loss: 0.79194038
+2024-05-02 01:01:04,949 - root - INFO -   Epoch 84/100	 Time: 5.174	 Loss: 0.79199964
+2024-05-02 01:01:10,360 - root - INFO -   Epoch 85/100	 Time: 5.410	 Loss: 0.79199358
+2024-05-02 01:01:15,014 - root - INFO -   Epoch 86/100	 Time: 4.652	 Loss: 0.79190020
+2024-05-02 01:01:19,641 - root - INFO -   Epoch 87/100	 Time: 4.626	 Loss: 0.79189733
+2024-05-02 01:01:25,346 - root - INFO -   Epoch 88/100	 Time: 5.704	 Loss: 0.79190358
+2024-05-02 01:01:30,497 - root - INFO -   Epoch 89/100	 Time: 5.149	 Loss: 0.79193340
+2024-05-02 01:01:35,569 - root - INFO -   Epoch 90/100	 Time: 5.070	 Loss: 0.79194423
+2024-05-02 01:01:40,473 - root - INFO -   Epoch 91/100	 Time: 4.903	 Loss: 0.79192954
+2024-05-02 01:01:45,559 - root - INFO -   Epoch 92/100	 Time: 5.085	 Loss: 0.79192212
+2024-05-02 01:01:50,167 - root - INFO -   Epoch 93/100	 Time: 4.605	 Loss: 0.79187431
+2024-05-02 01:01:55,209 - root - INFO -   Epoch 94/100	 Time: 5.042	 Loss: 0.79191885
+2024-05-02 01:02:00,482 - root - INFO -   Epoch 95/100	 Time: 5.272	 Loss: 0.79193191
+2024-05-02 01:02:05,679 - root - INFO -   Epoch 96/100	 Time: 5.195	 Loss: 0.79183613
+2024-05-02 01:02:10,729 - root - INFO -   Epoch 97/100	 Time: 5.048	 Loss: 0.79200058
+2024-05-02 01:02:15,785 - root - INFO -   Epoch 98/100	 Time: 5.055	 Loss: 0.79189923
+2024-05-02 01:02:20,822 - root - INFO -   Epoch 99/100	 Time: 5.034	 Loss: 0.79194673
+2024-05-02 01:02:25,578 - root - INFO -   Epoch 100/100	 Time: 4.755	 Loss: 0.79190138
+2024-05-02 01:02:25,580 - root - INFO - Pretraining time: 497.107
+2024-05-02 01:02:25,580 - root - INFO - Finished pretraining.
+2024-05-02 01:02:25,586 - root - INFO - Training optimizer: adam
+2024-05-02 01:02:25,586 - root - INFO - Training learning rate: 0.001
+2024-05-02 01:02:25,587 - root - INFO - Training epochs: 50
+2024-05-02 01:02:25,587 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-05-02 01:02:25,587 - root - INFO - Training batch size: 128
+2024-05-02 01:02:25,587 - root - INFO - Training weight decay: 1e-06
+2024-05-02 01:02:25,609 - root - INFO - Initializing center c...
+2024-05-02 01:02:27,241 - root - INFO - Center c initialized.
+2024-05-02 01:02:27,241 - root - INFO - Starting training...
+2024-05-02 01:02:30,359 - root - INFO -   Epoch 1/50	 Time: 3.116	 Loss: 0.08127341
+2024-05-02 01:02:33,345 - root - INFO -   Epoch 2/50	 Time: 2.985	 Loss: 0.00125183
+2024-05-02 01:02:36,139 - root - INFO -   Epoch 3/50	 Time: 2.792	 Loss: 0.00205532
+2024-05-02 01:02:39,523 - root - INFO -   Epoch 4/50	 Time: 3.383	 Loss: 0.00234349
+2024-05-02 01:02:42,557 - root - INFO -   Epoch 5/50	 Time: 3.032	 Loss: 0.00209578
+2024-05-02 01:02:45,988 - root - INFO -   Epoch 6/50	 Time: 3.429	 Loss: 0.00196738
+2024-05-02 01:02:48,947 - root - INFO -   Epoch 7/50	 Time: 2.957	 Loss: 0.00173537
+2024-05-02 01:02:51,912 - root - INFO -   Epoch 8/50	 Time: 2.964	 Loss: 0.00156978
+2024-05-02 01:02:54,757 - root - INFO -   Epoch 9/50	 Time: 2.843	 Loss: 0.00134382
+2024-05-02 01:02:57,891 - root - INFO -   Epoch 10/50	 Time: 3.133	 Loss: 0.00136460
+2024-05-02 01:03:00,999 - root - INFO -   Epoch 11/50	 Time: 3.106	 Loss: 0.00125292
+2024-05-02 01:03:03,776 - root - INFO -   Epoch 12/50	 Time: 2.775	 Loss: 0.00088271
+2024-05-02 01:03:06,686 - root - INFO -   Epoch 13/50	 Time: 2.909	 Loss: 0.00164404
+2024-05-02 01:03:09,527 - root - INFO -   Epoch 14/50	 Time: 2.839	 Loss: 0.00077312
+2024-05-02 01:03:12,641 - root - INFO -   Epoch 15/50	 Time: 3.088	 Loss: 0.13121577
+2024-05-02 01:03:15,642 - root - INFO -   Epoch 16/50	 Time: 3.000	 Loss: 0.00202932
+2024-05-02 01:03:18,555 - root - INFO -   Epoch 17/50	 Time: 2.911	 Loss: 0.00012494
+2024-05-02 01:03:21,568 - root - INFO -   Epoch 18/50	 Time: 3.012	 Loss: 0.00012895
+2024-05-02 01:03:24,526 - root - INFO -   Epoch 19/50	 Time: 2.957	 Loss: 0.00012591
+2024-05-02 01:03:27,562 - root - INFO -   Epoch 20/50	 Time: 3.035	 Loss: 0.00021165
+2024-05-02 01:03:30,778 - root - INFO -   Epoch 21/50	 Time: 3.214	 Loss: 0.00034730
+2024-05-02 01:03:33,961 - root - INFO -   Epoch 22/50	 Time: 3.181	 Loss: 0.00066644
+2024-05-02 01:03:37,087 - root - INFO -   Epoch 23/50	 Time: 3.125	 Loss: 0.00139711
+2024-05-02 01:03:40,144 - root - INFO -   Epoch 24/50	 Time: 3.055	 Loss: 0.00120709
+2024-05-02 01:03:43,362 - root - INFO -   Epoch 25/50	 Time: 3.218	 Loss: 0.00144603
+2024-05-02 01:03:46,261 - root - INFO -   Epoch 26/50	 Time: 2.898	 Loss: 0.00130082
+2024-05-02 01:03:49,396 - root - INFO -   Epoch 27/50	 Time: 3.132	 Loss: 0.00116736
+2024-05-02 01:03:52,458 - root - INFO -   Epoch 28/50	 Time: 3.061	 Loss: 0.00122168
+2024-05-02 01:03:55,543 - root - INFO -   Epoch 29/50	 Time: 3.084	 Loss: 0.00042466
+2024-05-02 01:03:58,931 - root - INFO -   Epoch 30/50	 Time: 3.386	 Loss: 0.00066456
+2024-05-02 01:04:02,071 - root - INFO -   Epoch 31/50	 Time: 3.138	 Loss: 0.00090138
+2024-05-02 01:04:05,018 - root - INFO -   Epoch 32/50	 Time: 2.945	 Loss: 0.00075805
+2024-05-02 01:04:07,977 - root - INFO -   Epoch 33/50	 Time: 2.958	 Loss: 0.00070805
+2024-05-02 01:04:11,237 - root - INFO -   Epoch 34/50	 Time: 3.258	 Loss: 0.00072150
+2024-05-02 01:04:14,261 - root - INFO -   Epoch 35/50	 Time: 3.023	 Loss: 0.00070715
+2024-05-02 01:04:17,294 - root - INFO -   Epoch 36/50	 Time: 3.032	 Loss: 0.00071583
+2024-05-02 01:04:20,337 - root - INFO -   Epoch 37/50	 Time: 3.042	 Loss: 0.00051516
+2024-05-02 01:04:23,473 - root - INFO -   Epoch 38/50	 Time: 3.135	 Loss: 0.00094426
+2024-05-02 01:04:26,532 - root - INFO -   Epoch 39/50	 Time: 3.058	 Loss: 0.00039394
+2024-05-02 01:04:29,819 - root - INFO -   Epoch 40/50	 Time: 3.286	 Loss: 0.00027928
+2024-05-02 01:04:33,017 - root - INFO -   Epoch 41/50	 Time: 3.196	 Loss: 0.00041078
+2024-05-02 01:04:35,986 - root - INFO -   Epoch 42/50	 Time: 2.967	 Loss: 0.00039893
+2024-05-02 01:04:39,230 - root - INFO -   Epoch 43/50	 Time: 3.243	 Loss: 0.00044545
+2024-05-02 01:04:42,136 - root - INFO -   Epoch 44/50	 Time: 2.905	 Loss: 0.00530683
+2024-05-02 01:04:45,166 - root - INFO -   Epoch 45/50	 Time: 3.029	 Loss: 0.00010773
+2024-05-02 01:04:48,564 - root - INFO -   Epoch 46/50	 Time: 3.389	 Loss: 0.00016725
+2024-05-02 01:04:51,558 - root - INFO -   Epoch 47/50	 Time: 2.991	 Loss: 0.00027227
+2024-05-02 01:04:54,571 - root - INFO -   Epoch 48/50	 Time: 3.012	 Loss: 0.00035060
+2024-05-02 01:04:57,710 - root - INFO -   Epoch 49/50	 Time: 3.138	 Loss: 0.00033221
+2024-05-02 01:05:00,980 - root - INFO -   Epoch 50/50	 Time: 3.269	 Loss: 0.00036540
+2024-05-02 01:05:00,982 - root - INFO - Training time: 153.741
+2024-05-02 01:05:00,982 - root - INFO - Finished training.
+2024-05-02 01:05:01,005 - root - INFO - Starting testing...
+2024-05-02 01:05:01,491 - root - INFO - Testing time: 0.486
+2024-05-02 01:05:01,491 - root - INFO - Test set AUC: 0.00%
+2024-05-02 01:05:01,492 - root - INFO - Finished testing.

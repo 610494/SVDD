@@ -19,9 +19,10 @@ from typing import Union
 # @click.argument('net_name', type=click.Choice(['mnist_LeNet', 'cifar10_LeNet', 'cifar10_LeNet_ELU', 'lang_emb_LeNet']))
 # @click.argument('xp_path', type=click.Path(exists=True))
 # @click.argument('data_path', type=click.Path(exists=True))
+
 @click.option('--dataset_name', type=str, default='lang_emb')
 @click.option('--net_name', type=str, default='lang_emb_LeNet')
-@click.option('--xp_path', type=str, default='../log')
+@click.option('--xp_path', type=str, default='../log_LJ')
 @click.option('--data_path', type=str)
 @click.option('--load_config', type=click.Path(exists=True), default=None,
               help='Config JSON-file path (default: None).')
@@ -198,10 +199,22 @@ def main(dataset_name, net_name, xp_path, data_path, load_config, load_model, ob
 
     # Save results, model, and configuration
     print("====================================", xp_path, "======================================")
-    deep_SVDD.save_results(export_json=xp_path + '/results_clean_loadmodel.json')
-    deep_SVDD.save_model(export_model=xp_path + '/model.tar')
-    cfg.save_config(export_json=xp_path + '/config.json')
-
+    deep_SVDD.save_results(export_json=xp_path + '/matbn_enhanced_split_5s.json')
+    # deep_SVDD.save_model(export_model=xp_path + '/model.tar')
+    # cfg.save_config(export_json=xp_path + '/config.json')
+# file_paths = ["/mnt/md1/user_wago/MOS/csv/train-clean-100.csv", "/mnt/md1/user_wago/MOS/csv/libri.csv", "/mnt/md1/user_wago/MOS/csv/vctk.csv"]
 
 if __name__ == '__main__':
     main()
+    
+"""
+python npz_to_json.py --xp_path ../log_LJ_wt_aishell3_len_free_vq --dataset_name lang_emb_len_free_nisqa_vq --net_name lang_emb_LeNet_len_free_vq
+--n_epochs 0 --pretrain false
+
+python npz_to_json.py --xp_path ../log_LJ_ssl --dataset_name lang_emb_ssl --net_name lang_emb_LeNet_ssl --n_epochs 0 --pretrain false
+
+
+
+python npz_to_json.py --load_model ../log_LJ_wt_aishell3_vq/model.tar --n_epochs 0 --pretrain false  --xp_path ../log_LJ 
+"""
+    

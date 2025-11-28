@@ -1,0 +1,320 @@
+2024-08-16 02:44:01,855 - root - INFO - Log file is ../log_LJ_vctk_libriTTS_100_aishell3/log.txt.
+2024-08-16 02:44:01,855 - root - INFO - Data path is None.
+2024-08-16 02:44:01,855 - root - INFO - Export path is ../log_LJ_vctk_libriTTS_100_aishell3.
+2024-08-16 02:44:01,855 - root - INFO - Dataset: lang_emb
+2024-08-16 02:44:01,855 - root - INFO - Normal class: 
+2024-08-16 02:44:01,855 - root - INFO - Network: lang_emb_LeNet
+2024-08-16 02:44:01,855 - root - INFO - Deep SVDD objective: one-class
+2024-08-16 02:44:01,855 - root - INFO - Nu-paramerter: 0.10
+2024-08-16 02:44:01,949 - root - INFO - Computation device: cuda
+2024-08-16 02:44:01,949 - root - INFO - Number of dataloader workers: 0
+2024-08-16 02:44:31,319 - root - INFO - Log file is ../log_LJ_vctk_libriTTS_100_aishell3/log.txt.
+2024-08-16 02:44:31,319 - root - INFO - Data path is None.
+2024-08-16 02:44:31,319 - root - INFO - Export path is ../log_LJ_vctk_libriTTS_100_aishell3.
+2024-08-16 02:44:31,319 - root - INFO - Dataset: lang_emb
+2024-08-16 02:44:31,319 - root - INFO - Normal class: 
+2024-08-16 02:44:31,319 - root - INFO - Network: lang_emb_LeNet
+2024-08-16 02:44:31,319 - root - INFO - Deep SVDD objective: one-class
+2024-08-16 02:44:31,320 - root - INFO - Nu-paramerter: 0.10
+2024-08-16 02:44:31,471 - root - INFO - Computation device: cuda
+2024-08-16 02:44:31,471 - root - INFO - Number of dataloader workers: 0
+2024-08-16 02:44:37,233 - root - INFO - Pretraining: True
+2024-08-16 02:44:37,234 - root - INFO - Pretraining optimizer: adam
+2024-08-16 02:44:37,234 - root - INFO - Pretraining learning rate: 0.001
+2024-08-16 02:44:37,234 - root - INFO - Pretraining epochs: 100
+2024-08-16 02:44:37,235 - root - INFO - Pretraining learning rate scheduler milestones: (0,)
+2024-08-16 02:44:37,235 - root - INFO - Pretraining batch size: 128
+2024-08-16 02:44:37,235 - root - INFO - Pretraining weight decay: 1e-06
+2024-08-16 02:44:37,692 - root - INFO - Starting pretraining...
+2024-08-16 02:44:51,972 - root - INFO -   Epoch 1/100	 Time: 14.277	 Loss: 1.33990361
+2024-08-16 02:45:05,834 - root - INFO -   Epoch 2/100	 Time: 13.860	 Loss: 1.33861327
+2024-08-16 02:45:20,113 - root - INFO -   Epoch 3/100	 Time: 14.277	 Loss: 1.33860928
+2024-08-16 02:45:32,881 - root - INFO -   Epoch 4/100	 Time: 12.765	 Loss: 1.33861040
+2024-08-16 02:45:45,648 - root - INFO -   Epoch 5/100	 Time: 12.765	 Loss: 1.33860721
+2024-08-16 02:45:58,491 - root - INFO -   Epoch 6/100	 Time: 12.842	 Loss: 1.33861088
+2024-08-16 02:46:11,382 - root - INFO -   Epoch 7/100	 Time: 12.853	 Loss: 1.33860845
+2024-08-16 02:46:25,618 - root - INFO -   Epoch 8/100	 Time: 14.234	 Loss: 1.33861199
+2024-08-16 02:46:39,505 - root - INFO -   Epoch 9/100	 Time: 13.885	 Loss: 1.33860750
+2024-08-16 02:46:53,491 - root - INFO -   Epoch 10/100	 Time: 13.984	 Loss: 1.33860947
+2024-08-16 02:47:07,266 - root - INFO -   Epoch 11/100	 Time: 13.773	 Loss: 1.33860765
+2024-08-16 02:47:21,292 - root - INFO -   Epoch 12/100	 Time: 14.025	 Loss: 1.33946629
+2024-08-16 02:47:35,351 - root - INFO -   Epoch 13/100	 Time: 14.057	 Loss: 1.33860935
+2024-08-16 02:47:49,224 - root - INFO -   Epoch 14/100	 Time: 13.871	 Loss: 1.33861109
+2024-08-16 02:48:03,101 - root - INFO -   Epoch 15/100	 Time: 13.875	 Loss: 1.33860778
+2024-08-16 02:48:17,253 - root - INFO -   Epoch 16/100	 Time: 14.150	 Loss: 1.33861068
+2024-08-16 02:48:32,182 - root - INFO -   Epoch 17/100	 Time: 14.927	 Loss: 1.33861027
+2024-08-16 02:48:47,011 - root - INFO -   Epoch 18/100	 Time: 14.827	 Loss: 1.33860908
+2024-08-16 02:49:01,851 - root - INFO -   Epoch 19/100	 Time: 14.838	 Loss: 1.33861042
+2024-08-16 02:49:16,630 - root - INFO -   Epoch 20/100	 Time: 14.777	 Loss: 1.33860967
+2024-08-16 02:49:30,847 - root - INFO -   Epoch 21/100	 Time: 14.216	 Loss: 1.33860965
+2024-08-16 02:49:44,783 - root - INFO -   Epoch 22/100	 Time: 13.934	 Loss: 1.33861100
+2024-08-16 02:49:58,648 - root - INFO -   Epoch 23/100	 Time: 13.863	 Loss: 1.33860757
+2024-08-16 02:50:12,498 - root - INFO -   Epoch 24/100	 Time: 13.848	 Loss: 1.33862808
+2024-08-16 02:50:26,236 - root - INFO -   Epoch 25/100	 Time: 13.736	 Loss: 1.33860954
+2024-08-16 02:50:38,806 - root - INFO -   Epoch 26/100	 Time: 12.569	 Loss: 1.33861023
+2024-08-16 02:50:51,395 - root - INFO -   Epoch 27/100	 Time: 12.587	 Loss: 1.33861213
+2024-08-16 02:51:04,996 - root - INFO -   Epoch 28/100	 Time: 13.600	 Loss: 1.33861002
+2024-08-16 02:51:20,014 - root - INFO -   Epoch 29/100	 Time: 15.016	 Loss: 1.33861043
+2024-08-16 02:51:35,231 - root - INFO -   Epoch 30/100	 Time: 15.216	 Loss: 1.33861022
+2024-08-16 02:51:50,528 - root - INFO -   Epoch 31/100	 Time: 15.295	 Loss: 1.33861169
+2024-08-16 02:52:05,736 - root - INFO -   Epoch 32/100	 Time: 15.206	 Loss: 1.33860765
+2024-08-16 02:52:20,824 - root - INFO -   Epoch 33/100	 Time: 15.087	 Loss: 1.33860979
+2024-08-16 02:52:35,070 - root - INFO -   Epoch 34/100	 Time: 14.245	 Loss: 1.33861028
+2024-08-16 02:52:47,250 - root - INFO -   Epoch 35/100	 Time: 12.178	 Loss: 1.33864975
+2024-08-16 02:52:59,437 - root - INFO -   Epoch 36/100	 Time: 12.186	 Loss: 1.33860882
+2024-08-16 02:53:11,967 - root - INFO -   Epoch 37/100	 Time: 12.529	 Loss: 1.33861126
+2024-08-16 02:53:24,596 - root - INFO -   Epoch 38/100	 Time: 12.626	 Loss: 1.33860805
+2024-08-16 02:53:37,075 - root - INFO -   Epoch 39/100	 Time: 12.478	 Loss: 1.33860649
+2024-08-16 02:53:49,546 - root - INFO -   Epoch 40/100	 Time: 12.469	 Loss: 1.33860983
+2024-08-16 02:54:01,943 - root - INFO -   Epoch 41/100	 Time: 12.395	 Loss: 1.33861073
+2024-08-16 02:54:14,358 - root - INFO -   Epoch 42/100	 Time: 12.413	 Loss: 1.33861206
+2024-08-16 02:54:29,267 - root - INFO -   Epoch 43/100	 Time: 14.908	 Loss: 1.33861083
+2024-08-16 02:54:44,405 - root - INFO -   Epoch 44/100	 Time: 15.136	 Loss: 1.33861254
+2024-08-16 02:54:57,333 - root - INFO -   Epoch 45/100	 Time: 12.926	 Loss: 1.33861194
+2024-08-16 02:55:09,257 - root - INFO -   Epoch 46/100	 Time: 11.923	 Loss: 1.33861028
+2024-08-16 02:55:21,279 - root - INFO -   Epoch 47/100	 Time: 12.021	 Loss: 1.33860954
+2024-08-16 02:55:33,235 - root - INFO -   Epoch 48/100	 Time: 11.953	 Loss: 1.33860977
+2024-08-16 02:55:45,142 - root - INFO -   Epoch 49/100	 Time: 11.905	 Loss: 1.33860580
+2024-08-16 02:55:59,475 - root - INFO -   Epoch 50/100	 Time: 14.332	 Loss: 1.33860950
+2024-08-16 02:56:14,203 - root - INFO -   Epoch 51/100	 Time: 14.726	 Loss: 1.33860986
+2024-08-16 02:56:28,200 - root - INFO -   Epoch 52/100	 Time: 13.995	 Loss: 1.33861171
+2024-08-16 02:56:40,622 - root - INFO -   Epoch 53/100	 Time: 12.421	 Loss: 1.33860801
+2024-08-16 02:56:53,023 - root - INFO -   Epoch 54/100	 Time: 12.399	 Loss: 1.33860870
+2024-08-16 02:57:05,454 - root - INFO -   Epoch 55/100	 Time: 12.430	 Loss: 1.33860999
+2024-08-16 02:57:21,026 - root - INFO -   Epoch 56/100	 Time: 15.571	 Loss: 1.33861488
+2024-08-16 02:57:34,164 - root - INFO -   Epoch 57/100	 Time: 13.137	 Loss: 1.33860883
+2024-08-16 02:57:46,749 - root - INFO -   Epoch 58/100	 Time: 12.583	 Loss: 1.33861061
+2024-08-16 02:57:59,353 - root - INFO -   Epoch 59/100	 Time: 12.602	 Loss: 1.33860729
+2024-08-16 02:58:11,882 - root - INFO -   Epoch 60/100	 Time: 12.528	 Loss: 1.33860893
+2024-08-16 02:58:24,599 - root - INFO -   Epoch 61/100	 Time: 12.716	 Loss: 1.33861004
+2024-08-16 02:58:37,160 - root - INFO -   Epoch 62/100	 Time: 12.559	 Loss: 1.33861065
+2024-08-16 02:58:49,713 - root - INFO -   Epoch 63/100	 Time: 12.550	 Loss: 1.33861079
+2024-08-16 02:59:02,285 - root - INFO -   Epoch 64/100	 Time: 12.571	 Loss: 1.33860926
+2024-08-16 02:59:14,796 - root - INFO -   Epoch 65/100	 Time: 12.509	 Loss: 1.33860973
+2024-08-16 02:59:27,408 - root - INFO -   Epoch 66/100	 Time: 12.611	 Loss: 1.33860922
+2024-08-16 02:59:39,958 - root - INFO -   Epoch 67/100	 Time: 12.549	 Loss: 1.33861055
+2024-08-16 02:59:52,468 - root - INFO -   Epoch 68/100	 Time: 12.509	 Loss: 1.33860965
+2024-08-16 03:00:05,042 - root - INFO -   Epoch 69/100	 Time: 12.573	 Loss: 1.33860987
+2024-08-16 03:00:18,025 - root - INFO -   Epoch 70/100	 Time: 12.981	 Loss: 1.33861149
+2024-08-16 03:00:30,996 - root - INFO -   Epoch 71/100	 Time: 12.970	 Loss: 1.33860947
+2024-08-16 03:00:43,423 - root - INFO -   Epoch 72/100	 Time: 12.426	 Loss: 1.33861025
+2024-08-16 03:00:56,461 - root - INFO -   Epoch 73/100	 Time: 13.036	 Loss: 1.33861173
+2024-08-16 03:01:12,082 - root - INFO -   Epoch 74/100	 Time: 15.619	 Loss: 1.33860984
+2024-08-16 03:01:27,513 - root - INFO -   Epoch 75/100	 Time: 15.429	 Loss: 1.33861014
+2024-08-16 03:01:40,350 - root - INFO -   Epoch 76/100	 Time: 12.835	 Loss: 1.33861104
+2024-08-16 03:01:55,564 - root - INFO -   Epoch 77/100	 Time: 15.213	 Loss: 1.33861004
+2024-08-16 03:02:10,626 - root - INFO -   Epoch 78/100	 Time: 15.060	 Loss: 1.33860887
+2024-08-16 03:02:25,620 - root - INFO -   Epoch 79/100	 Time: 14.992	 Loss: 1.33861252
+2024-08-16 03:02:40,660 - root - INFO -   Epoch 80/100	 Time: 15.039	 Loss: 1.33861184
+2024-08-16 03:02:55,711 - root - INFO -   Epoch 81/100	 Time: 15.049	 Loss: 1.33860649
+2024-08-16 03:03:11,020 - root - INFO -   Epoch 82/100	 Time: 15.308	 Loss: 1.33860984
+2024-08-16 03:03:25,876 - root - INFO -   Epoch 83/100	 Time: 14.855	 Loss: 1.33860764
+2024-08-16 03:03:39,010 - root - INFO -   Epoch 84/100	 Time: 13.131	 Loss: 1.33860765
+2024-08-16 03:03:52,949 - root - INFO -   Epoch 85/100	 Time: 13.938	 Loss: 1.33860722
+2024-08-16 03:04:06,867 - root - INFO -   Epoch 86/100	 Time: 13.916	 Loss: 1.33861047
+2024-08-16 03:04:20,838 - root - INFO -   Epoch 87/100	 Time: 13.970	 Loss: 1.33861159
+2024-08-16 03:04:35,409 - root - INFO -   Epoch 88/100	 Time: 14.569	 Loss: 1.33860703
+2024-08-16 03:04:50,497 - root - INFO -   Epoch 89/100	 Time: 15.087	 Loss: 1.33861177
+2024-08-16 03:05:05,593 - root - INFO -   Epoch 90/100	 Time: 15.093	 Loss: 1.33861137
+2024-08-16 03:05:20,677 - root - INFO -   Epoch 91/100	 Time: 15.084	 Loss: 1.33860979
+2024-08-16 03:05:33,579 - root - INFO -   Epoch 92/100	 Time: 12.901	 Loss: 1.33861193
+2024-08-16 03:05:46,083 - root - INFO -   Epoch 93/100	 Time: 12.503	 Loss: 1.33861112
+2024-08-16 03:05:58,563 - root - INFO -   Epoch 94/100	 Time: 12.478	 Loss: 1.33861143
+2024-08-16 03:06:11,034 - root - INFO -   Epoch 95/100	 Time: 12.470	 Loss: 1.33861260
+2024-08-16 03:06:23,583 - root - INFO -   Epoch 96/100	 Time: 12.548	 Loss: 1.33860869
+2024-08-16 03:06:36,090 - root - INFO -   Epoch 97/100	 Time: 12.506	 Loss: 1.33860814
+2024-08-16 03:06:48,744 - root - INFO -   Epoch 98/100	 Time: 12.652	 Loss: 1.33861366
+2024-08-16 03:07:01,371 - root - INFO -   Epoch 99/100	 Time: 12.626	 Loss: 1.33860981
+2024-08-16 03:07:13,794 - root - INFO -   Epoch 100/100	 Time: 12.422	 Loss: 1.33860835
+2024-08-16 03:07:13,796 - root - INFO - Pretraining time: 1356.103
+2024-08-16 03:07:13,796 - root - INFO - Finished pretraining.
+2024-08-16 03:07:13,801 - root - INFO - Training optimizer: adam
+2024-08-16 03:07:13,801 - root - INFO - Training learning rate: 0.001
+2024-08-16 03:07:13,802 - root - INFO - Training epochs: 50
+2024-08-16 03:07:13,802 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-08-16 03:07:13,802 - root - INFO - Training batch size: 128
+2024-08-16 03:07:13,802 - root - INFO - Training weight decay: 1e-06
+2024-08-16 03:07:13,880 - root - INFO - Initializing center c...
+2024-08-16 03:07:17,127 - root - INFO - Center c initialized.
+2024-08-16 03:07:17,128 - root - INFO - Starting training...
+2024-08-16 03:07:25,330 - root - INFO -   Epoch 1/50	 Time: 8.202	 Loss: 0.01015844
+2024-08-16 03:07:33,487 - root - INFO -   Epoch 2/50	 Time: 8.155	 Loss: 0.10323428
+2024-08-16 03:07:41,758 - root - INFO -   Epoch 3/50	 Time: 8.270	 Loss: 0.00049600
+2024-08-16 03:07:49,973 - root - INFO -   Epoch 4/50	 Time: 8.214	 Loss: 0.00643777
+2024-08-16 03:07:58,105 - root - INFO -   Epoch 5/50	 Time: 8.131	 Loss: 0.00655802
+2024-08-16 03:08:06,234 - root - INFO -   Epoch 6/50	 Time: 8.128	 Loss: 0.00631088
+2024-08-16 03:08:14,357 - root - INFO -   Epoch 7/50	 Time: 8.121	 Loss: 0.00564122
+2024-08-16 03:08:22,690 - root - INFO -   Epoch 8/50	 Time: 8.332	 Loss: 0.00337330
+2024-08-16 03:08:31,940 - root - INFO -   Epoch 9/50	 Time: 9.249	 Loss: 0.00215013
+2024-08-16 03:08:41,901 - root - INFO -   Epoch 10/50	 Time: 9.959	 Loss: 0.00205001
+2024-08-16 03:08:50,520 - root - INFO -   Epoch 11/50	 Time: 8.618	 Loss: 0.00160177
+2024-08-16 03:08:59,199 - root - INFO -   Epoch 12/50	 Time: 8.678	 Loss: 0.00953735
+2024-08-16 03:09:07,841 - root - INFO -   Epoch 13/50	 Time: 8.641	 Loss: 0.00000222
+2024-08-16 03:09:16,536 - root - INFO -   Epoch 14/50	 Time: 8.693	 Loss: 0.00090132
+2024-08-16 03:09:25,950 - root - INFO -   Epoch 15/50	 Time: 9.413	 Loss: 0.00119305
+2024-08-16 03:09:35,810 - root - INFO -   Epoch 16/50	 Time: 9.859	 Loss: 0.00107188
+2024-08-16 03:09:45,778 - root - INFO -   Epoch 17/50	 Time: 9.967	 Loss: 0.00113198
+2024-08-16 03:09:54,157 - root - INFO -   Epoch 18/50	 Time: 8.378	 Loss: 0.00096260
+2024-08-16 03:10:02,839 - root - INFO -   Epoch 19/50	 Time: 8.681	 Loss: 0.00065918
+2024-08-16 03:10:11,507 - root - INFO -   Epoch 20/50	 Time: 8.666	 Loss: 0.00074276
+2024-08-16 03:10:20,213 - root - INFO -   Epoch 21/50	 Time: 8.705	 Loss: 0.00053543
+2024-08-16 03:10:29,816 - root - INFO -   Epoch 22/50	 Time: 9.601	 Loss: 0.00048238
+2024-08-16 03:10:40,998 - root - INFO -   Epoch 23/50	 Time: 11.181	 Loss: 0.00054405
+2024-08-16 03:10:52,235 - root - INFO -   Epoch 24/50	 Time: 11.236	 Loss: 0.00043888
+2024-08-16 03:11:02,744 - root - INFO -   Epoch 25/50	 Time: 10.507	 Loss: 0.00022353
+2024-08-16 03:11:12,795 - root - INFO -   Epoch 26/50	 Time: 10.051	 Loss: 0.00024692
+2024-08-16 03:11:22,648 - root - INFO -   Epoch 27/50	 Time: 9.851	 Loss: 0.00014904
+2024-08-16 03:11:32,313 - root - INFO -   Epoch 28/50	 Time: 9.664	 Loss: 0.00014897
+2024-08-16 03:11:42,165 - root - INFO -   Epoch 29/50	 Time: 9.851	 Loss: 0.00035318
+2024-08-16 03:11:51,907 - root - INFO -   Epoch 30/50	 Time: 9.741	 Loss: 0.00002372
+2024-08-16 03:12:00,629 - root - INFO -   Epoch 31/50	 Time: 8.720	 Loss: 0.00014571
+2024-08-16 03:12:09,621 - root - INFO -   Epoch 32/50	 Time: 8.991	 Loss: 0.00018867
+2024-08-16 03:12:19,404 - root - INFO -   Epoch 33/50	 Time: 9.782	 Loss: 0.00011884
+2024-08-16 03:12:29,059 - root - INFO -   Epoch 34/50	 Time: 9.653	 Loss: 0.00023526
+2024-08-16 03:12:38,664 - root - INFO -   Epoch 35/50	 Time: 9.604	 Loss: 0.00010628
+2024-08-16 03:12:48,269 - root - INFO -   Epoch 36/50	 Time: 9.604	 Loss: 0.00007239
+2024-08-16 03:12:57,591 - root - INFO -   Epoch 37/50	 Time: 9.321	 Loss: 0.00009943
+2024-08-16 03:13:07,141 - root - INFO -   Epoch 38/50	 Time: 9.549	 Loss: 0.00020600
+2024-08-16 03:13:16,738 - root - INFO -   Epoch 39/50	 Time: 9.595	 Loss: 0.00008268
+2024-08-16 03:13:25,534 - root - INFO -   Epoch 40/50	 Time: 8.795	 Loss: 0.00009058
+2024-08-16 03:13:33,784 - root - INFO -   Epoch 41/50	 Time: 8.249	 Loss: 0.00021779
+2024-08-16 03:13:42,027 - root - INFO -   Epoch 42/50	 Time: 8.242	 Loss: 0.00004020
+2024-08-16 03:13:50,233 - root - INFO -   Epoch 43/50	 Time: 8.205	 Loss: 0.00009673
+2024-08-16 03:13:58,403 - root - INFO -   Epoch 44/50	 Time: 8.169	 Loss: 0.00009088
+2024-08-16 03:14:06,578 - root - INFO -   Epoch 45/50	 Time: 8.173	 Loss: 0.00010997
+2024-08-16 03:14:15,207 - root - INFO -   Epoch 46/50	 Time: 8.627	 Loss: 0.00013950
+2024-08-16 03:14:23,927 - root - INFO -   Epoch 47/50	 Time: 8.719	 Loss: 0.00003660
+2024-08-16 03:14:32,235 - root - INFO -   Epoch 48/50	 Time: 8.307	 Loss: 0.00006567
+2024-08-16 03:14:40,459 - root - INFO -   Epoch 49/50	 Time: 8.223	 Loss: 0.00006902
+2024-08-16 03:14:48,670 - root - INFO -   Epoch 50/50	 Time: 8.210	 Loss: 0.00012083
+2024-08-16 03:14:48,672 - root - INFO - Training time: 451.544
+2024-08-16 03:14:48,672 - root - INFO - Finished training.
+2024-08-16 03:14:48,752 - root - INFO - Starting testing...
+2024-08-16 03:14:49,429 - root - INFO - Testing time: 0.677
+2024-08-16 03:14:49,430 - root - INFO - Test set AUC: 0.00%
+2024-08-16 03:14:49,430 - root - INFO - Finished testing.
+2024-08-16 13:53:17,779 - root - INFO - Log file is ../log_LJ_vctk_libriTTS_100_aishell3/log.txt.
+2024-08-16 13:53:17,779 - root - INFO - Data path is None.
+2024-08-16 13:53:17,779 - root - INFO - Export path is ../log_LJ_vctk_libriTTS_100_aishell3.
+2024-08-16 13:53:17,779 - root - INFO - Dataset: lang_emb
+2024-08-16 13:53:17,779 - root - INFO - Normal class: 
+2024-08-16 13:53:17,779 - root - INFO - Network: lang_emb_LeNet
+2024-08-16 13:53:17,780 - root - INFO - Deep SVDD objective: one-class
+2024-08-16 13:53:17,780 - root - INFO - Nu-paramerter: 0.10
+2024-08-16 13:53:17,820 - root - INFO - Computation device: cuda
+2024-08-16 13:53:17,820 - root - INFO - Number of dataloader workers: 0
+2024-08-16 13:53:25,268 - root - INFO - Loading model from ../log_LJ_vctk_libriTTS_100_aishell3/model.tar.
+2024-08-16 13:53:25,269 - root - INFO - Pretraining: False
+2024-08-16 13:53:25,269 - root - INFO - Training optimizer: adam
+2024-08-16 13:53:25,270 - root - INFO - Training learning rate: 0.001
+2024-08-16 13:53:25,270 - root - INFO - Training epochs: 0
+2024-08-16 13:53:25,270 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-08-16 13:53:25,271 - root - INFO - Training batch size: 128
+2024-08-16 13:53:25,271 - root - INFO - Training weight decay: 1e-06
+2024-08-16 13:53:25,439 - root - INFO - Starting training...
+2024-08-16 13:53:25,441 - root - INFO - Training time: 0.002
+2024-08-16 13:53:25,442 - root - INFO - Finished training.
+2024-08-16 13:53:25,600 - root - INFO - Starting testing...
+2024-08-16 13:53:26,590 - root - INFO - Testing time: 0.990
+2024-08-16 13:53:26,591 - root - INFO - Test set AUC: 0.00%
+2024-08-16 13:53:26,591 - root - INFO - Finished testing.
+2024-08-16 14:00:34,324 - root - INFO - Log file is ../log_LJ_vctk_libriTTS_100_aishell3/log.txt.
+2024-08-16 14:00:34,325 - root - INFO - Data path is None.
+2024-08-16 14:00:34,325 - root - INFO - Export path is ../log_LJ_vctk_libriTTS_100_aishell3.
+2024-08-16 14:00:34,325 - root - INFO - Dataset: lang_emb
+2024-08-16 14:00:34,325 - root - INFO - Normal class: 
+2024-08-16 14:00:34,325 - root - INFO - Network: lang_emb_LeNet
+2024-08-16 14:00:34,325 - root - INFO - Deep SVDD objective: one-class
+2024-08-16 14:00:34,325 - root - INFO - Nu-paramerter: 0.10
+2024-08-16 14:00:34,362 - root - INFO - Computation device: cuda
+2024-08-16 14:00:34,363 - root - INFO - Number of dataloader workers: 0
+2024-08-16 14:00:41,984 - root - INFO - Loading model from ../log_LJ_vctk_libriTTS_100_aishell3/model.tar.
+2024-08-16 14:00:41,985 - root - INFO - Pretraining: False
+2024-08-16 14:00:41,985 - root - INFO - Training optimizer: adam
+2024-08-16 14:00:41,986 - root - INFO - Training learning rate: 0.001
+2024-08-16 14:00:41,986 - root - INFO - Training epochs: 0
+2024-08-16 14:00:41,986 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-08-16 14:00:41,986 - root - INFO - Training batch size: 128
+2024-08-16 14:00:41,987 - root - INFO - Training weight decay: 1e-06
+2024-08-16 14:00:42,186 - root - INFO - Starting training...
+2024-08-16 14:00:42,188 - root - INFO - Training time: 0.002
+2024-08-16 14:00:42,189 - root - INFO - Finished training.
+2024-08-16 14:00:42,350 - root - INFO - Starting testing...
+2024-08-16 14:00:45,125 - root - INFO - Testing time: 2.774
+2024-08-16 14:00:45,125 - root - INFO - Test set AUC: 0.00%
+2024-08-16 14:00:45,126 - root - INFO - Finished testing.
+2024-08-16 14:01:50,437 - root - INFO - Log file is ../log_LJ_vctk_libriTTS_100_aishell3/log.txt.
+2024-08-16 14:01:50,437 - root - INFO - Data path is None.
+2024-08-16 14:01:50,437 - root - INFO - Export path is ../log_LJ_vctk_libriTTS_100_aishell3.
+2024-08-16 14:01:50,437 - root - INFO - Dataset: lang_emb
+2024-08-16 14:01:50,437 - root - INFO - Normal class: 
+2024-08-16 14:01:50,437 - root - INFO - Network: lang_emb_LeNet
+2024-08-16 14:01:50,437 - root - INFO - Deep SVDD objective: one-class
+2024-08-16 14:01:50,438 - root - INFO - Nu-paramerter: 0.10
+2024-08-16 14:01:50,475 - root - INFO - Computation device: cuda
+2024-08-16 14:01:50,476 - root - INFO - Number of dataloader workers: 0
+2024-08-16 14:01:57,492 - root - INFO - Loading model from ../log_LJ_vctk_libriTTS_100_aishell3/model.tar.
+2024-08-16 14:01:57,493 - root - INFO - Pretraining: False
+2024-08-16 14:01:57,494 - root - INFO - Training optimizer: adam
+2024-08-16 14:01:57,494 - root - INFO - Training learning rate: 0.001
+2024-08-16 14:01:57,494 - root - INFO - Training epochs: 0
+2024-08-16 14:01:57,494 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-08-16 14:01:57,494 - root - INFO - Training batch size: 128
+2024-08-16 14:01:57,495 - root - INFO - Training weight decay: 1e-06
+2024-08-16 14:01:57,683 - root - INFO - Starting training...
+2024-08-16 14:01:57,685 - root - INFO - Training time: 0.002
+2024-08-16 14:01:57,686 - root - INFO - Finished training.
+2024-08-16 14:01:57,856 - root - INFO - Starting testing...
+2024-08-16 14:02:00,609 - root - INFO - Testing time: 2.752
+2024-08-16 14:02:00,610 - root - INFO - Test set AUC: 0.00%
+2024-08-16 14:02:00,610 - root - INFO - Finished testing.
+2024-08-16 14:06:40,531 - root - INFO - Log file is ../log_LJ_vctk_libriTTS_100_aishell3/log.txt.
+2024-08-16 14:06:40,531 - root - INFO - Data path is None.
+2024-08-16 14:06:40,531 - root - INFO - Export path is ../log_LJ_vctk_libriTTS_100_aishell3.
+2024-08-16 14:06:40,531 - root - INFO - Dataset: lang_emb
+2024-08-16 14:06:40,531 - root - INFO - Normal class: 
+2024-08-16 14:06:40,531 - root - INFO - Network: lang_emb_LeNet
+2024-08-16 14:06:40,531 - root - INFO - Deep SVDD objective: one-class
+2024-08-16 14:06:40,531 - root - INFO - Nu-paramerter: 0.10
+2024-08-16 14:06:40,570 - root - INFO - Computation device: cuda
+2024-08-16 14:06:40,570 - root - INFO - Number of dataloader workers: 0
+2024-08-16 14:06:48,125 - root - INFO - Loading model from ../log_LJ_vctk_libriTTS_100_aishell3/model.tar.
+2024-08-16 14:06:48,126 - root - INFO - Pretraining: False
+2024-08-16 14:06:48,126 - root - INFO - Training optimizer: adam
+2024-08-16 14:06:48,126 - root - INFO - Training learning rate: 0.001
+2024-08-16 14:06:48,126 - root - INFO - Training epochs: 0
+2024-08-16 14:06:48,126 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-08-16 14:06:48,127 - root - INFO - Training batch size: 128
+2024-08-16 14:06:48,127 - root - INFO - Training weight decay: 1e-06
+2024-08-16 14:06:49,542 - root - INFO - Starting training...
+2024-08-16 14:06:49,544 - root - INFO - Training time: 0.002
+2024-08-16 14:06:49,545 - root - INFO - Finished training.
+2024-08-16 14:06:49,880 - root - INFO - Starting testing...
+2024-08-16 14:06:53,397 - root - INFO - Testing time: 3.517
+2024-08-16 14:06:53,397 - root - INFO - Test set AUC: 0.00%
+2024-08-16 14:06:53,398 - root - INFO - Finished testing.
+2024-08-19 20:55:10,953 - root - INFO - Log file is ../log_LJ_vctk_libriTTS_100_aishell3/log.txt.
+2024-08-19 20:55:10,953 - root - INFO - Data path is None.
+2024-08-19 20:55:10,953 - root - INFO - Export path is ../log_LJ_vctk_libriTTS_100_aishell3.
+2024-08-19 20:55:10,953 - root - INFO - Dataset: lang_emb
+2024-08-19 20:55:10,953 - root - INFO - Normal class: 
+2024-08-19 20:55:10,954 - root - INFO - Network: lang_emb_LeNet
+2024-08-19 20:55:10,954 - root - INFO - Deep SVDD objective: one-class
+2024-08-19 20:55:10,954 - root - INFO - Nu-paramerter: 0.10
+2024-08-19 20:55:10,998 - root - INFO - Computation device: cuda
+2024-08-19 20:55:10,998 - root - INFO - Number of dataloader workers: 0
+2024-08-19 20:55:18,487 - root - INFO - Loading model from ../log_LJ_vctk_libriTTS_100_aishell3/model.tar.
+2024-08-19 20:55:18,488 - root - INFO - Pretraining: False
+2024-08-19 20:55:18,488 - root - INFO - Training optimizer: adam
+2024-08-19 20:55:18,488 - root - INFO - Training learning rate: 0.001
+2024-08-19 20:55:18,488 - root - INFO - Training epochs: 0
+2024-08-19 20:55:18,489 - root - INFO - Training learning rate scheduler milestones: (0,)
+2024-08-19 20:55:18,489 - root - INFO - Training batch size: 128
+2024-08-19 20:55:18,489 - root - INFO - Training weight decay: 1e-06
+2024-08-19 20:55:18,524 - root - INFO - Starting training...
+2024-08-19 20:55:18,526 - root - INFO - Training time: 0.002
+2024-08-19 20:55:18,527 - root - INFO - Finished training.
+2024-08-19 20:55:18,554 - root - INFO - Starting testing...
+2024-08-19 20:55:19,256 - root - INFO - Testing time: 0.702
+2024-08-19 20:55:19,256 - root - INFO - Test set AUC: 0.00%
+2024-08-19 20:55:19,256 - root - INFO - Finished testing.

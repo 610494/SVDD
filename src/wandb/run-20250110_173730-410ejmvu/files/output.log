@@ -1,0 +1,208 @@
+INFO:root:Pretraining: True
+INFO:root:Pretraining optimizer: adam
+INFO:root:Pretraining learning rate: 0.001
+INFO:root:Pretraining epochs: 100
+INFO:root:Pretraining learning rate scheduler milestones: (0,)
+INFO:root:Pretraining batch size: 128
+INFO:root:Pretraining weight decay: 1e-06
+/mnt/md1/user_wago/miniconda3/envs/svdd/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+INFO:root:Starting pretraining...
+  0%|                                      | 0/100 [00:00<?, ?it/s]
+  0%|                                      | 0/100 [00:00<?, ?it/s]INFO:root:  Epoch 1/100	 Time: 1.621	 Loss: 1.55943581
+  1%|▎                             | 1/100 [00:01<02:40,  1.62s/it]INFO:root:  Epoch 2/100	 Time: 1.164	 Loss: 1.54056724
+  2%|▌                             | 2/100 [00:02<02:12,  1.35s/it]INFO:root:  Epoch 3/100	 Time: 1.191	 Loss: 1.54062958
+  3%|▉                             | 3/100 [00:03<02:04,  1.28s/it]INFO:root:  Epoch 4/100	 Time: 1.163	 Loss: 1.54050535
+  4%|█▏                            | 4/100 [00:05<01:58,  1.23s/it]INFO:root:  Epoch 5/100	 Time: 1.168	 Loss: 1.54072398
+  5%|█▌                            | 5/100 [00:06<01:55,  1.21s/it]INFO:root:  Epoch 6/100	 Time: 1.184	 Loss: 1.54085226
+  6%|█▊                            | 6/100 [00:07<01:52,  1.20s/it]INFO:root:  Epoch 7/100	 Time: 1.178	 Loss: 1.54054763
+  7%|██                            | 7/100 [00:08<01:51,  1.19s/it]INFO:root:  Epoch 8/100	 Time: 1.158	 Loss: 1.54078407
+  8%|██▍                           | 8/100 [00:09<01:48,  1.18s/it]INFO:root:  Epoch 9/100	 Time: 1.184	 Loss: 1.54056647
+  9%|██▋                           | 9/100 [00:11<01:47,  1.18s/it]INFO:root:  Epoch 10/100	 Time: 1.163	 Loss: 1.54081592
+ 10%|██▉                          | 10/100 [00:12<01:45,  1.18s/it]INFO:root:  Epoch 11/100	 Time: 1.163	 Loss: 1.54067468
+ 11%|███▏                         | 11/100 [00:13<01:44,  1.17s/it]INFO:root:  Epoch 12/100	 Time: 1.191	 Loss: 1.54068069
+ 12%|███▍                         | 12/100 [00:14<01:43,  1.18s/it]INFO:root:  Epoch 13/100	 Time: 1.151	 Loss: 1.54046937
+ 13%|███▊                         | 13/100 [00:15<01:41,  1.17s/it]INFO:root:  Epoch 14/100	 Time: 1.062	 Loss: 1.54064199
+ 14%|████                         | 14/100 [00:16<01:37,  1.14s/it]INFO:root:  Epoch 15/100	 Time: 1.106	 Loss: 1.54035905
+ 15%|████▎                        | 15/100 [00:17<01:35,  1.13s/it]INFO:root:  Epoch 16/100	 Time: 1.077	 Loss: 1.54046907
+ 16%|████▋                        | 16/100 [00:18<01:33,  1.11s/it]INFO:root:  Epoch 17/100	 Time: 1.061	 Loss: 1.54053433
+ 17%|████▉                        | 17/100 [00:20<01:31,  1.10s/it]INFO:root:  Epoch 18/100	 Time: 1.085	 Loss: 1.54069015
+ 18%|█████▏                       | 18/100 [00:21<01:29,  1.09s/it]INFO:root:  Epoch 19/100	 Time: 1.068	 Loss: 1.54075526
+ 19%|█████▌                       | 19/100 [00:22<01:28,  1.09s/it]INFO:root:  Epoch 20/100	 Time: 1.087	 Loss: 1.54054059
+ 20%|█████▊                       | 20/100 [00:23<01:27,  1.09s/it]INFO:root:  Epoch 21/100	 Time: 1.065	 Loss: 1.54050121
+ 21%|██████                       | 21/100 [00:24<01:25,  1.08s/it]INFO:root:  Epoch 22/100	 Time: 1.090	 Loss: 1.54062572
+ 22%|██████▍                      | 22/100 [00:25<01:24,  1.08s/it]INFO:root:  Epoch 23/100	 Time: 1.098	 Loss: 1.54039207
+ 23%|██████▋                      | 23/100 [00:26<01:23,  1.09s/it]INFO:root:  Epoch 24/100	 Time: 1.097	 Loss: 1.54064227
+ 24%|██████▉                      | 24/100 [00:27<01:22,  1.09s/it]INFO:root:  Epoch 25/100	 Time: 0.970	 Loss: 1.54055250
+ 25%|███████▎                     | 25/100 [00:28<01:19,  1.06s/it]INFO:root:  Epoch 26/100	 Time: 1.023	 Loss: 1.54072432
+ 26%|███████▌                     | 26/100 [00:29<01:17,  1.05s/it]INFO:root:  Epoch 27/100	 Time: 1.058	 Loss: 1.54034036
+ 27%|███████▊                     | 27/100 [00:30<01:16,  1.05s/it]INFO:root:  Epoch 28/100	 Time: 1.062	 Loss: 1.54071426
+ 28%|████████                     | 28/100 [00:31<01:15,  1.05s/it]INFO:root:  Epoch 29/100	 Time: 1.047	 Loss: 1.54072755
+ 29%|████████▍                    | 29/100 [00:32<01:14,  1.05s/it]INFO:root:  Epoch 30/100	 Time: 1.059	 Loss: 1.54029072
+ 30%|████████▋                    | 30/100 [00:33<01:13,  1.05s/it]INFO:root:  Epoch 31/100	 Time: 1.046	 Loss: 1.54063180
+ 31%|████████▉                    | 31/100 [00:34<01:12,  1.05s/it]INFO:root:  Epoch 32/100	 Time: 1.078	 Loss: 1.54048783
+ 32%|█████████▎                   | 32/100 [00:35<01:12,  1.06s/it]INFO:root:  Epoch 33/100	 Time: 1.061	 Loss: 1.54050450
+ 33%|█████████▌                   | 33/100 [00:37<01:11,  1.06s/it]INFO:root:  Epoch 34/100	 Time: 1.086	 Loss: 1.54071445
+ 34%|█████████▊                   | 34/100 [00:38<01:10,  1.07s/it]INFO:root:  Epoch 35/100	 Time: 1.087	 Loss: 1.54068330
+ 35%|██████████▏                  | 35/100 [00:39<01:09,  1.08s/it]INFO:root:  Epoch 36/100	 Time: 1.068	 Loss: 1.54035168
+ 36%|██████████▍                  | 36/100 [00:40<01:08,  1.07s/it]INFO:root:  Epoch 37/100	 Time: 1.070	 Loss: 1.54069727
+ 37%|██████████▋                  | 37/100 [00:41<01:07,  1.07s/it]INFO:root:  Epoch 38/100	 Time: 1.055	 Loss: 1.54063594
+ 38%|███████████                  | 38/100 [00:42<01:06,  1.07s/it]INFO:root:  Epoch 39/100	 Time: 1.067	 Loss: 1.54058337
+ 39%|███████████▎                 | 39/100 [00:43<01:05,  1.07s/it]INFO:root:  Epoch 40/100	 Time: 1.091	 Loss: 1.54072585
+ 40%|███████████▌                 | 40/100 [00:44<01:04,  1.08s/it]INFO:root:  Epoch 41/100	 Time: 1.120	 Loss: 1.54077113
+ 41%|███████████▉                 | 41/100 [00:45<01:04,  1.09s/it]INFO:root:  Epoch 42/100	 Time: 1.073	 Loss: 1.54026196
+ 42%|████████████▏                | 42/100 [00:46<01:02,  1.08s/it]INFO:root:  Epoch 43/100	 Time: 1.082	 Loss: 1.54079569
+ 43%|████████████▍                | 43/100 [00:47<01:01,  1.08s/it]INFO:root:  Epoch 44/100	 Time: 1.070	 Loss: 1.54040091
+ 44%|████████████▊                | 44/100 [00:48<01:00,  1.08s/it]INFO:root:  Epoch 45/100	 Time: 1.076	 Loss: 1.54057025
+ 45%|█████████████                | 45/100 [00:49<00:59,  1.08s/it]INFO:root:  Epoch 46/100	 Time: 1.015	 Loss: 1.54063404
+ 46%|█████████████▎               | 46/100 [00:51<00:57,  1.06s/it]INFO:root:  Epoch 47/100	 Time: 0.924	 Loss: 1.54060264
+ 47%|█████████████▋               | 47/100 [00:51<00:54,  1.02s/it]INFO:root:  Epoch 48/100	 Time: 1.068	 Loss: 1.54086217
+ 48%|█████████████▉               | 48/100 [00:53<00:53,  1.04s/it]INFO:root:  Epoch 49/100	 Time: 0.950	 Loss: 1.54070872
+ 49%|██████████████▏              | 49/100 [00:53<00:51,  1.01s/it]INFO:root:  Epoch 50/100	 Time: 0.926	 Loss: 1.54065961
+ 50%|██████████████▌              | 50/100 [00:54<00:49,  1.01it/s]INFO:root:  Epoch 51/100	 Time: 0.904	 Loss: 1.54048861
+ 51%|██████████████▊              | 51/100 [00:55<00:47,  1.04it/s]INFO:root:  Epoch 52/100	 Time: 0.915	 Loss: 1.54028034
+ 52%|███████████████              | 52/100 [00:56<00:45,  1.06it/s]INFO:root:  Epoch 53/100	 Time: 0.892	 Loss: 1.54027552
+ 53%|███████████████▎             | 53/100 [00:57<00:43,  1.07it/s]INFO:root:  Epoch 54/100	 Time: 0.907	 Loss: 1.54070644
+ 54%|███████████████▋             | 54/100 [00:58<00:42,  1.08it/s]INFO:root:  Epoch 55/100	 Time: 0.895	 Loss: 1.54052395
+ 55%|███████████████▉             | 55/100 [00:59<00:41,  1.09it/s]INFO:root:  Epoch 56/100	 Time: 0.923	 Loss: 1.54067122
+ 56%|████████████████▏            | 56/100 [01:00<00:40,  1.09it/s]INFO:root:  Epoch 57/100	 Time: 1.091	 Loss: 1.54044592
+ 57%|████████████████▌            | 57/100 [01:01<00:41,  1.03it/s]INFO:root:  Epoch 58/100	 Time: 1.035	 Loss: 1.54059531
+ 58%|████████████████▊            | 58/100 [01:02<00:41,  1.01it/s]INFO:root:  Epoch 59/100	 Time: 0.928	 Loss: 1.54039183
+ 59%|█████████████████            | 59/100 [01:03<00:39,  1.03it/s]INFO:root:  Epoch 60/100	 Time: 0.941	 Loss: 1.54040281
+ 60%|█████████████████▍           | 60/100 [01:04<00:38,  1.04it/s]INFO:root:  Epoch 61/100	 Time: 1.175	 Loss: 1.54068310
+ 61%|█████████████████▋           | 61/100 [01:05<00:40,  1.03s/it]INFO:root:  Epoch 62/100	 Time: 1.194	 Loss: 1.54068883
+ 62%|█████████████████▉           | 62/100 [01:06<00:40,  1.08s/it]INFO:root:  Epoch 63/100	 Time: 1.184	 Loss: 1.54060258
+ 63%|██████████████████▎          | 63/100 [01:07<00:41,  1.11s/it]INFO:root:  Epoch 64/100	 Time: 1.182	 Loss: 1.54062777
+ 64%|██████████████████▌          | 64/100 [01:09<00:40,  1.13s/it]INFO:root:  Epoch 65/100	 Time: 1.197	 Loss: 1.54068049
+ 65%|██████████████████▊          | 65/100 [01:10<00:40,  1.15s/it]INFO:root:  Epoch 66/100	 Time: 1.218	 Loss: 1.54033317
+ 66%|███████████████████▏         | 66/100 [01:11<00:39,  1.17s/it]INFO:root:  Epoch 67/100	 Time: 1.170	 Loss: 1.54083875
+ 67%|███████████████████▍         | 67/100 [01:12<00:38,  1.17s/it]INFO:root:  Epoch 68/100	 Time: 1.177	 Loss: 1.54073680
+ 68%|███████████████████▋         | 68/100 [01:13<00:37,  1.17s/it]INFO:root:  Epoch 69/100	 Time: 1.159	 Loss: 1.54054074
+ 69%|████████████████████         | 69/100 [01:14<00:36,  1.17s/it]INFO:root:  Epoch 70/100	 Time: 1.111	 Loss: 1.54059044
+ 70%|████████████████████▎        | 70/100 [01:16<00:34,  1.15s/it]INFO:root:  Epoch 71/100	 Time: 1.072	 Loss: 1.54030872
+ 71%|████████████████████▌        | 71/100 [01:17<00:32,  1.13s/it]INFO:root:  Epoch 72/100	 Time: 1.053	 Loss: 1.54055874
+ 72%|████████████████████▉        | 72/100 [01:18<00:30,  1.11s/it]INFO:root:  Epoch 73/100	 Time: 1.060	 Loss: 1.54049572
+ 73%|█████████████████████▏       | 73/100 [01:19<00:29,  1.09s/it]INFO:root:  Epoch 74/100	 Time: 1.063	 Loss: 1.54050331
+ 74%|█████████████████████▍       | 74/100 [01:20<00:28,  1.08s/it]INFO:root:  Epoch 75/100	 Time: 1.066	 Loss: 1.54077015
+ 75%|█████████████████████▊       | 75/100 [01:21<00:26,  1.08s/it]INFO:root:  Epoch 76/100	 Time: 1.069	 Loss: 1.54069878
+ 76%|██████████████████████       | 76/100 [01:22<00:25,  1.08s/it]INFO:root:  Epoch 77/100	 Time: 1.068	 Loss: 1.54072648
+ 77%|██████████████████████▎      | 77/100 [01:23<00:24,  1.07s/it]INFO:root:  Epoch 78/100	 Time: 1.066	 Loss: 1.54043674
+ 78%|██████████████████████▌      | 78/100 [01:24<00:23,  1.07s/it]INFO:root:  Epoch 79/100	 Time: 1.069	 Loss: 1.54068028
+ 79%|██████████████████████▉      | 79/100 [01:25<00:22,  1.07s/it]INFO:root:  Epoch 80/100	 Time: 1.073	 Loss: 1.54075447
+ 80%|███████████████████████▏     | 80/100 [01:26<00:21,  1.07s/it]INFO:root:  Epoch 81/100	 Time: 1.093	 Loss: 1.54073123
+ 81%|███████████████████████▍     | 81/100 [01:27<00:20,  1.08s/it]INFO:root:  Epoch 82/100	 Time: 1.074	 Loss: 1.54061939
+ 82%|███████████████████████▊     | 82/100 [01:28<00:19,  1.08s/it]INFO:root:  Epoch 83/100	 Time: 1.083	 Loss: 1.54046174
+ 83%|████████████████████████     | 83/100 [01:30<00:18,  1.08s/it]INFO:root:  Epoch 84/100	 Time: 1.108	 Loss: 1.54048786
+ 84%|████████████████████████▎    | 84/100 [01:31<00:17,  1.09s/it]INFO:root:  Epoch 85/100	 Time: 1.067	 Loss: 1.54085856
+ 85%|████████████████████████▋    | 85/100 [01:32<00:16,  1.08s/it]INFO:root:  Epoch 86/100	 Time: 1.088	 Loss: 1.54074115
+ 86%|████████████████████████▉    | 86/100 [01:33<00:15,  1.08s/it]INFO:root:  Epoch 87/100	 Time: 1.055	 Loss: 1.54073209
+ 87%|█████████████████████████▏   | 87/100 [01:34<00:13,  1.08s/it]INFO:root:  Epoch 88/100	 Time: 1.027	 Loss: 1.54061676
+ 88%|█████████████████████████▌   | 88/100 [01:35<00:12,  1.06s/it]INFO:root:  Epoch 89/100	 Time: 0.908	 Loss: 1.54078938
+ 89%|█████████████████████████▊   | 89/100 [01:36<00:11,  1.02s/it]INFO:root:  Epoch 90/100	 Time: 0.933	 Loss: 1.54069772
+ 91%|██████████████████████████▍  | 91/100 [01:38<00:08,  1.01it/s]INFO:root:  Epoch 92/100	 Time: 1.088	 Loss: 1.54055998
+ 91%|██████████████████████████▍  | 91/100 [01:38<00:08,  1.01it/s]INFO:root:  Epoch 92/100	 Time: 1.088	 Loss: 1.54055998
+ 94%|███████████████████████████▎ | 94/100 [01:41<00:05,  1.00it/s]INFO:root:  Epoch 93/100	 Time: 1.068	 Loss: 1.54051283
+ 93%|██████████████████████████▉  | 93/100 [01:40<00:07,  1.04s/it]INFO:root:  Epoch 94/100	 Time: 0.913	 Loss: 1.54075595
+ 96%|███████████████████████████▊ | 96/100 [01:43<00:03,  1.05it/s]INFO:root:  Epoch 97/100	 Time: 0.885	 Loss: 1.54046234
+ 95%|███████████████████████████▌ | 95/100 [01:42<00:04,  1.03it/s]INFO:root:  Epoch 96/100	 Time: 0.906	 Loss: 1.54050565
+ 96%|███████████████████████████▊ | 96/100 [01:43<00:03,  1.05it/s]INFO:root:  Epoch 97/100	 Time: 0.885	 Loss: 1.54046234
+ 97%|████████████████████████████▏| 97/100 [01:43<00:02,  1.07it/s]INFO:root:  Epoch 98/100	 Time: 0.940	 Loss: 1.54074703
+ 98%|████████████████████████████▍| 98/100 [01:44<00:01,  1.07it/s]INFO:root:  Epoch 99/100	 Time: 1.027	 Loss: 1.54093904
+ 99%|████████████████████████████▋| 99/100 [01:45<00:00,  1.04it/s]
+INFO:root:Training optimizer: adam 100/100 [01:46<00:00,  1.07s/it]INFO:root:  Epoch 98/100	 Time: 0.940	 Loss: 1.54074703
+INFO:root:Pretraining time: 106.940
+INFO:root:Finished pretraining.
+INFO:root:Training optimizer: adam 100/100 [01:46<00:00,  1.07s/it]INFO:root:  Epoch 98/100	 Time: 0.940	 Loss: 1.54074703
+INFO:root:Training learning rate: 0.001
+INFO:root:Training epochs: 50
+INFO:root:Training learning rate scheduler milestones: (0,)
+INFO:root:Training batch size: 128
+INFO:root:Training weight decay: 1e-06
+INFO:root:Initializing center c...
+INFO:root:Center c initialized.
+INFO:root:Starting training...
+  0%|                                       | 0/50 [00:00<?, ?it/s]INFO:root:  Epoch 1/50	 Time: 0.602	 Loss: 1.10994380
+  2%|▌                              | 1/50 [00:00<00:29,  1.66it/s]INFO:root:  Epoch 2/50	 Time: 0.580	 Loss: 0.00548272
+  4%|█▏                             | 2/50 [00:01<00:28,  1.69it/s]INFO:root:  Epoch 3/50	 Time: 0.580	 Loss: 0.00172019
+  6%|█▊                             | 3/50 [00:01<00:27,  1.71it/s]INFO:root:  Epoch 4/50	 Time: 0.631	 Loss: 0.00087272
+  8%|██▍                            | 4/50 [00:02<00:27,  1.65it/s]INFO:root:  Epoch 5/50	 Time: 0.689	 Loss: 0.00055048
+ 10%|███                            | 5/50 [00:03<00:28,  1.57it/s]INFO:root:  Epoch 6/50	 Time: 0.676	 Loss: 0.00040664
+ 12%|███▋                           | 6/50 [00:03<00:28,  1.54it/s]INFO:root:  Epoch 7/50	 Time: 0.675	 Loss: 0.00045429
+ 14%|████▎                          | 7/50 [00:04<00:28,  1.52it/s]INFO:root:  Epoch 8/50	 Time: 0.678	 Loss: 0.00050028
+ 16%|████▉                          | 8/50 [00:05<00:27,  1.50it/s]INFO:root:  Epoch 9/50	 Time: 0.678	 Loss: 0.00054773
+ 18%|█████▌                         | 9/50 [00:05<00:27,  1.49it/s]INFO:root:  Epoch 10/50	 Time: 0.686	 Loss: 0.00048399
+ 20%|██████                        | 10/50 [00:06<00:26,  1.48it/s]INFO:root:  Epoch 11/50	 Time: 0.676	 Loss: 0.00086028
+ 22%|██████▌                       | 11/50 [00:07<00:26,  1.48it/s]INFO:root:  Epoch 12/50	 Time: 0.683	 Loss: 0.00091534
+ 24%|███████▏                      | 12/50 [00:07<00:25,  1.48it/s]INFO:root:  Epoch 13/50	 Time: 0.679	 Loss: 0.00131275
+ 26%|███████▊                      | 13/50 [00:08<00:25,  1.47it/s]INFO:root:  Epoch 14/50	 Time: 0.693	 Loss: 0.00131946
+ 28%|████████▍                     | 14/50 [00:09<00:24,  1.46it/s]INFO:root:  Epoch 15/50	 Time: 0.679	 Loss: 0.00198243
+ 30%|█████████                     | 15/50 [00:09<00:23,  1.47it/s]INFO:root:  Epoch 16/50	 Time: 0.680	 Loss: 0.00145227
+ 32%|█████████▌                    | 16/50 [00:10<00:23,  1.47it/s]INFO:root:  Epoch 17/50	 Time: 0.681	 Loss: 0.00200714
+ 34%|██████████▏                   | 17/50 [00:11<00:22,  1.47it/s]INFO:root:  Epoch 18/50	 Time: 0.674	 Loss: 0.00059296
+ 36%|██████████▊                   | 18/50 [00:11<00:21,  1.47it/s]INFO:root:  Epoch 19/50	 Time: 0.692	 Loss: 0.00125543
+ 38%|███████████▍                  | 19/50 [00:12<00:21,  1.46it/s]INFO:root:  Epoch 20/50	 Time: 0.674	 Loss: 0.00181367
+ 40%|████████████                  | 20/50 [00:13<00:20,  1.47it/s]INFO:root:  Epoch 21/50	 Time: 0.690	 Loss: 0.00109873
+ 42%|████████████▌                 | 21/50 [00:13<00:19,  1.46it/s]INFO:root:  Epoch 22/50	 Time: 0.682	 Loss: 0.00156816
+ 44%|█████████████▏                | 22/50 [00:14<00:19,  1.46it/s]INFO:root:  Epoch 23/50	 Time: 0.680	 Loss: 0.00223479
+ 46%|█████████████▊                | 23/50 [00:15<00:18,  1.46it/s]INFO:root:  Epoch 24/50	 Time: 0.683	 Loss: 0.00222941
+ 48%|██████████████▍               | 24/50 [00:16<00:17,  1.46it/s]INFO:root:  Epoch 25/50	 Time: 0.674	 Loss: 0.00521148
+ 50%|███████████████               | 25/50 [00:16<00:17,  1.47it/s]INFO:root:  Epoch 26/50	 Time: 0.682	 Loss: 0.00256798
+ 52%|███████████████▌              | 26/50 [00:17<00:16,  1.47it/s]INFO:root:  Epoch 27/50	 Time: 0.675	 Loss: 0.00529297
+ 54%|████████████████▏             | 27/50 [00:18<00:15,  1.47it/s]INFO:root:  Epoch 28/50	 Time: 0.678	 Loss: 0.00556898
+ 56%|████████████████▊             | 28/50 [00:18<00:14,  1.47it/s]INFO:root:  Epoch 29/50	 Time: 0.665	 Loss: 0.00071451
+ 58%|█████████████████▍            | 29/50 [00:19<00:14,  1.48it/s]INFO:root:  Epoch 30/50	 Time: 0.671	 Loss: 0.00053036
+ 60%|██████████████████            | 30/50 [00:20<00:13,  1.48it/s]INFO:root:  Epoch 31/50	 Time: 0.695	 Loss: 0.00132338
+ 62%|██████████████████▌           | 31/50 [00:20<00:12,  1.47it/s]INFO:root:  Epoch 32/50	 Time: 0.689	 Loss: 0.00279505
+ 64%|███████████████████▏          | 32/50 [00:21<00:12,  1.46it/s]INFO:root:  Epoch 33/50	 Time: 0.702	 Loss: 0.00497219
+ 66%|███████████████████▊          | 33/50 [00:22<00:11,  1.45it/s]INFO:root:  Epoch 34/50	 Time: 0.748	 Loss: 0.00387990
+ 68%|████████████████████▍         | 34/50 [00:22<00:11,  1.41it/s]INFO:root:  Epoch 35/50	 Time: 0.752	 Loss: 0.00417137
+ 70%|█████████████████████         | 35/50 [00:23<00:10,  1.39it/s]INFO:root:  Epoch 36/50	 Time: 0.749	 Loss: 0.00484827
+ 72%|█████████████████████▌        | 36/50 [00:24<00:10,  1.37it/s]INFO:root:  Epoch 37/50	 Time: 0.769	 Loss: 0.00503139
+ 74%|██████████████████████▏       | 37/50 [00:25<00:09,  1.35it/s]INFO:root:  Epoch 38/50	 Time: 0.753	 Loss: 0.00369704
+ 76%|██████████████████████▊       | 38/50 [00:25<00:08,  1.34it/s]INFO:root:  Epoch 39/50	 Time: 0.760	 Loss: 0.00534785
+ 78%|███████████████████████▍      | 39/50 [00:26<00:08,  1.33it/s]INFO:root:  Epoch 40/50	 Time: 0.750	 Loss: 0.00062341
+ 80%|████████████████████████      | 40/50 [00:27<00:07,  1.33it/s]INFO:root:  Epoch 41/50	 Time: 0.698	 Loss: 0.00049330
+ 82%|████████████████████████▌     | 41/50 [00:28<00:06,  1.36it/s]INFO:root:  Epoch 42/50	 Time: 0.691	 Loss: 0.00083937
+ 84%|█████████████████████████▏    | 42/50 [00:28<00:05,  1.38it/s]INFO:root:  Epoch 43/50	 Time: 0.691	 Loss: 0.00180121
+ 86%|█████████████████████████▊    | 43/50 [00:29<00:04,  1.40it/s]INFO:root:  Epoch 44/50	 Time: 0.706	 Loss: 0.00273003
+ 88%|██████████████████████████▍   | 44/50 [00:30<00:04,  1.41it/s]INFO:root:  Epoch 45/50	 Time: 0.693	 Loss: 0.00347543
+ 90%|███████████████████████████   | 45/50 [00:30<00:03,  1.42it/s]INFO:root:  Epoch 46/50	 Time: 0.696	 Loss: 0.00342238
+ 92%|███████████████████████████▌  | 46/50 [00:31<00:02,  1.42it/s]INFO:root:  Epoch 47/50	 Time: 0.689	 Loss: 0.00371686
+ 94%|████████████████████████████▏ | 47/50 [00:32<00:02,  1.43it/s]INFO:root:  Epoch 48/50	 Time: 0.691	 Loss: 0.00257154
+ 96%|████████████████████████████▊ | 48/50 [00:33<00:01,  1.43it/s]INFO:root:  Epoch 49/50	 Time: 0.695	 Loss: 0.00379588
+ 98%|█████████████████████████████▍| 49/50 [00:33<00:00,  1.43it/s]INFO:root:  Epoch 50/50	 Time: 0.700	 Loss: 0.00260688
+100%|██████████████████████████████| 50/50 [00:34<00:00,  1.45it/s]
+INFO:root:Training time: 34.443
+INFO:root:Finished training.
+INFO:root:Starting testing...
+  0%|                                      | 0/228 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/mnt/md1/user_wago/SVDD/src/npz_to_json.py", line 208, in <module>
+    main()
+  File "/mnt/md1/user_wago/miniconda3/envs/svdd/lib/python3.10/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/mnt/md1/user_wago/miniconda3/envs/svdd/lib/python3.10/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/mnt/md1/user_wago/miniconda3/envs/svdd/lib/python3.10/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/mnt/md1/user_wago/miniconda3/envs/svdd/lib/python3.10/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/mnt/md1/user_wago/SVDD/src/npz_to_json.py", line 180, in main
+    deep_SVDD.test(dataset, device=device, n_jobs_dataloader=n_jobs_dataloader)
+  File "/mnt/md1/user_wago/SVDD/src/deepSVDD.py", line 91, in test
+    self.trainer.test(dataset, self.net)
+  File "/mnt/md1/user_wago/SVDD/src/optim/deepSVDD_trainer.py", line 146, in test
+    outputs = net(inputs)
+  File "/mnt/md1/user_wago/miniconda3/envs/svdd/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mnt/md1/user_wago/miniconda3/envs/svdd/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/md1/user_wago/SVDD/src/networks/lang_emb_LeNet_vq.py", line 31, in forward
+    x = self.fc0(x)
+  File "/mnt/md1/user_wago/miniconda3/envs/svdd/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/mnt/md1/user_wago/miniconda3/envs/svdd/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/md1/user_wago/miniconda3/envs/svdd/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 116, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (128x20 and 22x512)

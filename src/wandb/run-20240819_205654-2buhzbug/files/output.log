@@ -1,0 +1,21 @@
+============================== load_config ==================================
+==================================== ../log_LJ_vctk_libriTTS_100_hakkaradio_news ======================================
+INFO:root:Loading model from ../log_LJ_vctk_libriTTS_100_hakkaradio_news/model.tar.
+INFO:root:Pretraining: False
+INFO:root:Training optimizer: adam
+INFO:root:Training learning rate: 0.001
+INFO:root:Training epochs: 0
+INFO:root:Training learning rate scheduler milestones: (0,)
+INFO:root:Training batch size: 128
+INFO:root:Training weight decay: 1e-06
+/mnt/md1/user_wago/miniconda3/envs/svdd/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+INFO:root:Starting training...
+0it [00:00, ?it/s]
+INFO:root:Training time: 0.011
+INFO:root:Finished training.
+INFO:root:Starting testing...
+100%|████████████████████████████████████████| 103/103 [00:01<00:00, 94.52it/s]
+INFO:root:Testing time: 1.096
+INFO:root:Test set AUC: 0.00%
+INFO:root:Finished testing.
